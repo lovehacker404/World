@@ -190,8 +190,8 @@ def login():
 		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		print('	   \033[1;97m▬\x1b[1;94m.........LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
 		print('	' )
-		id = raw_input('\033[1;97m[+] \x1b[1;94mID/Email\x1b[1;97m: \x1b[1;94m')
-		pwd = raw_input('\033[1;97m[+] \x1b[1;94mPassword\x1b[1;97m: \x1b[1;94m')
+		id = raw_input('\033[1;97m[+] \x1b[1;96mID/Email\x1b[1;97m: \x1b[1;92m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;96mPassword\x1b[1;97m: \x1b[1;93m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -263,20 +263,20 @@ def menu():
 		keluar()
 	os.system("clear") #Dev:love_hacker
 	print logo
-	print "  \033[1;97m«----•◈••◈•----\033[1;94mLogged in User Info\033[1;97m----•◈••◈•-----»"
-	print "	   \033[1;97m Name\033[1;97m:\033[1;94m"+nama+"\033[1;97m               "
-	print "	   \033[1;97m ID\033[1;97m:\033[1;94m"+id+"\x1b[1;97m              "
+	print "\033[1;97m«--•◈••◈•--\033[1;94mLogged in User Info\033[1;97m---•◈••◈•---»"
+	print "	   \033[1;97m Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
+	print "	   \033[1;97m ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mStart Cloning India"
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mStart Cloning Pakistan"
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mStart Cloning Indonasia"
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m4.\033[1;91mAfter Cloning Data Reset"
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;96mlogout "
+	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;94mlogout "
 	pilih()
 
 
 def pilih():
-	unikers = raw_input("\n\033[1;94mChoose an Option>>> \033[1;97m")
+	unikers = raw_input("\n\033[1;91mChoose an Option>>> \033[1;93m")
 	if unikers =="":
 		print "\x1b[1;97mFill in correctly"
 		pilih()
