@@ -289,6 +289,24 @@ def pilih():
 		super()
         elif unikers =="2":
 		crack()
+	elif unikers =="3":
+		os.system('clear')
+		print logo
+		print " \033[1;36;40m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Data Reset•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
+                jalan('\033[1;96m=10%')
+                jalan("\033[1;96m==20%")
+                jalan('\033[1;96m===30%')
+                jalan('\033[1;96m====40%')
+                jalan("\033[1;96m=====50%")
+                jalan("\033[1;96m======60%")
+                jalan('\033[1;96m=======70%')
+                jalan('\033[1;96m========80%')
+                jalan('\033[1;96m=========90%')
+                jalan('\033[1;96m==========100%')
+                jalan('\033[1;91mCloning Data Reset')
+		os.system('git pull origin master')
+		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+		menu()
 	elif unikers =="0":
 		jalan('Token Removed')
 		os.system('rm -rf login.txt')
@@ -296,7 +314,6 @@ def pilih():
 	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih()
-
 
 def crack():
 	global toket
@@ -610,32 +627,7 @@ _______¶¶¶_________¶______¶_________¶¶¶______
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 	menu()
-        elif unikers =="3":
-		os.system('clear')
-		print logo
-		print " \033[1;36;40m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Data Reset•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
-                jalan('\033[1;96m=10%')
-                jalan("\033[1;96m==20%")
-                jalan('\033[1;96m===30%')
-                jalan('\033[1;96m====40%')
-                jalan("\033[1;96m=====50%")
-                jalan("\033[1;96m======60%")
-                jalan('\033[1;96m=======70%')
-                jalan('\033[1;96m========80%')
-                jalan('\033[1;96m=========90%')
-                jalan('\033[1;96m==========100%')
-                jalan('\033[1;91mCloning Data Reset')
-		os.system('git pull origin master')
-		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-		menu()
-	elif unikers =="0":
-		jalan('Token Removed')
-		os.system('rm -rf login.txt')
-		keluar()
-	else:
-		print "\x1b[1;91mFill in correctly"
-		pilih()
-
+        
 
 def super():
 	global toket
