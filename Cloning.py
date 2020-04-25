@@ -942,14 +942,14 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;94mClone Friend List Public ID."
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;94mBlack Mafia WhatsApp Group India."
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;94mBlack Mafia Youtube Chenal."
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;97mBack"
+	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mClone Friend List Public ID."
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;93mBlack Mafia WhatsApp Group India."
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;93mBlack Mafia Youtube Chenal."
+	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;97mChoose an Option>>> \033[1;97m")
+	peak = raw_input("\n\033[1;95mChoose an Option>>> \033[1;97m")
 	if peak =="":
 		print "\x1b[1;94mFill in correctly"
 		pilih_super()
