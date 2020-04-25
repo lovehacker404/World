@@ -273,10 +273,10 @@ def menu():
 	print "	   \033[1;97m Name\033[1;97m:\033[1;94m"+nama+"\033[1;97m               "
 	print "	   \033[1;97m ID\033[1;97m:\033[1;94m"+id+"\x1b[1;97m              "
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;94mStart Cloning India"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;94mStart Cloning Pakistan"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\033[1;97mAfter Cloning Data Reset"
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;97mlogout "
+	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mStart Cloning India"
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mStart Cloning Pakistan"
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\033[1;91mAfter Cloning Data Reset"
+	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;96mlogout "
 	pilih()
 
 
@@ -327,7 +327,7 @@ def crack():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mClone Friend List Public ID."
+	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mClone Friend List Public ID."
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mBlack Mafia WhatsApp Group."
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mBlack Mafia Youtube Chenal."
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
