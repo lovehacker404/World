@@ -325,7 +325,7 @@ def crack():
 	os.system('clear')
 	print logo
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mClone Friend List Public ID."
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mBlack Mafia WhatsApp Group."
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mBlack Mafia WhatsApp Group Pakistan."
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mBlack Mafia Youtube Chenal."
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_crack()
@@ -638,7 +638,7 @@ def hack():
 	os.system('clear')
 	print logo
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;96mClone Friend List Public ID."
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;96mBlack Mafia WhatsApp Group."
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;96mBlack Mafia WhatsApp Group Indonasia."
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;96mBlack Mafia Youtube Chenal."
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_hack()
@@ -667,7 +667,7 @@ def pilih_hack():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+	        os.system('xdg-open https://chat.whatsapp.com/D72BfJByaCRIDJcbJvOOfE')
 	        menu()
         elif peak =="3":
 	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
@@ -943,7 +943,7 @@ def super():
 	os.system('clear')
 	print logo
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;94mClone Friend List Public ID."
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;94mBlack Mafia WhatsApp Group."
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;94mBlack Mafia WhatsApp Group India."
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;94mBlack Mafia Youtube Chenal."
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;97mBack"
 	pilih_super()
@@ -972,7 +972,7 @@ def pilih_super():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+	        os.system('xdg-open https://chat.whatsapp.com/FEs5BfBzpNY3oMSgDxo5pN')
 	        menu()
         elif peak =="3":
 	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
