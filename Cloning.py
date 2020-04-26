@@ -184,9 +184,9 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;94mWarning: \033[1;92mDo Not Use Your Personal Account' )
-		jalan(' \033[1;94mWarning: \033[1;92mUse a New Account To Login' )
-		jalan(' \033[1;94mWarning: \033[1;92mTermux All Version Working' )                 
+		jalan(' \033[1;93mWarning: \033[1;92mDo Not Use Your Personal Account' )
+		jalan(' \033[1;93mWarning: \033[1;92mUse a New Account To Login' )
+		jalan(' \033[1;93mWarning: \033[1;92mTermux All Version Working' )                 
 		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		print('	   \033[1;97m▬\x1b[1;94m.........LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
 		print('	' )
@@ -264,15 +264,15 @@ def menu():
 	os.system("clear") #Dev:love_hacker
 	print logo
 	print "\033[1;97m«--•◈••◈•--\033[1;94mLogged in User Info\033[1;97m---•◈••◈•---»"
-	print "	   \033[1;97m Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
-	print "	   \033[1;97m ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
+	print "	   \033[1;97m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
+	print "	   \033[1;97m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mStart Cloning India"
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mStart Cloning Pakistan"
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mStart Cloning Indonasia"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;96mStart Cloning USA"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;96mStart Cloning Bangladash"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;96mBlack Mafia   Massage "
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;95mStart Cloning USA"
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94mStart Cloning Bangladash"
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;97mBlack Mafia   Massage "
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m7.\033[1;91mAfter Cloning Data Reset"
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;94mlogout "
 	pilih()
@@ -302,8 +302,8 @@ def pilih():
                 jalan('\033[1;96m7 Num Option Use every day ')
                 jalan('\033[1;96mChenal Off Due to Strik')
                 jalan("\033[1;93m.........Command...........")
-                jalan('\033[1;96mpkg update')
-                jalan('\033[1;96mpkg upgrade')
+                jalan('\033[1;96mapt update')
+                jalan('\033[1;96mapt upgrade')
                 jalan('\033[1;96mpkg install python')
                 jalan('\033[1;96mpkg install python2')
                 jalan('\033[1;96mpkg install git')
