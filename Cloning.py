@@ -135,7 +135,7 @@ loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;97m📋 \x1b[1;93mTool Username \x1b[1;97m»» \x1b[1;97m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;97m🗝 \x1b[1;91mTool Password \x1b[1;97m»» \x1b[1;97m")
+    	password = raw_input("\033[1;97m🗝 \x1b[1;91mTool Password  \x1b[1;97m»» \x1b[1;97m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:love_hacker
 	    time.sleep(2)
@@ -157,7 +157,9 @@ def login():
 		print logo
 		jalan(' \033[1;93mWarning: \033[1;92mDo Not Use Your Personal Account' )
 		jalan(' \033[1;93mWarning: \033[1;92mUse a New Account To Login' )
-		jalan(' \033[1;93mWarning: \033[1;92mTermux All Version Working' )                 
+		jalan(' \033[1;93mWarning: \033[1;92mTermux All Version Working' )
+                jalan(' \033[1;91mWarning: \033[1;95mTermux Data Clear Everyday' ) 
+                jalan(' \033[1;91mWarning: \033[1;95mTool Update Everyday 👆' )                
 		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;92mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		print('\033[1;97m▬\x1b[1;91m.........LOGIN WITH FACEBOOK..........\x1b[1;97m▬' )
 		print('	' )
@@ -237,7 +239,7 @@ def menu():
 	print "\033[1;97m«--•◈••◈•--\033[1;93mLogged in User Info\033[1;97m---•◈••◈•---»"
 	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mStart Cloning India"
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mStart Cloning Pakistan"
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mStart Cloning Indonasia"
