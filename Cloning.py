@@ -288,7 +288,6 @@ def menu():
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m15.\033[1;96m Start Cloning BlackMafia"
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m16.\033[1;96m Start Cloning Testing"
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m0 .\033[1;93m logout "
-        print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 	pilih()
 
 
