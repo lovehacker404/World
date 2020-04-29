@@ -267,12 +267,14 @@ def menu():
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m6 .\x1b[1;93m Start Cloning All Country"
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m7 .\x1b[1;95m Start Cloning Member Group "
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m8 .\x1b[1;92m Start Target  Attack"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m9 .\033[1;91m Start Dump    Phone Number"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m10.\033[1;91m Start Dump    Email"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m11.\x1b[1;91m Black Mafia   Massage "
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m12.\033[1;91m Login Use     Token"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m9 .\033[1;93m Start Dump    Phone Number"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m10.\033[1;94m Start Dump    Email"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m11.\x1b[1;95m Black Mafia   Massage "
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m12.\033[1;96m Login Use     Token"
         print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m13.\033[1;93m Show  Token"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m14.\033[1;91m After Cloning Data Reset "
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m14.\033[1;95m After Cloning Data Reset "
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m15.\033[1;94m Login ID "
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m16.\033[1;92m Get   Data"
 	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m0 .\033[1;91m logout "
 	pilih()
 
@@ -310,7 +312,7 @@ def pilih():
 		print " \033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Massage•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
                 jalan('\033[1;92m............Massage..........')
                 jalan("\033[1;96mFrends Tool everyDay Update")
-                jalan('\033[1;96m11 Num Option Use every day ')
+                jalan('\033[1;96mCommand Abhi Complet ni hoi 75% Ho gi ')
                 jalan('\033[1;96mChenal Off Due to Strik')
                 jalan("\033[1;93m.........Command...........")
                 jalan('\033[1;96mapt update')
@@ -357,6 +359,10 @@ def pilih():
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
+        elif unikers =="15":
+		id()
+        elif unikers =="16":
+		data()
 	elif unikers =="0":
 		jalan('Token Removed')
 		os.system('rm -rf login.txt')
@@ -2483,6 +2489,42 @@ def tokenz():
 			login()
 		else:
 			keluar()
+
+def data():
+	print '[*] Generate access token '
+
+	try:
+		os.mkdir('cookie')
+	except OSError:
+		pass
+
+	b = open('cookie/token.log','w')
+	try:
+		r = requests.get('https://api.facebook.com/restserver.php',params=data)
+		a = json.loads(r.text)
+
+		b.write(a['access_token'])
+		b.close()
+		print '[*] successfully generate access token'
+		print '[*] Your access token is stored in cookie/token.log'
+		exit()
+	except KeyError:
+		print '[!] Failed to generate access token'
+		print '[!] Check your connection / email or password'
+		os.remove('cookie/token.log')
+		menu()
+	except requests.exceptions.ConnectionError:
+		print '[!] Failed to generate access token'
+		print '[!] Connection error !!!'
+		os.remove('cookie/token.log')
+		menu()
+def id():
+	print '[*] login to your facebook account         ';id = raw_input('[?] Username : ');pwd = getpass.getpass('[?] Password : ');API_SECRET = '62f8ce9f74b12f84c123cc23437a4a32';data = {"api_key":"882a8490361da98702bf97a021ddc14d","credentials_type":"password","email":id,"format":"JSON", "generate_machine_id":"1","generate_session_cookies":"1","locale":"en_US","method":"auth.login","password":pwd,"return_ssl_resources":"0","v":"1.0"};sig = 'api_key=882a8490361da98702bf97a021ddc14dcredentials_type=passwordemail='+id+'format=JSONgenerate_machine_id=1generate_session_cookies=1locale=en_USmethod=auth.loginpassword='+pwd+'return_ssl_resources=0v=1.0'+API_SECRET
+	x = hashlib.new('md5')
+        x.update(sig)
+
+	data.update({'sig':x.hexdigest()})
+        get(data)
 
 if __name__ == '__main__':
 	login()
