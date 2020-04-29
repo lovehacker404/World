@@ -103,7 +103,7 @@ logo = """
 •*`*•.¸¸✽✤    ＼ｿ 　　｜  ｜ •*`*•.¸¸✽✤
 •*`*•.¸¸✽✤      )ヽ＿／＿／  •*`*•.¸¸✽✤
 •*`*•.¸¸✽✤　   ／　　 ﾉ ﾉ    •*`*•.¸¸✽✤
-\033[1;97m:•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•"""
+\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -181,17 +181,17 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;91mWarning: \033[1;92mDo Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning: \033[1;92mUse a New Account To Login' )
-		jalan(' \033[1;91mWarning: \033[1;92mTermux All Version Working' )
-                jalan(' \033[1;91mWarning: \033[1;92mTermux Data Clear Everyday' ) 
-                jalan(' \033[1;91mWarning: \033[1;92m👆Tool Update Everyday 👆' )
-                jalan(' \033[1;91mWarning: \033[1;92mTool Complet ████████ 70%' )              
+		jalan(' \033[1;91mWarning● \033[1;92mDo Not Use Your Personal Account' )
+		jalan(' \033[1;91mWarning● \033[1;92mUse a New Account To Login' )
+		jalan(' \033[1;91mWarning● \033[1;92mTermux All Version Working' )
+                jalan(' \033[1;91mWarning● \033[1;92mTermux Data Clear Everyday' ) 
+                jalan(' \033[1;91mWarning● \033[1;92m👆Tool Update Everyday 👆' )
+                jalan(' \033[1;91mWarning● \033[1;92mTool Complet ████████ 70%' )              
 		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;92mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		print('\033[1;97m▬\x1b[1;91m.........LOGIN WITH FACEBOOK..........\x1b[1;97m▬' )
+		print('\033[1;97m  ▬\x1b[1;91m.........LOGIN WITH FACEBOOK..........\x1b[1;97m▬' )
 		print('	' )
-		id = raw_input('\033[1;97m[●] \x1b[1;96mFacebook/Email\x1b[1;97m: \x1b[1;92m')
-		pwd = raw_input('\033[1;97m[●] \x1b[1;96mPassword\x1b[1;97m      : \x1b[1;93m')
+		id = raw_input('\033[1;97m[●] \x1b[1;96mFacebook/Email\x1b[1;97m: \x1b[1;93m')
+		pwd = raw_input('\033[1;97m[●] \x1b[1;96mPassword\x1b[1;97m      : \x1b[1;91m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
