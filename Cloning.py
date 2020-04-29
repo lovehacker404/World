@@ -171,14 +171,14 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;94mWarning: \033[1;97mDo Not Use Your Personal Account' )
-		jalan(' \033[1;94mWarning: \033[1;97mUse a New Account To Login' )
-		jalan(' \033[1;94mWarning: \033[1;97mTermux Old Version install 0.63✅' )                 
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		print('	   \033[1;97m▬\x1b[1;94m.........LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
+		jalan(' \033[1;91mWarning: \033[1;92mDo Not Use Your Personal Account' )
+		jalan(' \033[1;91mWarning: \033[1;92mUse a New Account To Login' )
+		jalan(' \033[1;91mWarning: \033[1;92mTermux All Version Work ' )                 
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print('\033[1;97m▬\x1b[1;91m.........LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
 		print('	' )
-		id = raw_input('\033[1;97m[+] \x1b[1;94mID/Email\x1b[1;97m: \x1b[1;94m')
-		pwd = raw_input('\033[1;97m[+] \x1b[1;94mPassword\x1b[1;97m: \x1b[1;94m')
+		id = raw_input('\033[1;97m[+] \x1b[1;94mID/Email\x1b[1;93m: \x1b[1;94m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;94mPassword\x1b[1;91m: \x1b[1;94m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
