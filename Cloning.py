@@ -4195,7 +4195,7 @@ def pilih_army():
 		try:
 			m = requests.get("https://graph.facebook.com/"+black+"?access_token="+love)
 			f = json.loads(m.text)
-			print"\033[1;97mName\033[1;97m:\033[1;94m "+op["name"]
+			print"\033[1;97mName\033[1;97m:\033[1;94m "+["name"]
 		except KeyError:
 			print"\x1b[1;97mID Not Found!"
 			raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
