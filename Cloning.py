@@ -57,7 +57,7 @@ Y='\033[1;93m'
 
 #Dev:love_hacker
 ##### LOGO #####
-logo = """
+logo1 = """
 \033[1;93m██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
 \033[1;93m██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
 \033[1;93m██████╦╝██║░░░░░███████║██║░░╚═╝█████═╝░
@@ -250,7 +250,7 @@ def menu():
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
 	os.system("clear") #Dev:love_hacker
-	print logo
+	print logo1
 	print "\033[1;97m«--•◈••◈•--\033[1;93mLogged in User Info\033[1;97m---•◈••◈•---»"
 	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
