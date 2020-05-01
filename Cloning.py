@@ -250,7 +250,7 @@ def menu():
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
 	os.system("clear") #Dev:love_hacker
-	print logo1
+	print logo3
 	print "\033[1;97m«--•◈••◈•--\033[1;93mLogged in User Info\033[1;97m---•◈••◈•---»"
 	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
@@ -335,7 +335,7 @@ def pilih():
 		mail()
         elif unikers =="11":
 		os.system('clear')
-		print logo
+		print logo2
 		print " \033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Massage•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
                 jalan('\033[1;92m............Massage..........')
                 jalan("\033[1;96mTermux  Data Clear Every Day")
@@ -370,7 +370,7 @@ def pilih():
 		menu()
 	elif unikers =="14":
 		os.system('clear')
-		print logo
+		print logo3
 		print " \033[1;92m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Data Reset•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
                 jalan('\033[1;96m=10%')
                 jalan("\033[1;96m==20%")
