@@ -70,6 +70,8 @@ logo = """
 \033[1;92m██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
 \033[1;92m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
 \033[1;92m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
+\033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m  ▇▇ 03094161457 ▇▇"""
+logo2 = """
 \033[1;96m▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇
 \033[1;96m▇▇┈┈┈▕▕╲┊┊╱▏▏┈┈┈▇▇\033[1;91m  ▇▇┈┈┈▕▕╲┊┊╱▏▏┈┈┈▇▇
 \033[1;96m▇▇┈┈┈▕▕▂╱╲▂▏▏┈┈┈▇▇\033[1;91m  ▇▇┈┈┈▕▕▂╱╲▂▏▏┈┈┈▇▇
@@ -78,6 +80,8 @@ logo = """
 \033[1;96m▇▇╱▔▔▔▔┊┊┊┊▔▔▔▔╲▇▇\033[1;91m  ▇▇╱▔▔▔▔┊┊┊┊▔▔▔▔╲▇▇
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
+\033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m  ▇▇ 03094161457 ▇▇"""
+logo3 = """
 \033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m  ▇▇ 03094161457 ▇▇
 \033[1;95m•*`*•.¸¸✽✤   　  /)          •*`*•.¸¸✽✤
 •*`*•.¸¸✽✤　   _(⌒)＿　　/)  •*`*•.¸¸✽✤
@@ -168,7 +172,7 @@ def login():
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
-		print logo
+		print logo3
 		jalan(' \033[1;91mWarning● \033[1;92mDo Not Use Your Personal Account' )
 		jalan(' \033[1;91mWarning● \033[1;92mUse a New Account To Login' )
 		jalan(' \033[1;91mWarning● \033[1;92mTermux All Version Work ' )                 
@@ -246,41 +250,58 @@ def menu():
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
 	os.system("clear") #Dev:love_hacker
-	print logo
+	print logo2
 	print "\033[1;97m«--•◈••◈•--\033[1;93mLogged in User Info\033[1;97m---•◈••◈•---»"
 	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
 	print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mDisclaimer\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
-        time.sleep(0.09)
+        time.sleep(0.03)
         print "\033[1;95mThis presentation is for educational"
-        time.sleep(0.09)
+        time.sleep(0.03)
         print "\033[1;95mpurposes ONLY.How you use this information "
-        time.sleep(0.09)
+        time.sleep(0.03)
         print "\033[1;95mis your responsibility.I will not be  "
-        time.sleep(0.09)
+        time.sleep(0.03)
         print "\033[1;95mheld accountableThis Tool/Channel Doesn't "
-        time.sleep(0.09)
+        time.sleep(0.03)
         print "\033[1;95mSupport illegal activities.for any illegal "
-        time.sleep(0.09)
+        time.sleep(0.03)
         print "\033[1;95mactivities.This Tool is For Educational Purpose."
-        time.sleep(0.09)
+        time.sleep(0.03)
         print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
+        time.sleep(0.05)
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m1 .\x1b[1;96m Start Cloning India"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m2 .\x1b[1;96m Start Cloning Pak ID/Group"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m3 .\x1b[1;96m Start Cloning Indonasia"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m4 .\x1b[1;96m Start Cloning USA ID"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m5 .\x1b[1;96m Start Cloning Bangladash"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m6 .\x1b[1;96m Start Cloning All Country"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m7 .\x1b[1;96m Start Cloning Member Group "
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m8 .\x1b[1;96m Start Target  Attack"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m9 .\033[1;96m Start Cloning Indian Old"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m10.\033[1;96m Start Cloning Pakistan Old"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m11.\x1b[1;96m Black Mafia   Massage "
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m12.\033[1;96m Login Using   Token"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m13.\033[1;96m Show  Token   login/ID"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m14.\033[1;96m After Cloning Data Reset "
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m15.\033[1;96m Start Cloning BlackMafia"
+        time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m16.\033[1;96m Start Cloning Testing"
+        time.sleep(0.05)
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m0 .\033[1;93m logout "
 	pilih()
 
