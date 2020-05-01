@@ -172,7 +172,7 @@ def login():
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
-		print logo3
+		print logo2
 		jalan(' \033[1;91mWarning● \033[1;92mDo Not Use Your Personal Account' )
 		jalan(' \033[1;91mWarning● \033[1;92mUse a New Account To Login' )
 		jalan(' \033[1;91mWarning● \033[1;92mTermux All Version Work ' )                 
@@ -250,7 +250,7 @@ def menu():
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
 	os.system("clear") #Dev:love_hacker
-	print logo2
+	print logo
 	print "\033[1;97m«--•◈••◈•--\033[1;93mLogged in User Info\033[1;97m---•◈••◈•---»"
 	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
