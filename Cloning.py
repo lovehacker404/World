@@ -251,12 +251,19 @@ def menu():
 	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
 	print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mDisclaimer\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
+        time.sleep(0.09)
         print "\033[1;95mThis presentation is for educational"
+        time.sleep(0.09)
         print "\033[1;95mpurposes ONLY.How you use this information "
+        time.sleep(0.09)
         print "\033[1;95mis your responsibility.I will not be  "
+        time.sleep(0.09)
         print "\033[1;95mheld accountableThis Tool/Channel Doesn't "
+        time.sleep(0.09)
         print "\033[1;95mSupport illegal activities.for any illegal "
+        time.sleep(0.09)
         print "\033[1;95mactivities.This Tool is For Educational Purpose."
+        time.sleep(0.09)
         print "\033[1;97m-•◈•-▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m1 .\x1b[1;96m Start Cloning India"
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m2 .\x1b[1;96m Start Cloning Pak ID/Group"
