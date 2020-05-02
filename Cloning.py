@@ -951,7 +951,7 @@ def menu():
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m23.\033[1;94m Get   Phone   From  Friends \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m24.\033[1;94m Friend\'s Phone From Friends\033[1;92m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m24.\033[1;94m Friend\'s Phone From Friends \033[1;92m▇▇"
         time.sleep(0.05)
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m0 .\033[1;91m logout                      \033[1;91m▇▇"
 	pilih()
@@ -1045,19 +1045,19 @@ def pilih():
 	        os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
         elif unikers =="18":
-		id_friends()
+		idfriends()
         elif unikers =="19":
 		idfrom_friends()
         elif unikers =="20":
-		id_member_grup()
+		idmember_grup()
         elif unikers =="21":
 		email()
         elif unikers =="22":
-		emailfrom_friends()
+		emailfromfriends()
         elif unikers =="23":
 		nomor_hp()
         elif unikers =="24":
-		hpfrom_friends()
+		hpfromfriends()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
@@ -4362,7 +4362,7 @@ $$$$$$$$$___$$$_$$$_________$$$$$_____$$$$$$$$$
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
 
-def id_friends():
+def idfriends():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4413,7 +4413,7 @@ def id_friends():
             keluar()
 
 
-def idfrom_friends():
+def idfromfriends():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4468,7 +4468,7 @@ def idfrom_friends():
             keluar()
 
 
-def id_member_grup():
+def id_membergrup():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4583,7 +4583,7 @@ def email():
             keluar()
 
 
-def emailfrom_friends():
+def emailfromfriends():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4643,7 +4643,7 @@ def emailfrom_friends():
             keluar()
 
 
-def nomor_hp():
+def nomorhp():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4699,7 +4699,7 @@ def nomor_hp():
             keluar()
 
 
-def hpfrom_friends():
+def hpfromfriends():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
