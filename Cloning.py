@@ -1384,9 +1384,11 @@ def hack():
 	print logo9
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;96mClone Friend List Public ID."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;96mBlack Mafia WhatsApp Group Indonasia."
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;96mEnter Facebook Url Get Facebook ID."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;96mBlack Mafia Youtube Chenal."
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;96mBlack Mafia WhatsApp Group Indonasia."
+        time.sleep(0.05)
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;96mBlack Mafia Youtube Chenal."
         time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_hack()
@@ -1415,9 +1417,12 @@ def pilih_hack():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/D72BfJByaCRIDJcbJvOOfE')
+	        os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
         elif peak =="3":
+	        os.system('xdg-open https://chat.whatsapp.com/D72BfJByaCRIDJcbJvOOfE')
+	        menu()
+        elif peak =="4":
 	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 	        menu()
 	elif peak =="0":
@@ -1690,7 +1695,9 @@ def black():
 		login()
 	os.system('clear')
 	print logo10
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;97mClone Friend List Public ID."
+	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;93mClone Friend List Public ID."
+        time.sleep(0.05)
+        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;93mEnter Facebook Url Get Facebook ID."
         time.sleep(0.05)
         print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;97mBlack Mafia WhatsApp Group USA."
         time.sleep(0.05)
@@ -1723,9 +1730,12 @@ def pilih_black():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+	        os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
         elif peak =="3":
+	        os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+	        menu()
+        elif peak =="4":
 	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 	        menu()
 	elif peak =="0":
