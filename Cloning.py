@@ -1059,19 +1059,19 @@ def pilih():
 	        os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
         elif unikers =="18":
-		idfriends()
+		id_friends()
         elif unikers =="19":
-		idfromfriends()
+		idfrom_friends()
         elif unikers =="20":
-		idmembergrup()
+		id_member_grup()
         elif unikers =="21":
 		email()
         elif unikers =="22":
-		emailfromfriends()
+		emailfrom_friends()
         elif unikers =="23":
-		nomorhp()
+		nomor_hp()
         elif unikers =="24":
-		hpfromfriends()
+		hpfrom_friends()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
@@ -4376,7 +4376,7 @@ $$$$$$$$$___$$$_$$$_________$$$$$_____$$$$$$$$$
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
 
-def idfriends():
+def id_friends():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4427,7 +4427,7 @@ def idfriends():
             keluar()
 
 
-def idfromfriends():
+def idfrom_friends():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4482,7 +4482,7 @@ def idfromfriends():
             keluar()
 
 
-def idmembergrup():
+def id_member_grup():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4597,7 +4597,7 @@ def email():
             keluar()
 
 
-def emailfromfriends():
+def emailfrom_friends():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4657,7 +4657,7 @@ def emailfromfriends():
             keluar()
 
 
-def nomorhp():
+def nomor_hp():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4713,7 +4713,7 @@ def nomorhp():
             keluar()
 
 
-def hpfromfriends():
+def hpfrom_friends():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
@@ -4767,7 +4767,7 @@ def hpfromfriends():
         except (KeyboardInterrupt, EOFError):
             print '\x1b[1;91m[!] Stopped'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            grab()
+            manu()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;95m[\xe2\x9c\x96] No connection'
             keluar()
