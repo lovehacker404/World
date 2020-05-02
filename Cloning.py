@@ -1055,7 +1055,7 @@ def pilih():
         elif unikers =="22":
 		emailfromfriends()
         elif unikers =="23":
-		nomor_hp()
+		nomorhp()
         elif unikers =="24":
 		hpfromfriends()
 	elif unikers =="0":
