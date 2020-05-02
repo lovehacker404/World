@@ -937,21 +937,21 @@ def menu():
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m16.\033[1;94m Start Cloning Testing       \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m17.\033[1;94m Find  Facebook  ID          \033[1;92m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m17.\033[1;93m Find  Facebook  ID          \033[1;92m▇▇"
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m18.\x1b[1;95m Get   ID From Friends       \033[1;95m▇▇"
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m19.\033[1;93m Friends ID From Friends     \033[1;93m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m20.\033[1;94m Get   ID From GRUP          \033[1;94m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m20.\033[1;96m Get   ID From GRUP          \033[1;94m▇▇"
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m21.\033[1;96m Get   Friends Email         \033[1;96m▇▇"
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m22.\033[1;95m Friends Email From  Friends \033[1;95m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m23.\033[1;94m Get   Phone   From  Friends \033[1;94m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m23.\033[1;91m Get   Phone   From  Friends \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m24.\033[1;94m Friend\'s Phone From Friends \033[1;92m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m24.\033[1;93m Friend\'s Phone From Friends \033[1;92m▇▇"
         time.sleep(0.05)
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m0 .\033[1;91m logout                      \033[1;91m▇▇"
 	pilih()
@@ -1047,9 +1047,9 @@ def pilih():
         elif unikers =="18":
 		idfriends()
         elif unikers =="19":
-		idfrom_friends()
+		idfromfriends()
         elif unikers =="20":
-		idmember_grup()
+		idmembergrup()
         elif unikers =="21":
 		email()
         elif unikers =="22":
@@ -4468,7 +4468,7 @@ def idfromfriends():
             keluar()
 
 
-def id_membergrup():
+def idmembergrup():
     os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
