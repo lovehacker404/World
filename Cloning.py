@@ -939,6 +939,20 @@ def menu():
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m17.\033[1;94m Find  Facebook  ID          \033[1;92m▇▇"
         time.sleep(0.05)
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m18.\x1b[1;95m Get   ID From Friends       \033[1;95m▇▇"
+        time.sleep(0.05)
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m19.\033[1;93m Friends ID From Friends     \033[1;93m▇▇"
+        time.sleep(0.05)
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m20.\033[1;94m Get   ID From GRUP          \033[1;94m▇▇"
+        time.sleep(0.05)
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m21.\033[1;96m Get   Friends Email         \033[1;96m▇▇"
+        time.sleep(0.05)
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m22.\033[1;95m Friends Email From  Friends \033[1;95m▇▇"
+        time.sleep(0.05)
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m23.\033[1;94m Get   Phone   From  Friends \033[1;94m▇▇"
+        time.sleep(0.05)
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m24.\033[1;94m Friend\'s Phone From Friends\033[1;92m▇▇"
+        time.sleep(0.05)
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m0 .\033[1;91m logout                      \033[1;91m▇▇"
 	pilih()
 
@@ -1030,6 +1044,20 @@ def pilih():
         elif unikers =="17":
 	        os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
+        elif unikers =="18":
+		id_friends()
+        elif unikers =="19":
+		idfrom_friends()
+        elif unikers =="20":
+		id_member_grup()
+        elif unikers =="21":
+		email()
+        elif unikers =="22":
+		emailfrom_friends()
+        elif unikers =="23":
+		nomor_hp()
+        elif unikers =="24":
+		hpfrom_friends()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
@@ -4333,6 +4361,402 @@ $$$$$$$$$___$$$_$$$_________$$$$$_____$$$$$$$$$
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
+
+def id_friends():
+    os.system('clear')
+    try:
+        toket = open('login.txt', 'r').read()
+    except IOError:
+        print '\x1b[1;91m[!] Token not found'
+        os.system('rm -rf login.txt')
+
+        time.sleep(1)
+        login()
+    else:
+        try:
+            os.system('clear')
+            print logo11
+            print 52 * '\x1b[1;95m\xe2\x95\x90'
+            r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
+            z = json.loads(r.text)
+            save_id = raw_input('\x1b[1;91m[+] \x1b[1;92mSave File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
+            bz = open(save_id, 'w')
+            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mPlease wait \x1b[1;97m...')
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            for ah in z['data']:
+                idfriends.append(ah['id'])
+                bz.write(ah['id'] + '\n')
+                print '\r\x1b[1;96mName\x1b[1;91m  :\x1b[1;97m ' + ah['name']
+                print '\x1b[1;91mID   \x1b[1;91m : \x1b[1;97m' + ah['id']
+                print 52 * '\x1b[1;97m\xe2\x95\x90'
+
+            print '\n\r\x1b[1;91m[+] \x1b[1;97mTotal ID \x1b[1;96m%s' % len(idfriends)
+            print '\x1b[1;91m[+] \x1b[1;97mFile Save \x1b[1;91m: \x1b[1;97m' + save_id
+            bz.close()
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except IOError:
+            print '\x1b[1;91m[!] Error when creating file'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except (KeyboardInterrupt, EOFError):
+            print '\x1b[1;91m[!] Stopped'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except KeyError:
+            os.remove(save_id)
+            print '\x1b[1;91m[!] An error occurred'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except requests.exceptions.ConnectionError:
+            print '\x1b[1;91m[\xe2\x9c\x96] No connection'
+            keluar()
+
+
+def idfrom_friends():
+    os.system('clear')
+    try:
+        toket = open('login.txt', 'r').read()
+    except IOError:
+        print '\x1b[1;91m[!] Token not found'
+        os.system('rm -rf login.txt')
+        time.sleep(1)
+        login()
+    else:
+        try:
+            os.system('clear')
+            print logo6
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            idt = raw_input('\x1b[1;91m[+] \x1b[1;92mInput ID Friends \x1b[1;91m: \x1b[1;97m')
+            try:
+                jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+                op = json.loads(jok.text)
+                print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mFrom\x1b[1;91m :\x1b[1;97m ' + op['name']
+            except KeyError:
+                print '\x1b[1;91m[!] Not be friends'
+                raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+                menu()
+
+            r = requests.get('https://graph.facebook.com/' + idt + '?fields=friends.limit(5000)&access_token=' + toket)
+            z = json.loads(r.text)
+            save_idt = raw_input('\x1b[1;91m[+] \x1b[1;92mType File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
+            bz = open(save_idt, 'w')
+            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mplzz wi8 \x1b[1;97m...')
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            for ah in z['friends']['data']:
+                idfromfriends.append(ah['id'])
+                bz.write(ah['id'] + '\n')
+                print '\r\x1b[1;92mName\x1b[1;91m  :\x1b[1;97m ' + ah['name']
+                print '\x1b[1;92mID   \x1b[1;91m : \x1b[1;97m' + ah['id']
+                print 52 * '\x1b[1;97m\xe2\x95\x90'
+
+            print '\n\r\x1b[1;91m[+] \x1b[1;97mTotal ID \x1b[1;96m%s' % len(idfromfriends)
+            print '\x1b[1;91m[+] \x1b[1;97mFile Save \x1b[1;91m: \x1b[1;97m' + save_idt
+            bz.close()
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except IOError:
+            print '\x1b[1;91m[!] Error when creating file'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except (KeyboardInterrupt, EOFError):
+            print '\x1b[1;91m[!] Stopped'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except requests.exceptions.ConnectionError:
+            print '\x1b[1;91m[\xe2\x9c\x96] No connection'
+            keluar()
+
+
+def id_member_grup():
+    os.system('clear')
+    try:
+        toket = open('login.txt', 'r').read()
+    except IOError:
+        print '\x1b[1;91m[!] Token not found'
+        os.system('rm -rf login.txt')
+        time.sleep(1)
+        login()
+    else:
+        try:
+            os.system('clear')
+            print logo12
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            id = raw_input('\x1b[1;91m[+] \x1b[1;92mID grup \x1b[1;91m:\x1b[1;97m ')
+            try:
+                r = requests.get('https://graph.facebook.com/group/?id=' + id + '&access_token=' + toket)
+                asw = json.loads(r.text)
+                print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mName group \x1b[1;91m:\x1b[1;97m ' + asw['name']
+            except KeyError:
+                print '\x1b[1;91m[!] Group not found'
+                raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+                menu()
+
+            simg = raw_input('\x1b[1;91m[+] \x1b[1;97mSave File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
+            b = open(simg, 'w')
+            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mplzz wi8 \x1b[1;97m...')
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            re = requests.get('https://graph.facebook.com/' + id + '/members?fields=name,id&access_token=' + toket)
+            s = json.loads(re.text)
+            for i in s['data']:
+                idmem.append(i['id'])
+                b.write(i['id'] + '\n')
+                print '\r\x1b[1;92mName\x1b[1;91m  :\x1b[1;97m ' + i['name']
+                print '\x1b[1;92mID  \x1b[1;91m  :\x1b[1;97m ' + i['id']
+                print 52 * '\x1b[1;97m\xe2\x95\x90'
+
+            print '\n\r\x1b[1;91m[+] \x1b[1;97mTotal ID \x1b[1;96m%s' % len(idmem)
+            print '\x1b[1;91m[+] \x1b[1;97mFile saved \x1b[1;91m: \x1b[1;97m' + simg
+            b.close()
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except IOError:
+            print '\x1b[1;91m[!] Error when creating file'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except (KeyboardInterrupt, EOFError):
+            print '\x1b[1;91m[!] Stopped'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except KeyError:
+            os.remove(simg)
+            print '\x1b[1;91m[!] Group not found'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except requests.exceptions.ConnectionError:
+            print '\x1b[1;91m[\xe2\x9c\x96] No connection'
+            keluar()
+
+
+def email():
+    os.system('clear')
+    try:
+        toket = open('login.txt', 'r').read()
+    except IOError:
+        print '\x1b[1;91m[!] Token not found'
+        os.system('rm -rf login.txt')
+        time.sleep(1)
+        login()
+    else:
+        try:
+            os.system('clear')
+            print logo13
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            mails = raw_input('\x1b[1;91m[+] \x1b[1;92mSave File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
+            r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
+            a = json.loads(r.text)
+            mpsh = open(mails, 'w')
+            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mPlease wait \x1b[1;97m...')
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            for i in a['data']:
+                x = requests.get('https://graph.facebook.com/' + i['id'] + '?access_token=' + toket)
+                z = json.loads(x.text)
+                try:
+                    em.append(z['email'])
+                    mpsh.write(z['email'] + '\n')
+                    print '\r\x1b[1;92mName\x1b[1;91m  :\x1b[1;97m ' + z['name']
+                    print '\x1b[1;92mEmail\x1b[1;91m : \x1b[1;97m' + z['email']
+                    print 52 * '\x1b[1;97m\xe2\x95\x90'
+                except KeyError:
+                    pass
+
+            print '\n\r\x1b[1;91m[+] \x1b[1;97mTotal Email\x1b[1;96m%s' % len(em)
+            print '\x1b[1;91m[+] \x1b[1;97mFile saved \x1b[1;91m: \x1b[1;97m' + mails
+            mpsh.close()
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except IOError:
+            print '\x1b[1;91m[!] Error when creating file'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except (KeyboardInterrupt, EOFError):
+            print '\x1b[1;91m[!] Stopped'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except KeyError:
+            os.remove(mails)
+            print '\x1b[1;91m[!] An error occurred'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except requests.exceptions.ConnectionError:
+            print '\x1b[1;91m[\xe2\x9c\x96] No connection'
+            keluar()
+
+
+def emailfrom_friends():
+    os.system('clear')
+    try:
+        toket = open('login.txt', 'r').read()
+    except IOError:
+        print '\x1b[1;91m[!] Token not found'
+        os.system('rm -rf login.txt')
+        time.sleep(1)
+        login()
+    else:
+        try:
+            os.system('clear')
+            print logo19
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            idt = raw_input('\x1b[1;91m[+] \x1b[1;92mInput ID Friends \x1b[1;91m: \x1b[1;97m')
+            try:
+                jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+                op = json.loads(jok.text)
+                print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mFrom\x1b[1;91m :\x1b[1;97m ' + op['name']
+            except KeyError:
+                print '\x1b[1;91m[!] Not be friends'
+                raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+                menu()
+
+            mails = raw_input('\x1b[1;91m[+] \x1b[1;92mSave File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
+            r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
+            a = json.loads(r.text)
+            mpsh = open(mails, 'w')
+            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mPlease wait \x1b[1;97m...')
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            for i in a['data']:
+                x = requests.get('https://graph.facebook.com/' + i['id'] + '?access_token=' + toket)
+                z = json.loads(x.text)
+                try:
+                    emfromfriends.append(z['email'])
+                    mpsh.write(z['email'] + '\n')
+                    print '\r\x1b[1;92mName\x1b[1;91m  :\x1b[1;95m ' + z['name']
+                    print '\x1b[1;92mEmail\x1b[1;91m : \x1b[1;96m' + z['email']
+                    print 52 * '\x1b[1;97m\xe2\x95\x90'
+                except KeyError:
+                    pass
+
+            print '\n\r\x1b[1;91m[+] \x1b[1;97mTotal Email\x1b[1;96m%s' % len(emfromfriends)
+            print '\x1b[1;91m[+] \x1b[1;97mFile saved \x1b[1;91m: \x1b[1;97m' + mails
+            mpsh.close()
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except IOError:
+            print '\x1b[1;91m[!] Error when creating file'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            grab()
+        except (KeyboardInterrupt, EOFError):
+            print '\x1b[1;91m[!] Stopped'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except requests.exceptions.ConnectionError:
+            print '\x1b[1;91m[\xe2\x9c\x96] No connection'
+            keluar()
+
+
+def nomor_hp():
+    os.system('clear')
+    try:
+        toket = open('login.txt', 'r').read()
+    except IOError:
+        print '\x1b[1;91m[!] Token not found'
+        os.system('rm -rf login.txt')
+        time.sleep(1)
+        login()
+    else:
+        try:
+            os.system('clear')
+            print logo14
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            noms = raw_input('\x1b[1;91m[+] \x1b[1;92mSave File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
+            url = 'https://graph.facebook.com/me/friends?access_token=' + toket
+            r = requests.get(url)
+            z = json.loads(r.text)
+            no = open(noms, 'w')
+            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mPlease wait \x1b[1;97m...')
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            for n in z['data']:
+                x = requests.get('https://graph.facebook.com/' + n['id'] + '?access_token=' + toket)
+                z = json.loads(x.text)
+                try:
+                    hp.append(z['mobile_phone'])
+                    no.write(z['mobile_phone'] + '\n')
+                    print '\r\x1b[1;92mName\x1b[1;91m  :\x1b[1;95m ' + z['name']
+                    print '\x1b[1;92mPhone\x1b[1;91m : \x1b[1;96m' + z['mobile_phone']
+                    print 52 * '\x1b[1;97m\xe2\x95\x90'
+                except KeyError:
+                    pass
+
+            print '\n\r\x1b[1;91m[+] \x1b[1;97mTotal Phone\x1b[1;96m%s' % len(hp)
+            print '\x1b[1;91m[+] \x1b[1;97mFile saved \x1b[1;91m: \x1b[1;97m' + noms
+            no.close()
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except IOError:
+            print '\x1b[1;91m[!] Error when creating file'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except (KeyboardInterrupt, EOFError):
+            print '\x1b[1;91m[!] Stopped'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except KeyError:
+            os.remove(noms)
+            print '\x1b[1;91m[!] An error occurred '
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except requests.exceptions.ConnectionError:
+            print '\x1b[1;91m[\xe2\x9c\x96] No connection'
+            keluar()
+
+
+def hpfrom_friends():
+    os.system('clear')
+    try:
+        toket = open('login.txt', 'r').read()
+    except IOError:
+        print '\x1b[1;91m[!] Token not found'
+        os.system('rm -rf login.txt')
+        time.sleep(1)
+        login()
+    else:
+        try:
+            os.system('clear')
+            print logo18
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            idt = raw_input('\x1b[1;91m[+] \x1b[1;92mInput Friends ID \x1b[1;91m: \x1b[1;97m')
+            try:
+                jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+                op = json.loads(jok.text)
+                print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mFrom\x1b[1;91m :\x1b[1;97m ' + op['name']
+            except KeyError:
+                print '\x1b[1;91m[!] Not be friends'
+                raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+                menu()
+
+            noms = raw_input('\x1b[1;91m[+] \x1b[1;95mSave File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
+            r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
+            a = json.loads(r.text)
+            no = open(noms, 'w')
+            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mPlease wait \x1b[1;97m...')
+            print 52 * '\x1b[1;97m\xe2\x95\x90'
+            for i in a['data']:
+                x = requests.get('https://graph.facebook.com/' + i['id'] + '?access_token=' + toket)
+                z = json.loads(x.text)
+                try:
+                    hpfromfriends.append(z['mobile_phone'])
+                    no.write(z['mobile_phone'] + '\n')
+                    print '\r\x1b[1;92mName\x1b[1;91m  :\x1b[1;97m ' + z['name']
+                    print '\x1b[1;92mPhone\x1b[1;91m : \x1b[1;97m' + z['mobile_phone']
+                    print 52 * '\x1b[1;97m\xe2\x95\x90'
+                except KeyError:
+                    pass
+
+            print '\n\r\x1b[1;91m[+] \x1b[1;97mTotal number\x1b[1;96m%s' % len(hpfromfriends)
+            print '\x1b[1;91m[+] \x1b[1;96mFile saved \x1b[1;91m: \x1b[1;97m' + noms
+            no.close()
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            menu()
+        except IOError:
+            print '\x1b[1;95m[!] Make file failed'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            manu()
+        except (KeyboardInterrupt, EOFError):
+            print '\x1b[1;91m[!] Stopped'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+            grab()
+        except requests.exceptions.ConnectionError:
+            print '\x1b[1;95m[\xe2\x9c\x96] No connection'
+            keluar()
           
 if __name__ == '__main__':
 	login()
