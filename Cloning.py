@@ -937,6 +937,8 @@ def menu():
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m16.\033[1;94m Start Cloning Testing       \033[1;94m▇▇"
         time.sleep(0.05)
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m17.\033[1;94m Find  Facebook  ID          \033[1;92m▇▇"
+        time.sleep(0.05)
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m0 .\033[1;91m logout                      \033[1;91m▇▇"
 	pilih()
 
@@ -1025,6 +1027,9 @@ def pilih():
 		isi()
         elif unikers =="16":
 		army()
+        elif unikers =="17":
+	        os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
+	        menu()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
