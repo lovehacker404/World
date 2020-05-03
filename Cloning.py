@@ -3042,8 +3042,7 @@ def clone_dari_member_group():
 				           cek.write("ID:" +user+ " Pw:" +pass1+"\n")
 				           cek.close()
 				           cekpoint.append(user+pass1)
-                                
-		except KeyError:
+                except KeyError:
 			pass
 	print 42*"\033[1;96m◇"
 	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSelesai \033[1;97m....'
