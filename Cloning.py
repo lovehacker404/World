@@ -3042,14 +3042,14 @@ def clone_dari_member_group():
 				           cek.write("ID:" +user+ " Pw:" +pass1+"\n")
 				           cek.close()
 				           cekpoint.append(user+pass1)
-                except KeyError:
-			pass
-	print 42*"\033[1;96m◇"
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSelesai \033[1;97m....'
-	print"\033[1;96m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(oks))
-	print"\033[1;96m[+] \033[1;92mFile lovehacker\033[1;91m:\033[1;97m out/GrupMailVuln.txt"
-	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
-	menu()
+					except KeyError:
+						pass
+					print 42*"\033[1;96m◇"
+					print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSelesai \033[1;97m....'
+					print"\033[1;96m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(oks))
+					print"\033[1;96m[+] \033[1;92mFile lovehacker\033[1;91m:\033[1;97m out/GrupMailVuln.txt"
+					raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+					menu()
 	
 def brute():
     os.system('clear')
