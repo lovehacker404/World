@@ -903,11 +903,11 @@ def menu():
 	os.system("clear") #Dev:love_hacker
         time.sleep(0.05)
 	print logo2
-	print "\033[1;97m«--•◈••◈•--\033[1;93mLogged in User Info\033[1;97m---•◈••◈•---»"
+	print "\033[1;97m«-------\033[1;93mLogged in User Info\033[1;97m----------»"
         time.sleep(0.05)
-	print "	   \033[1;93m ◈••◈Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
+	print "	   \033[1;93m «----Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
         time.sleep(0.05)
-	print "	   \033[1;93m ◈••◈ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
+	print "	   \033[1;93m «----ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
         time.sleep(0.05)
 	print "\033[1;95m«-----------------\033[1;91mDisclaimer\033[1;95m-----------------»"
         time.sleep(0.05)
