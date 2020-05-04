@@ -925,57 +925,57 @@ def menu():
         time.sleep(0.05)
         print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;93m Start Cloning India         \033[1;93m▇▇"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;96m Start Cloning India          \033[1;93m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\x1b[1;92m Start Cloning Pak ID/Group  \033[1;92m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\x1b[1;96m Start Cloning Pak ID/Group   \033[1;92m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\x1b[1;91m Start Cloning Indonasia     \033[1;91m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\x1b[1;96m Start Cloning Indonasia      \033[1;91m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\x1b[1;94m Start Cloning USA ID        \033[1;94m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\x1b[1;96m Start Cloning USA ID         \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\x1b[1;91m Start Cloning Bangladash    \033[1;91m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\x1b[1;96m Start Cloning Bangladash     \033[1;91m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;92m Start Cloning All Country   \033[1;92m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;96m Start Cloning All Country    \033[1;92m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\x1b[1;93m Start Cloning Member Group  \033[1;93m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\x1b[1;93m Start Cloning Group uncomplet\033[1;93m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\x1b[1;91m Start Target  Attack        \033[1;91m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\x1b[1;95m Start Target  Attack         \033[1;91m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;94m Start Cloning Indian Old    \033[1;94m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;96m Start Cloning Indian Old     \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;96m Start Cloning Pakistan Old  \033[1;96m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;96m Start Cloning Pakistan Old   \033[1;96m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\x1b[1;95m Black Mafia   Massage       \033[1;95m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\x1b[1;95m Black Mafia   Massage        \033[1;95m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m12.\033[1;93m Login Using   Token         \033[1;93m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m12.\033[1;91m Login Using   Token          \033[1;93m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m13.\033[1;94m Show  Token   login/ID      \033[1;94m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m13.\033[1;91m Show  Token   login/ID       \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m14.\033[1;96m After Cloning Data Reset    \033[1;96m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m14.\033[1;91m After Cloning Data Reset     \033[1;96m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m15.\033[1;95m Start Cloning BlackMafia    \033[1;95m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m15.\033[1;96m Start Cloning BlackMafia     \033[1;95m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m16.\033[1;94m Start Cloning Testing       \033[1;94m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m16.\033[1;96m Start Cloning Testing        \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m17.\033[1;93m ID Not Found  Problum solve \033[1;92m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m17.\033[1;92m ID Not Found  Problum solve  \033[1;92m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m18.\x1b[1;95m Get   ID From Friends       \033[1;95m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m18.\x1b[1;93m Get   ID From Friends        \033[1;95m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m19.\033[1;93m Friends ID From Friends     \033[1;93m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m19.\033[1;93m Friends ID From Friends      \033[1;93m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m20.\033[1;96m Get   ID From GRUP          \033[1;94m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m20.\033[1;93m Get   ID From GRUP           \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m21.\033[1;94m Get   Friends Email         \033[1;96m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m21.\033[1;93m Get   Friends Email          \033[1;96m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m22.\033[1;95m Friends Email From  Friends \033[1;95m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m22.\033[1;93m Friends Email From  Friends  \033[1;95m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m23.\033[1;91m Get   Phone   From  Friends \033[1;94m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m23.\033[1;93m Get   Phone   From  Friends  \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m24.\033[1;93m Friend\'s Phone From Friends \033[1;92m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m24.\033[1;93m Friend\'s Phone From Friends  \033[1;92m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m25.\033[1;96m Friend\'s User information   \033[1;96m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m25.\033[1;93m Friend\'s User information    \033[1;96m▇▇"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m logout                      \033[1;91m▇▇"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m logout                       \033[1;91m▇▇"
 	pilih()
 
 
