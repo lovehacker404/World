@@ -1009,9 +1009,9 @@ def pilih():
 		print logo7
 		print " \033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•Massage•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\n"
                 jalan('\033[1;92m............Massage..........')
-		jalan('\033[1;95mID Not Fund Problum Salution Menu 11 Num Option')
+		jalan('\033[1;95mID Not Found Problum Salution Menu 17 Num Option')
                 jalan("\033[1;96mTermux  Data Clear Every Day")
-                jalan('\033[1;96mCommand Complet  92% ')
+                jalan('\033[1;96mCommand Complet  94% ')
                 jalan('\033[1;96mCommand Update Every day')
                 jalan("\033[1;93m.........Command...........")
                 jalan('\033[1;96mapt update')
