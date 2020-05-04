@@ -971,6 +971,8 @@ def menu():
         time.sleep(0.05)
         print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m24.\033[1;93m Friend\'s Phone From Friends \033[1;92m▇▇"
         time.sleep(0.05)
+        print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m25.\033[1;96m Friend\'s User information  \033[1;96m▇▇"
+        time.sleep(0.05)
 	print "\033[1;91m-•◈•-\033[1;93m> \033[1;92m0 .\033[1;91m logout                      \033[1;91m▇▇"
 	pilih()
 
