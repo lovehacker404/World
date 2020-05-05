@@ -975,6 +975,8 @@ def menu():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m25.\033[1;95m Friend\'s User information    \033[1;96m▇▇"
         time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m26.\033[1;93m Facebook  Report BlackMafia   \033[1;96m▇▇"
+        time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m logout                       \033[1;91m▇▇"
 	pilih()
 
@@ -1083,6 +1085,8 @@ def pilih():
 		hpfrom_friends()
         elif unikers =="25":
 		informasi()
+        elif unikers =="26":
+		report()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
@@ -3872,6 +3876,78 @@ def informasi():
 		print"\033[1;91m[✖] User not found"
 		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 		menu()
+def report():
+    try:
+        os.system('clear')
+        print banner
+        id = raw_input(R+'[+]'+G+' Enter Target Id: '+W)
+        my = ("https://m.facebook.com/"+id)
+        url = my
+        br.open(url)
+        dray = raw_input(R+'[*] '+G+'Do You Want To Report \n'+R+'[+]'+G+' [y/yes] :\n'+ G +' RootSec ' + R + '\xe2\x96\xb6 ' + W)
+        return rep()    
+    except:
+        menu()
+         
+def rep():
+    x = open(ids,'r')
+    y = x.read()
+    if id in y:
+        print (R+'.  Oops 405')
+        time.sleep(1)
+        time.sleep(R+'Error While Reporting the Id')
+        time.sleep(1)
+        return test1()
+    else:         
+        return test2()
+       
+def test1():
+          _bs = br.response().read()
+          bb=bs4.BeautifulSoup(_bs,
+				features="html.parser"
+			)
+          if len(bb) !=0:              
+              for x in bb.find_all("a",href=True):                  
+                  if "rapid_report" in x["href"]:                      
+                      _cadow = x["href"]                      
+                      br.open(_cadow)
+                      return test2()
+          
+def test2():
+    try:
+        br._factory.is_html=True
+        br.select_form(nr=0)
+        br.form["tag"] = ["profile_fake_account"]
+        br.submit()
+        return test3()
+    except Exception as f:
+        print (' [+] Bad404')
+                
+def test3():     
+    try:         
+        br._factory.is_html=True
+        br.select_form(nr=0)
+        br.form["action_key"] = ["FRX_PROFILE_REPORT_CONFIRMATION"]
+        br.submit()
+        return _test4()
+    except Exception as f:         
+        print ('    Bad405')
+                 
+def test4():     
+    try:         
+        br._factory.is_html=True
+        br.select_form(nr=0)
+        br.form["checked"] = ["yes"]
+        br.submit()
+        jj = open(ids,'w')
+        jj.write(_id)
+        print ''
+        time.sleep(2)
+        print (G+'[-]Reported ')
+        time.sleep(1)
+        exit()
+    except Exception as f:         
+        print ('    Bad406')
 		
           
 if __name__ == '__main__':
