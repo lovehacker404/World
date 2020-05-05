@@ -3879,7 +3879,7 @@ def informasi():
 def report():
     try:
         os.system('clear')
-        print banner
+        print logo3
         id = raw_input(R+'[+]'+G+' Enter Target Id: '+W)
         my = ("https://m.facebook.com/"+id)
         url = my
