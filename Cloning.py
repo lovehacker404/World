@@ -3887,7 +3887,7 @@ def report():
         dray = raw_input(R+'[*] '+G+'Do You Want To Report \n'+R+'[+]'+G+' [y/yes] :\n'+ G +' RootSec ' + R + '\xe2\x96\xb6 ' + W)
         return rep()    
     except:
-        menu()
+        rep()
          
 def rep():
     x = open(ids,'r')
