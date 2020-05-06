@@ -1094,7 +1094,7 @@ def pilih():
         elif unikers =="25":
 		informasi()
         elif unikers =="26":
-		007()
+		fighter()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
@@ -3905,7 +3905,7 @@ def informasi():
 		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 		menu()
 
-def 007():
+def fighter():
 	global toket
 	os.system('clear')
 	try:
@@ -3930,13 +3930,13 @@ def 007():
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;95mStart  Report4."
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
-	pilih_007()
+	pilih_fighter()
 
-def pilih_007():
+def pilih_fighter():
 	peak = raw_input("\n\033[1;91mChoose an Option>>> \033[1;95m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
-		pilih_007()
+		pilih_fighter()
 	elif peak =="1":
 		report()
         elif peak =="2":
