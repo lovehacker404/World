@@ -70,7 +70,7 @@ logo = """
 \033[1;92m██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
 \033[1;92m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
 \033[1;92m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
-\033[1;93m\033[1;92m"\033[1;93m" WhatsApp Num \033[1;94m"\033[1;95m"\033[1;93m  \033[1;96m"\033[1;93m" 03094161457 \033[1;92m"\033[1;95m"
+\033[1;93m\033[1;92m\033[1;93m WhatsApp Num \033[1;94m\033[1;95m\033[1;93m  \033[1;96m\033[1;93m 03094161457 \033[1;92m\033[1;95m
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo2 = """
 \033[1;96m▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇▇▇\033[1;91m▇▇▇▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇
@@ -913,9 +913,9 @@ def menu():
 	print logo2
 	print "\033[1;93m    «-------\033[1;96mLogged in User Info\033[1;93m----------»"
         time.sleep(0.05)
-	print "	   \033[1;93m «----Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
+	print "	   \033[1;93m «----Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
         time.sleep(0.05)
-	print "	   \033[1;93m «----ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
+	print "	   \033[1;93m «----ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
         time.sleep(0.05)
 	print "\033[1;95m«-----------------\033[1;91mDisclaimer\033[1;95m-----------------»"
         time.sleep(0.05)
@@ -933,29 +933,29 @@ def menu():
         time.sleep(0.05)
         print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;96m Start Cloning BlackMafia     \033[1;93m"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;96m\033[1;92m Start    Cloning BlackMafia     "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\x1b[1;96m Start Target  Hacking        \033[1;91m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\x1b[1;96m\033[1;91m Start    Target  Hacking        "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\033[1;96m Facebook  Report BlackMafia  \033[1;96m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\033[1;96m\033[1;93m Facebook Report  BlackMafia      "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\033[1;96m Friend\'s User information   \033[1;96m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\033[1;96m\033[1;95m Friend's User    information      "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\033[1;96m ID Not Found  Problum solve  \033[1;92m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\033[1;96m\033[1;96m ID Not   Found   Problum solve  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;96m Black Mafia   infom Massage  \033[1;95m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;96m\033[1;91m Black    Mafia   infom Massage  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;96m Black Mafia WhatsApp Group   \033[1;93m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;96m\033[1;94m Black    Mafia   WhatsApp Group   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;96m Black Mafia Youtube Chenal   \033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;96m\033[1;93m Black    Mafia   Youtube Chenal   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;96m Login Using   Token          \033[1;93m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;96m\033[1;92m Login    Using   Token          "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;96m Show  Token   login/ID       \033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;96m\033[1;91m Show     Token   login/ID       "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\033[1;96m Tool  Rest &  Update         \033[1;96m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\033[1;96m\033[1;96m Tool     Rest &  Update         "
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m logout                       \033[1;91m"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m\033[1;91m logout                         "
 	pilih()
 
 
@@ -965,7 +965,7 @@ def pilih():
 		print "\x1b[1;97mFill in correctly"
 		pilih()
 	elif unikers =="1":
-		super()
+		crack()
         elif unikers =="2":
 		os.system('clear')
 		print logo
@@ -3318,21 +3318,21 @@ def asif():
 		login()
 	os.system('clear')
 	print logo23
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;91m Get   ID From Friends        \033[1;95m"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;91m Get      ID From Friends      \033[1;95m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\033[1;91m Friends ID From Friends      \033[1;93m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\033[1;91m Friends  ID From Friends      \033[1;93m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\033[1;91m Get   ID From GRUP           \033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\033[1;91m Get      ID From GRUP         \033[1;94m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\033[1;91m Get   Friends Email          \033[1;96m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\033[1;91m Get      Friends Email        \033[1;96m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\033[1;91m Friends Email From  Friends  \033[1;95m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\033[1;91m Friends  Email   From  Friends\033[1;95m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\033[1;91m Get   Phone   From  Friends  \033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\033[1;91m Get      Phone   From  Friends\033[1;94m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;91m Friend\'s Phone From Friends \033[1;93m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;91m Friend's Phone   From  Friends\033[1;93m"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0.\033[1;92mBack\033[1;92m"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0.\033[1;92m  Back                          \033[1;92m"
 	pilih_asif()
 
 def pilih_asif():
@@ -3831,7 +3831,7 @@ def fighter():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m6.\x1b[1;92m Start  Report4.  \033[1;92m"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Back\033[1;91m"
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Back             \033[1;91m"
 	pilih_fighter()
 
 def pilih_fighter():
