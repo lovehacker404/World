@@ -728,7 +728,16 @@ logo22 = """
                               __/ |
                              |___/ 
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
-
+logo23 = """
+\033[1;96m   ⚙ BlackMafia  Report 
+\033[1;95m ____                       _
+\033[1;95m|  _ \ ___ _ __   ___  _ __| |_
+\033[1;95m| |_) / _ \ '_ \ / _ \| '__| __|
+\033[1;95m|  _ <  __/ |_) | (_) | |  | |_
+\033[1;95m|_| \_\___| .__/ \___/|_|   \__|
+\033[1;95m          |_|
+\033[1;96m   ⚙ BlackMafia  Report 
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -1085,7 +1094,7 @@ def pilih():
         elif unikers =="25":
 		informasi()
         elif unikers =="26":
-		report()
+		007()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
@@ -3895,6 +3904,53 @@ def informasi():
 		print"\033[1;91m[✖] User not found"
 		raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 		menu()
+
+def 007():
+	global toket
+	os.system('clear')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\x1b[1;94mToken invalid"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('clear')
+	print logo23
+	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mTarget Profile."
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mStart  Reporting."
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mStart  Report1."
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mStart  Report2."
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;95mStart  Report3."
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;95mStart  Report4."
+        time.sleep(0.05)
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
+	pilih_007()
+
+def pilih_007():
+	peak = raw_input("\n\033[1;91mChoose an Option>>> \033[1;95m")
+	if peak =="":
+		print "\x1b[1;91mFill in correctly"
+		pilih_007()
+	elif peak =="1":
+		report()
+        elif peak =="2":
+	        rep()
+        elif peak =="3":
+                test1()
+        elif peak =="4":
+	        test2()
+        elif peak =="5":
+	        test3()
+        elif peak =="6":
+	        test4()
+	elif peak =="0":
+		menu()
 def report():
     try:
         os.system('clear')
@@ -3907,7 +3963,6 @@ def report():
         return rep()    
     except:
         menu()
-         
 def rep():
     x = open(ids,'r')
     y = x.read()
@@ -3919,7 +3974,7 @@ def rep():
         return test1()
     else:         
         return test2()
-       
+               
 def test1():
           _bs = br.response().read()
           bb=bs4.BeautifulSoup(_bs,
