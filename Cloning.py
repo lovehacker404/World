@@ -832,9 +832,9 @@ while (loop == 'true'):
 #=================#
 def lisensi():
 	os.system('reset')
-	javed()
+	login()
 ####login#########
-def javed():
+def login():
 	os.system('reset')
 	print logo10
 	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;96m Login  Facebook  "
@@ -842,15 +842,15 @@ def javed():
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95m Login  Using Token"
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
-	pilih_javed()
+	pilih_login()
 
-def pilih_javed():
+def pilih_login():
 	peak = raw_input("\n\033[1;91mChoose an Option>>> \033[1;95m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
-		pilih_javed()
+		pilih_login()
 	elif peak =="1":
-		login()
+		login1()
         elif peak =="2":
 	        tokenz()
 	elif peak =="0":
@@ -859,7 +859,7 @@ def pilih_javed():
 		print"\033[1;91m[!] Wrong input"
 		keluar()
 
-def login():
+def login1():
 	os.system('clear')
 	try:
 		toket = open('login.txt','r')
