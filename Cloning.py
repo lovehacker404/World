@@ -1125,11 +1125,11 @@ def pilih_crack():
         elif peak =="6":
 	        test()
         elif peak =="7":
-	        isi()
+	        phone()
         elif peak =="8":
 	        army()
         elif peak =="9":
-	        phone()
+	        isi()
         elif peak =="10":
 	        mail()
         elif peak =="11":
@@ -3325,7 +3325,7 @@ def asif():
 		time.sleep(1)
 		login()
 	os.system('clear')
-	print logo23
+	print logo24
 	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;91m Get      ID From Friends      "
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\033[1;91m Friends  ID From Friends      "
