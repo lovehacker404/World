@@ -363,9 +363,7 @@ logo10 = """
                        4    %
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo11 = """
-\033[1;96m                         
-                         
-                      
+\033[1;96m                                             
         _______           
     .adOOOOOOOOOba.
    dOOOOOOOOOOOOOOOb
@@ -844,15 +842,15 @@ while (loop == 'true'):
 ##### LICENSE #####
 #=================#
 def lisensi():
-	os.system('reset')
+	os.system('clear')
 	login()
 ####login#########
 def login():
-	os.system('reset')
+	os.system('clear')
 	print logo11
-	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;96m Login  Facebook  "
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;96m Login  Facebook  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95m Login  Using Token"
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;95m Login  Using Token"
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
 	pilih_login()
