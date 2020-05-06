@@ -974,7 +974,7 @@ def menu():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m25.\033[1;95m Friend\'s User information    \033[1;96m▇▇"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m26.\033[1;93m Facebook  Report BlackMafia   \033[1;96m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m26.\033[1;93m Facebook  Report BlackMafia  \033[1;96m▇▇"
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m logout                       \033[1;91m▇▇"
 	pilih()
