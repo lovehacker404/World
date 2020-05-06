@@ -828,6 +828,37 @@ while (loop == 'true'):
         print "\033[1;94mWrong Username"
         os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 
+def javed():
+	global toket
+	os.system('clear')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\x1b[1;94mToken invalid"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('clear')
+	print logo10
+	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;92m Login  Facebook  "
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;92m Login  Using Token"
+        time.sleep(0.05)
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Back             "
+	pilih_javed()
+
+def pilih_javed():
+	peak = raw_input("\n\033[1;91mChoose an Option>>> \033[1;95m")
+	if peak =="":
+		print "\x1b[1;91mFill in correctly"
+		pilih_javed()
+	elif peak =="1":
+		login()
+        elif peak =="2":
+	        tokenz()
+	elif peak =="0":
+		tik()
+
 def login():
 	os.system('clear')
 	try:
