@@ -70,7 +70,7 @@ logo = """
 \033[1;92m██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
 \033[1;92m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
 \033[1;92m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
-\033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m  ▇▇ 03094161457 ▇▇
+\033[1;93m\033[1;92m"\033[1;93m" WhatsApp Num \033[1;94m"\033[1;95m"\033[1;93m  \033[1;96m"\033[1;93m" 03094161457 \033[1;92m"\033[1;95m"
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo2 = """
 \033[1;96m▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇▇▇\033[1;91m▇▇▇▇▇┈┈┈┈╱▔▔▔▔╲┈┈┈┈▇▇
@@ -729,14 +729,14 @@ logo22 = """
                              |___/ 
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo23 = """
-\033[1;96m   ⚙ BlackMafia  Report 
+\033[1;96m    BlackMafia  Report 
 \033[1;95m ____                       _
 \033[1;95m|  _ \ ___ _ __   ___  _ __| |_
 \033[1;95m| |_) / _ \ '_ \ / _ \| '__| __|
 \033[1;95m|  _ <  __/ |_) | (_) | |  | |_
 \033[1;95m|_| \_\___| .__/ \___/|_|   \__|
 \033[1;95m          |_|
-\033[1;96m   ⚙ BlackMafia  Report 
+\033[1;96m    BlackMafia  Report 
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -913,9 +913,9 @@ def menu():
 	print logo2
 	print "\033[1;93m    «-------\033[1;96mLogged in User Info\033[1;93m----------»"
         time.sleep(0.05)
-	print "	   \033[1;93m «----Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
+	print "	   \033[1;93m «----Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
         time.sleep(0.05)
-	print "	   \033[1;93m «----ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
+	print "	   \033[1;93m «----ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
         time.sleep(0.05)
 	print "\033[1;95m«-----------------\033[1;91mDisclaimer\033[1;95m-----------------»"
         time.sleep(0.05)
@@ -925,67 +925,37 @@ def menu():
         time.sleep(0.05)
         print "\033[1;95mis your responsibility.I will not be  "
         time.sleep(0.05)
-        print "\033[1;95mheld accountableThis Tool/Channel Doesn't "
+        print "\033[1;95mheld accountable This Tool/Channel Doesn't "
         time.sleep(0.05)
         print "\033[1;95mSupport illegal activities.for any illegal "
         time.sleep(0.05)
-        print "\033[1;95mActivitieThisTool is forEducational Purpose"
+        print "\033[1;95mActivitie This Tool is for Educational Purpose"
         time.sleep(0.05)
         print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;96m Start Cloning India          \033[1;93m▇▇"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;96m Start Cloning BlackMafia     \033[1;93m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\x1b[1;96m Start Cloning Pak ID/Group   \033[1;92m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\x1b[1;96m Start Target  Hacking        \033[1;91m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\x1b[1;96m Start Cloning Indonasia      \033[1;91m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\033[1;96m Facebook  Report BlackMafia  \033[1;96m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\x1b[1;96m Start Cloning USA ID         \033[1;94m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\033[1;96m Friend\'s User information   \033[1;96m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\x1b[1;96m Start Cloning Bangladash     \033[1;91m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\033[1;96m ID Not Found  Problum solve  \033[1;92m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;96m Start Cloning All Country    \033[1;92m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;96m Black Mafia   infom Massage  \033[1;95m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\x1b[1;93m Start Cloning Group uncomplet\033[1;93m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;96m Black Mafia WhatsApp Group   \033[1;93m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\x1b[1;95m Start Target  Attack         \033[1;91m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;96m Black Mafia Youtube Chenal   \033[1;94m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;96m Start Cloning Indian Old     \033[1;94m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;96m Login Using   Token          \033[1;93m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;96m Start Cloning Pakistan Old   \033[1;96m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;96m Show  Token   login/ID       \033[1;94m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\x1b[1;95m Black Mafia   Massage        \033[1;95m▇▇"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\033[1;96m Tool  Rest &  Update         \033[1;96m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m12.\033[1;91m Login Using   Token          \033[1;93m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m13.\033[1;91m Show  Token   login/ID       \033[1;94m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m14.\033[1;91m After Cloning Data Reset     \033[1;96m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m15.\033[1;96m Start Cloning BlackMafia     \033[1;95m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m16.\033[1;96m Start Cloning Testing        \033[1;94m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m17.\033[1;92m ID Not Found  Problum solve  \033[1;92m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m18.\x1b[1;95m Get   ID From Friends        \033[1;95m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m19.\033[1;95m Friends ID From Friends      \033[1;93m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m20.\033[1;95m Get   ID From GRUP           \033[1;94m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m21.\033[1;95m Get   Friends Email          \033[1;96m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m22.\033[1;95m Friends Email From  Friends  \033[1;95m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m23.\033[1;95m Get   Phone   From  Friends  \033[1;94m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m24.\033[1;95m Friend\'s Phone From Friends  \033[1;92m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m25.\033[1;95m Friend\'s User information    \033[1;96m▇▇"
-        time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m26.\033[1;93m Facebook  Report BlackMafia  \033[1;96m▇▇"
-        time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m logout                       \033[1;91m▇▇"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m logout                       \033[1;91m"
 	pilih()
 
 
@@ -997,33 +967,24 @@ def pilih():
 	elif unikers =="1":
 		super()
         elif unikers =="2":
-		crack()
-        elif unikers =="3":
-		hack()
-        elif unikers =="4":
-		black()
-        elif unikers =="5":
-		mafia()
-        elif unikers =="6":
-		test()
-        elif unikers =="7":
-		clone_dari_member_group()
-        elif unikers =="8":
 		os.system('clear')
 		print logo
 		brute()
-        elif unikers =="9":
-		phone()
-        elif unikers =="10":
-		mail()
-        elif unikers =="11":
+        elif unikers =="3":
+		fighter()
+        elif unikers =="4":
+		asif()
+        elif unikers =="5":
+		os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
+	        menu()
+        elif unikers =="6":
 		os.system('clear')
 		print logo7
 		print "\033[1;95m«-----------------\033[1;91mMessage\033[1;95m-----------------»"
                 jalan('\033[1;92m............Massage..........')
-		jalan('\033[1;95mID Not Found Problum Salution Menu 17 Num Option')
+		jalan('\033[1;95mID Not Found Problum Salution Menu 5 Num Option')
                 jalan("\033[1;96mTermux  Data Clear Every Day")
-                jalan('\033[1;96mCommand Complet  94% ')
+                jalan('\033[1;96mCommand Complet  95% ')
                 jalan('\033[1;96mCommand Update Every day')
                 jalan("\033[1;93m.........Command...........")
                 jalan('\033[1;96mapt update')
@@ -1043,16 +1004,22 @@ def pilih():
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
-        elif unikers =="12":
+        elif unikers =="7":
+		os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
+	        menu()
+        elif unikers =="8":
+	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+	        menu()
+        elif unikers =="9":
 		tokenz()
-        elif unikers =="13":
+        elif unikers =="10":
 		os.system('reset')
 		print logo14
 		toket=open('login.txt','r').read()
 		print "\033[1;91m[+] \033[1;95mYour token\033[1;91m :\033[1;96m "+toket
 		raw_input("\n\033[1;91m[ \033[1;93mBack \033[1;91m]")
 		menu()
-	elif unikers =="14":
+	elif unikers =="11":
 		os.system('clear')
 		print logo6
 		print "\033[1;95m«-----------------\033[1;91mDataReset\033[1;95m-----------------»"
@@ -1070,31 +1037,6 @@ def pilih():
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
-        elif unikers =="15":
-		isi()
-        elif unikers =="16":
-		army()
-        elif unikers =="17":
-	        os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
-	        menu()
-        elif unikers =="18":
-		id_friends()
-        elif unikers =="19":
-		idfrom_friends()
-        elif unikers =="20":
-		id_member_grup()
-        elif unikers =="21":
-		email()
-        elif unikers =="22":
-		emailfrom_friends()
-        elif unikers =="23":
-		nomor_hp()
-        elif unikers =="24":
-		hpfrom_friends()
-        elif unikers =="25":
-		informasi()
-        elif unikers =="26":
-		fighter()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
@@ -1116,15 +1058,29 @@ def crack():
 		login()
 	os.system('clear')
 	print logo19
-	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mClone Friend List Public ID."
+	print "\033[1;93m-•◈•-\033[1;97m> \033[1;93m1 .\x1b[1;95m Start Cloning Pakistan       \033[1;92m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mBlack Mafia WhatsApp Group Pakistan."
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\x1b[1;95m Start Cloning India          \033[1;93m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mBlack Mafia Group Cloning."
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\x1b[1;95m Start Cloning Indonasia      \033[1;91m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;95mBlack Mafia Youtube Chenal."
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\x1b[1;95m Start Cloning United State   \033[1;94m"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\x1b[1;95m Start Cloning Bangladash     \033[1;91m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;95m Start Cloning All Country    \033[1;92m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;95m Start Cloning Indian Old     \033[1;94m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;95m Start Cloning Pakistan Old   \033[1;96m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;95m Start Cloning BlackMafia     \033[1;95m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;95m Start Cloning Testing        \033[1;94m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\x1b[1;95m Start Cloning Group uncomplet\033[1;93m"
+        time.sleep(0.05)
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0 .\033[1;91m Back"
 	pilih_crack()
 
 def pilih_crack():
@@ -1151,29 +1107,25 @@ def pilih_crack():
 		for i in z['data']:
 			id.append(i['id'])
         elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
-	        menu()
+	        super()
         elif peak =="3":
-                os.system('clear')
-		print logo10
-		print 42*"\033[1;96m☆"
-		idg=raw_input('\033[1;96m[+] \033[1;93mClone ID group \033[1;91m:\033[1;97m ')
-		try:
-			r=requests.get('https://graph.facebook.com/group/?id='+idg+'&access_token='+toket)
-			asw=json.loads(r.text)
-			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama group \033[1;91m:\033[1;97m "+asw['name']
-		except KeyError:
-			print"\033[1;96m[!] \x1b[1;91mGroup not found"
-			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
-			menu()
-		jalan('\033[1;96m[✺] \033[1;93mClone ID \033[1;97m...')
-		re=requests.get('https://graph.facebook.com/'+idg+'/members?fields=name,id&limit=999999999&access_token='+toket)
-		s=json.loads(re.text)
-		for p in s['data']:
-			id.append(p['id'])
+	        hack()
         elif peak =="4":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
+	        black()
+        elif peak =="5":
+	        mafia()
+        elif peak =="6":
+	        test()
+        elif peak =="7":
+	        isi()
+        elif peak =="8":
+	        army()
+        elif peak =="9":
+	        phone()
+        elif peak =="10":
+	        mail()
+        elif peak =="11":
+                clone_dari_member_group ()
 	elif peak =="0":
 		menu()
 	else:
@@ -1188,7 +1140,7 @@ def pilih_crack():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m         Start Cloning Pakistan ')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
@@ -1357,12 +1309,6 @@ def hack():
 	print logo9
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;96mClone Friend List Public ID."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;96mEnter Facebook Url Get Facebook ID."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;96mBlack Mafia WhatsApp Group Indonasia."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;96mBlack Mafia Youtube Chenal."
-        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_hack()
 
@@ -1389,15 +1335,6 @@ def pilih_hack():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-        elif peak =="2":
-	        os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
-	        menu()
-        elif peak =="3":
-	        os.system('xdg-open https://chat.whatsapp.com/D72BfJByaCRIDJcbJvOOfE')
-	        menu()
-        elif peak =="4":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
 	elif peak =="0":
 		menu()
 	else:
@@ -1412,7 +1349,7 @@ def pilih_hack():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m         Start Cloning Indonasia ')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
@@ -1573,12 +1510,6 @@ def black():
 	print logo10
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;93mClone Friend List Public ID."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;93mEnter Facebook Url Get Facebook ID."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;97mBlack Mafia WhatsApp Group USA."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;97mBlack Mafia Youtube Chenal."
-        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
 	pilih_black()
 
@@ -1605,15 +1536,6 @@ def pilih_black():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-        elif peak =="2":
-	        os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
-	        menu()
-        elif peak =="3":
-	        os.system('xdg-open https://chat.whatsapp.com/FmuKakzK8oV3Rp6gpf9Xqr')
-	        menu()
-        elif peak =="4":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
 	elif peak =="0":
 		menu()
 	else:
@@ -1628,7 +1550,7 @@ def pilih_black():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m         Start Cloning United State ')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
@@ -1792,10 +1714,6 @@ def mafia():
 	print logo11
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;95mClone Friend List Public ID."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;95mBlack Mafia WhatsApp Group Bangladash."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;95mBlack Mafia Youtube Chenal."
-        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_mafia()
 
@@ -1822,12 +1740,6 @@ def pilih_mafia():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-        elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FEs5BfBzpNY3oMSgDxo5pN')
-	        menu()
-        elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
 	elif peak =="0":
 		menu()
 	else:
@@ -1842,7 +1754,7 @@ def pilih_mafia():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m         Start Cloning Bangladash ')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
@@ -2008,10 +1920,6 @@ def test():
 	print logo12
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID Testing."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
-        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_test()
 
@@ -2038,12 +1946,6 @@ def pilih_test():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-        elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FEs5BfBzpNY3oMSgDxo5pN')
-	        menu()
-        elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
 	elif peak =="0":
 		menu()
 	else:
@@ -2058,7 +1960,7 @@ def pilih_test():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m         Start Cloning All Country ')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
@@ -2216,10 +2118,6 @@ def super():
 	print logo13
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;93mClone Friend List Public ID."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;93mBlack Mafia WhatsApp Group India."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;93mBlack Mafia Youtube Chenal."
-        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_super()
 
@@ -2246,12 +2144,6 @@ def pilih_super():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-        elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FEs5BfBzpNY3oMSgDxo5pN')
-	        menu()
-        elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
 	elif peak =="0":
 		menu()
 	else:
@@ -2266,7 +2158,7 @@ def pilih_super():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m           Start Cloning Indian')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
@@ -2593,10 +2485,6 @@ def phone():
 	print logo15
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID indian Old."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
-        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_phone()
 
@@ -2623,12 +2511,6 @@ def pilih_phone():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-        elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FEs5BfBzpNY3oMSgDxo5pN')
-	        menu()
-        elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
 	elif peak =="0":
 		menu()
 	else:
@@ -2643,7 +2525,7 @@ def pilih_phone():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m         Start Cloning Indian Old ID')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
@@ -2814,10 +2696,6 @@ def mail():
 	print logo16
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID Pakistan Old."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
-        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_mail()
 
@@ -2844,12 +2722,6 @@ def pilih_mail():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-        elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FEs5BfBzpNY3oMSgDxo5pN')
-	        menu()
-        elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
 	elif peak =="0":
 		menu()
 	else:
@@ -2864,7 +2736,7 @@ def pilih_mail():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m          Start Cloning Pakistan Old ')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
@@ -3029,10 +2901,6 @@ def isi():
 	print logo17
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID BlackMafia."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
-        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_isi()
 
@@ -3059,12 +2927,6 @@ def pilih_isi():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-        elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FEs5BfBzpNY3oMSgDxo5pN')
-	        menu()
-        elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
 	elif peak =="0":
 		menu()
 	else:
@@ -3079,7 +2941,7 @@ def pilih_isi():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m          Start Cloning Black Mafia')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
@@ -3239,10 +3101,6 @@ def army():
 	print logo4
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;92mClone Friend List Public ID Test."
         time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;92mBlack Mafia WhatsApp Group."
-        time.sleep(0.05)
-        print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;92mBlack Mafia Youtube Chenal."
-        time.sleep(0.05)
 	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;91mBack"
 	pilih_army()
 
@@ -3269,12 +3127,6 @@ def pilih_army():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-        elif peak =="2":
-	        os.system('xdg-open https://chat.whatsapp.com/FEs5BfBzpNY3oMSgDxo5pN')
-	        menu()
-        elif peak =="3":
-	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
-	        menu()
 	elif peak =="0":
 		menu()
 	else:
@@ -3289,7 +3141,7 @@ def pilih_army():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m      Plz Conect United Kingdom Proxy ')
+        jalan(' \033[1;95m          Start Cloning Testing ')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	def main(arg):
 		user = arg
@@ -3454,6 +3306,56 @@ Don't Worry Your Error ID Will Be Open After 7 Days
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 	menu()
 	
+def asif():
+	global toket
+	os.system('clear')
+	try:
+		toket=open('login.txt','r').read()
+	except IOError:
+		print"\x1b[1;94mToken invalid"
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		login()
+	os.system('clear')
+	print logo23
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;91m Get   ID From Friends        \033[1;95m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\033[1;91m Friends ID From Friends      \033[1;93m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\033[1;91m Get   ID From GRUP           \033[1;94m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\033[1;91m Get   Friends Email          \033[1;96m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\033[1;91m Friends Email From  Friends  \033[1;95m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\033[1;91m Get   Phone   From  Friends  \033[1;94m"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;91m Friend\'s Phone From Friends \033[1;93m"
+        time.sleep(0.05)
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0.\033[1;92mBack\033[1;92m"
+	pilih_asif()
+
+def pilih_asif():
+	peak = raw_input("\n\033[1;91mChoose an Option>>> \033[1;95m")
+	if peak =="":
+		print "\x1b[1;91mFill in correctly"
+		pilih_asif()
+	elif peak =="1":
+		id_friends()
+        elif peak =="2":
+	        idfrom_friends()
+        elif peak =="3":
+                id_member_grup()
+        elif peak =="4":
+	        email()
+        elif peak =="5":
+	        emailfrom_friends()
+        elif peak =="6":
+	        nomor_hp()
+        elif peak =="7":
+	        hpfrom_friends()
+	elif peak =="0":
+		menu()
 
 def id_friends():
     os.system('clear')
@@ -3917,19 +3819,19 @@ def fighter():
 		login()
 	os.system('clear')
 	print logo23
-	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mTarget Profile."
+	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;92m Target Profile.  \033[1;93m""
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;95mStart  Reporting."
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;92m Start  Reporting.\033[1;95m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95mStart  Report1."
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;92m Start  Report1.  \033[1;96m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;95mStart  Report2."
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;92m Start  Report2.  \033[1;91m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;95mStart  Report3."
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m5.\x1b[1;92m Start  Report3.  \033[1;94m"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;95mStart  Report4."
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m6.\x1b[1;92m Start  Report4.  \033[1;92m"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mBack"
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Back\033[1;91m"
 	pilih_fighter()
 
 def pilih_fighter():
