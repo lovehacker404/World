@@ -3819,7 +3819,7 @@ def fighter():
 		login()
 	os.system('clear')
 	print logo23
-	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;92m Target Profile.  \033[1;93m""
+	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;92m Target Profile.  \033[1;93m"
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;92m Start  Reporting.\033[1;95m"
         time.sleep(0.05)
