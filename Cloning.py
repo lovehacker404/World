@@ -738,6 +738,14 @@ logo23 = """
 \033[1;95m          |_|
 \033[1;96m    BlackMafia  Report 
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo24 = """
+\033[1;96m____       _        _ _
+|  _ \  ___| |_ __ _(_) |
+| | | |/ _ \ __/ _` | | |
+| |_| |  __/ || (_| | | |
+|____/ \___|\__\__,_|_|_|
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -1293,7 +1301,7 @@ _______¶¶¶_________¶______¶_________¶¶¶______
               \033[1;91m +923094161457"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
-	menu()
+	crack()
         
 def hack():
 	global toket
@@ -1494,7 +1502,7 @@ Don't Worry Your Error ID Will Be Open After 7 Days
               \033[1;91m +923094161457"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
-	menu()
+	crack()
 
 def black():
 	global toket
@@ -1698,7 +1706,7 @@ ______________☆____________★______________
               \033[1;91m +923094161457"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
-	menu()
+	crack()
          
 def mafia():
 	global toket
@@ -1904,7 +1912,7 @@ Don't Worry Your Error ID Will Be Open After 7 Days
               \033[1;94m +923094161457"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-	menu()
+	crack()
 
 def test():
 	global toket
@@ -2102,7 +2110,7 @@ Don't Worry Your Error ID Will Be Open After 7 Days
               \033[1;94m +923094161457"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-	menu()
+	crack()
           
 def super():
 	global toket
@@ -2310,7 +2318,7 @@ Don't Worry Your Error ID Will Be Open After 7 Days
               \033[1;94m +923094161457"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-	menu()
+	crack()
 
 def clone_dari_member_group():
 	global toket
@@ -2512,7 +2520,7 @@ def pilih_phone():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="0":
-		menu()
+		crack()
 	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_phone()
@@ -2680,7 +2688,7 @@ def pilih_phone():
               \033[1;94m +923094161457"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-	menu()
+	crack()
           
 def mail():
 	global toket
@@ -2885,7 +2893,7 @@ Don't Worry Your Error ID Will Be Open After 7 Days
               \033[1;94m +923094161457"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-	menu()
+	crack()
           
 def isi():
 	global toket
@@ -3085,7 +3093,7 @@ Don't Worry Your Error ID Will Be Open After 7 Days
               \033[1;94m +923094161457"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-	menu()
+	crack()
           
 def army():
 	global toket
@@ -3304,7 +3312,7 @@ Don't Worry Your Error ID Will Be Open After 7 Days
               \033[1;94m +923094161457"""
 	
 	raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-	menu()
+	crack()
 	
 def asif():
 	global toket
@@ -3332,6 +3340,8 @@ def asif():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;91m Friend's Phone   From  Friends"
         time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;91m Get All  Information   From  Friends"
+        time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;92m Back                          "
 	pilih_asif()
 
@@ -3354,6 +3364,8 @@ def pilih_asif():
 	        nomor_hp()
         elif peak =="7":
 	        hpfrom_friends()
+        elif peak =="8":
+                informasi()
 	elif peak =="0":
 		menu()
 
@@ -3389,11 +3401,11 @@ def id_friends():
             print '\x1b[1;91m[+] \x1b[1;97mFile Save \x1b[1;91m: \x1b[1;97m' + save_id
             bz.close()
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except IOError:
             print '\x1b[1;91m[!] Error when creating file'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except (KeyboardInterrupt, EOFError):
             print '\x1b[1;91m[!] Stopped'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
@@ -3402,7 +3414,7 @@ def id_friends():
             os.remove(save_id)
             print '\x1b[1;91m[!] An error occurred'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] No connection'
             keluar()
@@ -3430,7 +3442,7 @@ def idfrom_friends():
             except KeyError:
                 print '\x1b[1;91m[!] Not be friends'
                 raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-                menu()
+                asif()
 
             r = requests.get('https://graph.facebook.com/' + idt + '?fields=friends.limit(5000)&access_token=' + toket)
             z = json.loads(r.text)
@@ -3453,7 +3465,7 @@ def idfrom_friends():
         except IOError:
             print '\x1b[1;91m[!] Error when creating file'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except (KeyboardInterrupt, EOFError):
             print '\x1b[1;91m[!] Stopped'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
@@ -3485,7 +3497,7 @@ def id_member_grup():
             except KeyError:
                 print '\x1b[1;91m[!] Group not found'
                 raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-                menu()
+                asif()
 
             simg = raw_input('\x1b[1;91m[+] \x1b[1;97mSave File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
             b = open(simg, 'w')
@@ -3504,7 +3516,7 @@ def id_member_grup():
             print '\x1b[1;91m[+] \x1b[1;97mFile saved \x1b[1;91m: \x1b[1;97m' + simg
             b.close()
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except IOError:
             print '\x1b[1;91m[!] Error when creating file'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
@@ -3512,7 +3524,7 @@ def id_member_grup():
         except (KeyboardInterrupt, EOFError):
             print '\x1b[1;91m[!] Stopped'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except KeyError:
             os.remove(simg)
             print '\x1b[1;91m[!] Group not found'
@@ -3559,20 +3571,20 @@ def email():
             print '\x1b[1;91m[+] \x1b[1;97mFile saved \x1b[1;91m: \x1b[1;97m' + mails
             mpsh.close()
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except IOError:
             print '\x1b[1;91m[!] Error when creating file'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except (KeyboardInterrupt, EOFError):
             print '\x1b[1;91m[!] Stopped'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except KeyError:
             os.remove(mails)
             print '\x1b[1;91m[!] An error occurred'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] No connection'
             keluar()
@@ -3600,7 +3612,7 @@ def emailfrom_friends():
             except KeyError:
                 print '\x1b[1;91m[!] Not be friends'
                 raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-                menu()
+                asif()
 
             mails = raw_input('\x1b[1;91m[+] \x1b[1;92mSave File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
             r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
@@ -3624,15 +3636,15 @@ def emailfrom_friends():
             print '\x1b[1;91m[+] \x1b[1;97mFile saved \x1b[1;91m: \x1b[1;97m' + mails
             mpsh.close()
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except IOError:
             print '\x1b[1;91m[!] Error when creating file'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            grab()
+            asif()
         except (KeyboardInterrupt, EOFError):
             print '\x1b[1;91m[!] Stopped'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] No connection'
             keluar()
@@ -3675,20 +3687,20 @@ def nomor_hp():
             print '\x1b[1;91m[+] \x1b[1;97mFile saved \x1b[1;91m: \x1b[1;97m' + noms
             no.close()
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except IOError:
             print '\x1b[1;91m[!] Error when creating file'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except (KeyboardInterrupt, EOFError):
             print '\x1b[1;91m[!] Stopped'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except KeyError:
             os.remove(noms)
             print '\x1b[1;91m[!] An error occurred '
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;91m[\xe2\x9c\x96] No connection'
             keluar()
@@ -3716,7 +3728,7 @@ def hpfrom_friends():
             except KeyError:
                 print '\x1b[1;91m[!] Not be friends'
                 raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-                menu()
+                asif()
 
             noms = raw_input('\x1b[1;91m[+] \x1b[1;95mSave File \x1b[1;97mext(file.txt) \x1b[1;91m: \x1b[1;97m')
             r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
@@ -3740,15 +3752,15 @@ def hpfrom_friends():
             print '\x1b[1;91m[+] \x1b[1;96mFile saved \x1b[1;91m: \x1b[1;97m' + noms
             no.close()
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            menu()
+            asif()
         except IOError:
             print '\x1b[1;95m[!] Make file failed'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            manu()
+            asif()
         except (KeyboardInterrupt, EOFError):
             print '\x1b[1;91m[!] Stopped'
             raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-            manu()
+            asif()
         except requests.exceptions.ConnectionError:
             print '\x1b[1;95m[\xe2\x9c\x96] No connection'
             keluar()
@@ -3799,7 +3811,7 @@ def informasi():
 					except KeyError: print '\033[1;91m                   ~ \033[1;91mNot found'
 			except KeyError: pass
 			raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
-			menu()
+			asif()
 		else:
 			pass
 	else:
@@ -3864,7 +3876,7 @@ def report():
         dray = raw_input(R+'[*] '+G+'Do You Want To Report \n'+R+'[+]'+G+' [y/yes] :\n'+ G +' RootSec ' + R + '\xe2\x96\xb6 ' + W)
         return rep()    
     except:
-        menu()
+        fighter()
 def rep():
     x = open(ids,'r')
     y = x.read()
