@@ -756,7 +756,6 @@ logo25 = """
 \033[1;93m | | (_) | (_| | | | | |
 \033[1;93m |_|\___/ \__, |_|_| |_|
 \033[1;93m          |___/
-\033[1;93m 
 \033[1;95m BlackMafia  Login 
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 
@@ -3918,7 +3917,7 @@ def report():
         my = ("https://m.facebook.com/"+id)
         url = my
         br.open(url)
-        dray = raw_input(R+'[*] '+G+'Do You Want To Report \n'+R+'[+]'+G+' [y/yes] :\n'+ G +' RootSec ' + R + '\xe2\x96\xb6 ' + W)
+        dray = raw_input(R+'[*] '+G+'Do You Want To Report \n'+R+'[+]'+G+' [y/n] :\n'+ G +' BlackMafia ' + R + '  ' + W)
         return rep()    
     except:
         fighter()
