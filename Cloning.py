@@ -828,23 +828,20 @@ while (loop == 'true'):
         print "\033[1;94mWrong Username"
         os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 
+##### LICENSE #####
+#=================#
+def lisensi():
+	os.system('reset')
+	javed()
+####login#########
 def javed():
-	global toket
-	os.system('clear')
-	try:
-		toket=open('login.txt','r').read()
-	except IOError:
-		print"\x1b[1;94mToken invalid"
-		os.system('rm -rf login.txt')
-		time.sleep(1)
-		login()
-	os.system('clear')
+	os.system('reset')
 	print logo10
-	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;92m Login  Facebook  "
+	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;96m Login  Facebook  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;92m Login  Using Token"
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;95m Login  Using Token"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Back             "
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
 	pilih_javed()
 
 def pilih_javed():
@@ -857,7 +854,10 @@ def pilih_javed():
         elif peak =="2":
 	        tokenz()
 	elif peak =="0":
-		tik()
+		keluar()
+        else:
+		print"\033[1;91m[!] Wrong input"
+		keluar()
 
 def login():
 	os.system('clear')
