@@ -1174,11 +1174,11 @@ def pilih_crack():
         elif peak =="7":
 	        phone()
         elif peak =="8":
-	        army()
+	        mail()
         elif peak =="9":
 	        isi()
         elif peak =="10":
-	        mail()
+	        army()
         elif peak =="11":
                 clone_dari_member_group ()
 	elif peak =="0":
