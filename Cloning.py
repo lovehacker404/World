@@ -852,6 +852,8 @@ def login():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;95m Login  Using Token"
         time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m3.\x1b[1;95m Get Access Token App Fb"
+        time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
 	pilih_login()
 
@@ -864,6 +866,9 @@ def pilih_login():
 		login1()
         elif peak =="2":
 	        tokenz()
+        elif peak =="2":
+	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
+	        login()
 	elif peak =="0":
 		keluar()
         else:
