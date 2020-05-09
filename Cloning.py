@@ -1003,11 +1003,13 @@ def menu():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m8 .\033[1;96m\033[1;93m Black    Mafia   Youtube Chenal   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;96m\033[1;92m Login    Using   Token          "
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;96m\033[1;93m Special  Token   BlackMafia   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;96m\033[1;91m Show     Token   login/ID       "
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10 .\033[1;96m\033[1;92m Login    Using   Token          "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\033[1;96m\033[1;96m Tool     Rest &  Update         "
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\033[1;96m\033[1;91m Show     Token   login/ID       "
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m12.\033[1;96m\033[1;96m Tool     Rest &  Update         "
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m\033[1;91m logout                         "
 	pilih()
@@ -1065,15 +1067,17 @@ def pilih():
 	        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 	        menu()
         elif unikers =="9":
-		tokenz()
+                get(data)()
         elif unikers =="10":
+		tokenz()
+        elif unikers =="11":
 		os.system('reset')
 		print logo14
 		toket=open('login.txt','r').read()
 		print "\033[1;91m[+] \033[1;95mYour token\033[1;91m :\033[1;96m "+toket
 		raw_input("\n\033[1;91m[ \033[1;93mBack \033[1;91m]")
 		menu()
-	elif unikers =="11":
+	elif unikers =="12":
 		os.system('clear')
 		print logo6
 		print "\033[1;95m«-----------------\033[1;91mDataReset\033[1;95m-----------------»"
@@ -1202,7 +1206,7 @@ def pilih_crack():
 		global cekpoint,oks
 		user = arg
 		try:
-			os.mkdir('out')
+			os.mkdir('cookie')
 		except OSError:
 			pass #Dev:love_hacker
 		try:
@@ -2520,6 +2524,35 @@ def tokenz():
 			login()
 		else:
 			keluar()
+
+def get(data):
+	print '[*] Generate access token '
+
+	try:
+		os.mkdir('cookie')
+	except OSError:
+		pass
+
+	b = open('cookie/token.log','w')
+	try:
+		r = requests.get('https://api.facebook.com/restserver.php',params=data)
+		a = json.loads(r.text)
+
+		b.write(a['access_token'])
+		b.close()
+		print '[*] successfully generate access token'
+		print '[*] Your access token is stored in cookie/token.log'
+		menu()
+	except KeyError:
+		print '[!] Failed to generate access token'
+		print '[!] Check your connection / email or password'
+		os.remove('cookie/token.log')
+		menu()
+	except requests.exceptions.ConnectionError:
+		print '[!] Failed to generate access token'
+		print '[!] Connection error !!!'
+		os.remove('cookie/token.log')
+		menu()
 
 def phone():
 	global toket
