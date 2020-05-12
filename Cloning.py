@@ -820,7 +820,7 @@ jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇�
 print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
 
 CorrectUsername = "love"
-CorrectPassword = "lovehacker"
+CorrectPassword = "
 
 loop = 'true'
 while (loop == 'true'):
