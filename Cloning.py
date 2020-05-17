@@ -404,10 +404,10 @@ logo13 = """
              ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
                !:~~~ .:!M"T#$$$$WX??#MRRMMM!
                ~?WuxiW*`   `"#$$$$8!!!!??!!!
-             :X- M$$$$       `"T#$T~!8$WUXU~
+             :X- M$$$$ \033[1;93mBlack \033[1;95m`"T#$T~!8$WUXU~
             :%`  ~#$$$m:        ~!~ ?$$$$$$
           :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
-.....   -~~:<` !    ~?T#$$@@W@*?$$      /`
+.....   -~~:<` !    ~?T#$$@@W@*?$$ \033[1;93mMafia \033[1;95m/`
 W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
 #"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`
 :::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~
@@ -819,8 +819,8 @@ jalan("\033[1;93m▇▇\033[1;92m         WhatsApp  Num 03094161457    \033[1;93
 jalan("\033[1;93m ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
 print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
 
-CorrectUsername = "love"
-CorrectPassword = "
+CorrectUsername = "Black"
+CorrectPassword = "Mafia"
 
 loop = 'true'
 while (loop == 'true'):
@@ -973,6 +973,8 @@ def menu():
         time.sleep(0.05)
 	print "\033[1;95m«-----------------\033[1;91mDisclaimer\033[1;95m-----------------»"
         time.sleep(0.05)
+        print "\033[1;93m       This Tool is for Educational Purpose"
+        time.sleep(0.05)
         print "\033[1;95mThis presentation is for educational"
         time.sleep(0.05)
         print "\033[1;95mpurposes ONLY.How you use this information "
@@ -1048,7 +1050,7 @@ def pilih():
                 jalan('\033[1;96mpkg install git')
                 jalan('\033[1;96mpip2 install requests')
                 jalan('\033[1;96mpip2 install mechanize') 
-                jalan("\033[1;96mgit clone https://github.com/lovehackerAsif/World")
+                jalan("\033[1;96mgit clone https://github.com/lovehacker404/World")
                 jalan('\033[1;96mcd World')
                 jalan('\033[1;96mpython2 Cloning.py')
                 jalan('\033[1;96mUser: love')
