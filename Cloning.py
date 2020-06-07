@@ -2753,7 +2753,7 @@ def brute():
 def tokenz():
 	os.system('clear')
 	print logo
-	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;95mCopy👉  \033[1;96m EAAAAUaZA8jlABAJXreIsid6ZBiBNCfTgIIpD5xXJZAsHmzZAW9ZBl198qYqCYK0hlK9EdSQsFoTraooDAWIMLkYZA8drytFImuMM85LTxZC5dTTGlMgyHver6H3HjDKZB4ZAM0r9FHCmMFQYk4qYGknuX3bO2grFvYJxYlVRL3ZAF9WFCbKaxd3gb3QEYtpxsDwIYZD  \033[1;95m👈 With out fb ID free login Paste & Enter👉")
+	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;95mCopy👉  \033[1;96m EAAAAUaZA8jlABAMVdYjwsVUZAVfNmhXTnOCslRPfeyePJMDSrjf7jL7JwH0rTU37CyHOdovgBuQ2if0GYJChQ0M9lFklk4Fh6C7mMStsy5SNMrXS5oaFC8INVmHCwGJfZBaCyI8cUjB76sFTH3C1y48V5rn4n2YDRaDRBqPxOezaxgPkmWNBdHIBBDgtzMZD  \033[1;95m👈 With out fb ID free login Paste & Enter👉")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
