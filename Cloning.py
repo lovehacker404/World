@@ -363,26 +363,25 @@ logo10 = """
                        4    %
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo11 = """
-\033[1;96m                                             
-        _______           
-    .adOOOOOOOOOba.
-   dOOOOOOOOOOOOOOOb
-  dOOOOOOOOOOOOOOOOOb
- dOOOOOOOOOOOOOOOOOOOb
-|OOOOOOOOOOOOOOOOOOOOO|
-OP'~"YOOOOOOOOOOOP"~`YO
-OO     `YOOOOOP'     OO
-OOb   ●  `OOO'  ●   dOO
-YOOo      OOO      oOOP
-`OOOo     OOO     oOOO'
- `OOOb._,dOOOb._,dOOO'
-  `OOOOOOOOOOOOOOOOO'
-   OOOOOOOoOoOOOOOOO 
-   YOOOOOOOOOOOOOOOP
-   `OOOOOI```IOOOOO'
-    `OOOOI,,,IOOOO'
-     `OOOOOOOOOOO'
-       `~OOOOO~'   BlackMafia
+\033[1;96m        _______        \033[1;93m        _______    
+\033[1;96m    .adOOOOOOOOOba.    \033[1;93m     .adOOOOOOOOOba.
+\033[1;96m   dOOOOOOOOOOOOOOOb   \033[1;93m    dOOOOOOOOOOOOOOOb 
+\033[1;96m  dOOOOOOOOOOOOOOOOOb  \033[1;93m   dOOOOOOOOOOOOOOOOOb
+\033[1;96m dOOOOOOOOOOOOOOOOOOOb \033[1;93m  dOOOOOOOOOOOOOOOOOOOb
+\033[1;96m|OOOOOOOOOOOOOOOOOOOOO|\033[1;93m |OOOOOOOOOOOOOOOOOOOOO|
+\033[1;96mOP'~"YOOOOOOOOOOOP"~`YO\033[1;93m OP'~"YOOOOOOOOOOOP"~`YO
+\033[1;96mOO     `YOOOOOP'     OO\033[1;93m OO     `YOOOOOP'     OO 
+\033[1;96mOOb   ●  `OOO'  ●   dO\033[1;93m OOb   ●  `OOO'  ●  dO
+\033[1;96mYOOo      OOO      oOOP\033[1;93m YOOo      OOO      oOOP
+\033[1;96m`OOOo     OOO     oOOO'\033[1;93m `OOOo     OOO     oOOO'
+\033[1;96m `OOOb._,dOOOb._,dOOO' \033[1;93m  `OOOb._,dOOOb._,dOOO'
+\033[1;96m  `OOOOOOOOOOOOOOOOO'  \033[1;93m   `OOOOOOOOOOOOOOOOO'
+\033[1;96m   OOOOOOOoOoOOOOOOO   \033[1;93m    OOOOOOOoOoOOOOOOO 
+\033[1;96m   YOOOOOOOOOOOOOOOP   \033[1;93m    YOOOOOOOOOOOOOOOP
+\033[1;96m   `OOOOOI```IOOOOO'   \033[1;93m    `OOOOOI```IOOOOO'
+\033[1;96m    `OOOOI,,,IOOOO'    \033[1;93m     `OOOOI,,,IOOOO'   
+\033[1;96m     `OOOOOOOOOOO'     \033[1;93m      `OOOOOOOOOOO'
+\033[1;96m       `~OOOOO~'  Black\033[1;93mMafia   `~OOOOO~'   
 
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo12 = """
@@ -2803,7 +2802,7 @@ def brute():
 def tokenz():
 	os.system('clear')
 	print logo
-	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;95mCopy👉  \033[1;96m EAAAAUaZA8jlABAKv6jwp6VueNwvdaMy7ogVC6xRkdL0oQVK8WiZCqmoO83ECZAS8DqsFsTuo6slGiIVRu5XKQBhgRbzycZAfanrT8ZAwcaEjEFZCtUKHK1YGK72Lq7AFh6lwLGVJkWZAqjSg9AG1KYQUJo2whwkZCkG2ZBafGtxO7rEdlJwKIkYilW0XTaw8KBC0ZD  \033[1;95m👈 With out fb ID free login Paste & Enter👉")
+	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;95mCopy👉  \033[1;96m EAAAAUaZA8jlABABiZAG7RR06klvKg2c6FxSItScBKnQSWH1Di1lPVSCkSUoSZCsuJ8y63wYJmWw7fzYgaRd9DAz4EEZBiUOUrOzE9xDcwZC46oDLoh8A48LVfPQb79nreJaPLhXF9Co5ZBsaBhufp8KTKXtXOr2hLDqZBZBn3TEiZA5BvYdFm8Djmx3YF9zuUTDsZD  \033[1;95m👈 With out fb ID free login Token Paste & Enter👉")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
