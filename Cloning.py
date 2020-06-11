@@ -371,7 +371,7 @@ logo11 = """
 \033[1;96m|OOOOOOOOOOOOOOOOOOOOO|\033[1;93m |OOOOOOOOOOOOOOOOOOOOO|
 \033[1;96mOP'~"YOOOOOOOOOOOP"~`YO\033[1;93m OP'~"YOOOOOOOOOOOP"~`YO
 \033[1;96mOO     `YOOOOOP'     OO\033[1;93m OO     `YOOOOOP'     OO 
-\033[1;96mOOb   ●  `OOO'  ●   dO\033[1;93m OOb   ●  `OOO'  ●  dO
+\033[1;96mOOb   ●  `OOO'  ●   dO\033[1;93m  OOb   ●  `OOO'  ●   dO
 \033[1;96mYOOo      OOO      oOOP\033[1;93m YOOo      OOO      oOOP
 \033[1;96m`OOOo     OOO     oOOO'\033[1;93m `OOOo     OOO     oOOO'
 \033[1;96m `OOOb._,dOOOb._,dOOO' \033[1;93m  `OOOb._,dOOOb._,dOOO'
