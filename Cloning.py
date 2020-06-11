@@ -394,28 +394,28 @@ logo12 = """
  
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo13 = """
-\033[1;95m•BlackMafia	
-                      :::!~!!!!!:.
-                  .xUHWH!! !!?M88WHX:.
-                .X*#M@$!!  !X!M$$$$$$WWx:.
-               :!!!!!!?H! :!$!$$$$$$$$$$8X:
-              !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
-             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
-             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
-               !:~~~ .:!M"T#$$$$WX??#MRRMMM!
-               ~?WuxiW*`   `"#$$$$8!!!!??!!!
-             :X- M$$$$ \033[1;93mBlack \033[1;95m`"T#$T~!8$WUXU~
-            :%`  ~#$$$m:        ~!~ ?$$$$$$
-          :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
-.....   -~~:<` !    ~?T#$$@@W@*?$$ \033[1;93mMafia \033[1;95m/`
-W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
-#"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`
-:::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~
-.~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `
-Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
-$R@i.~~ !     :   ~$$$$$B$$en:``     
-?MXT@Wx.~    :     ~"##*$$$$M~      
-\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+\033[1;92m•BlackMafia	
+\033[1;97m                      :::!~!!!!!:.
+\033[1;97m                  .xUHWH!! !!?M88WHX:.
+\033[1;97m                .X*#M@$!!  !X!M$$$$$$WWx:.
+\033[1;97m               :!!!!!!?H! :!$!$$$$$$$$$$8X:
+\033[1;97m              !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
+\033[1;97m             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
+\033[1;97m             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
+\033[1;97m               !:~~~ .:!M"T#$$$$WX??#MRRMMM!
+\033[1;91m               ~?WuxiW*`   `"#$$$$8!!!!??!!!
+\033[1;91m             :X- M$$$$ \033[1;93mBlack \033[1;95m`"T#$T~!8$WUXU~
+\033[1;91m            :%`  ~#$$$m:        ~!~ ?$$$$$$
+\033[1;91m          :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
+\033[1;92m.....   -~~:<` !    ~?T#$$@@W@*?$$ \033[1;93mMafia \033[1;95m/`
+\033[1;92mW$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
+\033[1;92m#"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`
+\033[1;92m:::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~
+\033[1;92m.~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `
+\033[1;92mWi.~!X$?!-~    : ?$$$B$Wu("**$RM!
+\033[1;97m$R@i.~~ !     :   ~$$$$$B$$en:``     
+\033[1;97m?MXT@Wx.~    :     ~"##*$$$$M~      
+\033[1;95m\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo14 = """
 \033[1;96m            ___           _,.---,---.,_
             |         ,;~'             '~;, 
@@ -782,6 +782,29 @@ reaksigrup = []
 komen = []
 komengrup = []
 listgrup = []
+vulnot = "\033[31mNot Vuln"
+vuln = "\033[32mVuln"
+back = 0
+threads = []
+sucessful = []
+checkpoint = []
+oks = []
+action_failed = []
+idfriends = []
+idfromfriends = []
+member_id = []
+email= []
+number = []
+id = []
+em = []
+email_from_friends = []
+hp = []
+hpfromfriends = []
+reaction = []
+reactiongroup = []
+comment = []
+group_comment = []
+listgroup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
@@ -1565,9 +1588,9 @@ def pilih_crack():
 	p.map(main, id)
 	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 	print "  \033[1;91m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
-	print '\033[1;95mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
+	print '\033[1;95mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (Back)↩\033[1;97m....'
         print '\033[1;95mNext Type (python2 Cloning.py) Next login facebook Start Cloning\033[1;97m....'
-	print"\033[1;92mTotal Live/\x1b[1;91mError \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
+	print"\033[1;92mTotal Live/\x1b[1;91mError \033[1;93m: \033[1;92m"+str(len(oks))+"\033[1;95m/\033[1;91m"+str(len(cekpoint))
 	print """
  ____________¶¶¶1¶¶_________¶¶¶¶¶¶¶___________ 
 _________¶¶¶111¶¶___________¶¶111¶¶¶¶________ 
