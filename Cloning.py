@@ -4226,7 +4226,7 @@ def pilih_fighter():
 		pilih_fighter()
         elif peak =="1":
 	        os.system('xdg-open https://m.facebook.com/help/contact/228813257197480?refid=69')
-	        login()
+	        pilih()
 	elif peak =="2":
 		report()
         elif peak =="3":
