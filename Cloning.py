@@ -851,7 +851,7 @@ print  """
 \033[1;91m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 jalan("\033[1;92m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠋⠉⠀⠀⠀⠀⠉⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ")
-jalan("\033[1;92m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉\033[1;95m⠀ BlackMafia⠀\033[1;92m⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ")
+jalan("\033[1;92m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉\033[1;95m⠀ BlackMafia⠀\033[1;92m⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ")
 jalan("\033[1;92m⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ")
 jalan("\033[1;92m⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣆⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ") 
 jalan("\033[1;92m⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⡏⠀⠀⠀⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ")
@@ -1021,23 +1021,23 @@ def menu():
         time.sleep(0.05)
 	print "	   \033[1;93m «----ID\033[1;97m:\033[1;92m"+id+"\x1b[1;96m              "
         time.sleep(0.05)
-	print "\033[1;95m«-----------------\033[1;91mDisclaimer\033[1;95m-----------------»"
+	print "\033[1;95m«-----------------\033[1;91mDisclaimer\033[1;95m---------------»"
         time.sleep(0.05)
-        print "\033[1;43m       \033[1;31mThis Tool is for Educational Purpose    \033[1;0m"
+        print "\033[1;43m       \033[1;31mThis Tool is for Educational Purpose   \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;45m\033[1;34mThis presentation is for educational           \033[1;0m"
+        print "\033[1;45m\033[1;34mThis presentation is for educational          \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;45m\033[1;34mpurposes ONLY.How you use this information     \033[1;0m"
+        print "\033[1;45m\033[1;34mpurposes ONLY.How you use this information    \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;45m\033[1;34mis your responsibility.I will not be           \033[1;0m  "
+        print "\033[1;45m\033[1;34mis your responsibility.I will not be          \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;45m\033[1;34mheld accountable This Tool/Channel Doesn't     \033[1;0m"
+        print "\033[1;45m\033[1;34mheld accountable This Tool/Channel Doesn't    \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;45m\033[1;34mSupport illegal activities.for any illegal     \033[1;0m"
+        print "\033[1;45m\033[1;34mSupport illegal activities.for any illegal    \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;45m\033[1;34mActivitie This Tool is for Educational Purpose \033[1;0m"
+        print "\033[1;45m\033[1;34mActivitie This Tool is for Educational Purpose\033[1;0m"
         time.sleep(0.05)
-        print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
+        print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m---------------»"
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m1 .\x1b[1;96m\033[1;92m Start    Cloning BlackMafia     "
         time.sleep(0.05)
@@ -1085,8 +1085,8 @@ def pilih():
 	        menu()
         elif unikers =="6":
 		os.system('clear')
-		print logo7
-		print "\033[1;95m«-----------------\033[1;91mMessage\033[1;95m-----------------»"
+		print logo10
+		print "\033[1;95m«-----------------\033[1;91mMessage\033[1;95m---------------»"
                 jalan('\033[1;92m............Massage..........')
 		jalan('\033[1;95mID Not Found Problum Salution Menu 5 Num Option')
                 jalan("\033[1;96mTermux  Data Clear Every Day")
@@ -1377,7 +1377,7 @@ def pilih():
 	elif unikers =="11":
 		os.system('clear')
 		print logo6
-		print "\033[1;95m«-----------------\033[1;91mDataReset\033[1;95m-----------------»"
+		print "\033[1;95m«-----------------\033[1;91mDataReset\033[1;95m---------------»"
                 jalan('\033[1;96m=10%')
                 jalan("\033[1;96m==20%")
                 jalan('\033[1;96m===30%')
@@ -1447,7 +1447,7 @@ def pilih_crack():
 		os.system('clear')
 		print logo
 		jjt = raw_input("\033[1;96m[+] \033[1;93mEnter ID\033[1;93m: \033[1;97m")
-		print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
+		print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m---------------»"
 		try:
 			m = requests.get("https://graph.facebook.com/"+jjt+"?access_token="+toket)
 			td = json.loads(m.text)
@@ -1493,10 +1493,10 @@ def pilih_crack():
 	for o in titik:
 		print("\r\033[1;93mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
-	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
+	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
         jalan(' \033[1;95m         Start Cloning Pakistan ')
-	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
+	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m------------------»"
 	
 			
 	def main(arg):
@@ -1700,10 +1700,10 @@ def pilih_hack():
 	for o in titik:
 		print("\r\033[1;93mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
-	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
+	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
         jalan(' \033[1;95m         Start Cloning Indonasia ')
-	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
+	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m------------------»"
 	
 			
 	def main(arg):
