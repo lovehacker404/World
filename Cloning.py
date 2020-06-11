@@ -372,7 +372,7 @@ logo11 = """
 |OOOOOOOOOOOOOOOOOOOOO|
 OP'~"YOOOOOOOOOOOP"~`YO
 OO     `YOOOOOP'     OO
-OOb   ●  `OOO' ●   dOO
+OOb   ●  `OOO'  ●   dOO
 YOOo      OOO      oOOP
 `OOOo     OOO     oOOO'
  `OOOb._,dOOOb._,dOOO'
@@ -1500,7 +1500,7 @@ def pilih_crack():
 	
 			
 	def main(arg):
-		global cekpoint,oks
+		global cekpoint,sucessful
 		user = arg
 		try:
 			os.mkdir('cookie')
