@@ -4204,17 +4204,17 @@ def fighter():
 	print logo23
         print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m1.\x1b[1;92m CoviD19 Death Report.  "
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;92m Target Profile.  "
+	print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m2.\x1b[1;92m Target  Profile.  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;92m Start  Reporting."
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m3.\x1b[1;92m Start   Reporting."
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;92m Start  Report1.  "
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m4.\x1b[1;92m Start   Report1.  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m5.\x1b[1;92m Start  Report2.  "
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m5.\x1b[1;92m Start   Report2.  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m6.\x1b[1;92m Start  Report3.  "
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m6.\x1b[1;92m Start   Report3.  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m7.\x1b[1;92m Start  Report4.  "
+        print "\033[1;93m-•◈•-\033[1;97m> \033[1;91m7.\x1b[1;92m Start   Report4.  "
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Back             "
 	pilih_fighter()
@@ -4226,7 +4226,7 @@ def pilih_fighter():
 		pilih_fighter()
         elif peak =="1":
 	        os.system('xdg-open https://m.facebook.com/help/contact/228813257197480?refid=69')
-	        pilih()
+	        pilih_fighter()
 	elif peak =="2":
 		report()
         elif peak =="3":
