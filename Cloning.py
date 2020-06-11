@@ -415,7 +415,7 @@ logo13 = """
 \033[1;97mWi.~!X$?!-~    : \033[1;92m?$$$B$Wu("**$RM!
 \033[1;97m$R@i.~~ !     :   \033[1;92m~$$$$$B$$en:``     
 \033[1;97m?MXT@Wx.~    :     \033[1;92m~"##*$$$$M~   
-\033[1;47m                   \033[1;31mBlackMafia                    \033[1;0m     
+\033[1;47m                  \033[1;31mBlackMafia                  \033[1;0m     
 \033[1;95m\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 logo14 = """
 \033[1;96m            ___           _,.---,---.,_
@@ -824,7 +824,38 @@ print  """
 \033[1;91m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
 \033[1;91m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
-jalan("\033[1;93m┳┻┳┻▇▇▇▇▇▇     ╭━━━━╮╱▔▔▔╲      ▇▇▇▇▇▇┳┻┳┻┳┻")
+jalan("\033[1;91m                     .ed$$$$ $$$$$$$be.")
+jalan("\033[1;91m                   -$           ^****$$$e.")
+jalan("\033[1;91m                 .$                   *$$$c")
+jalan("\033[1;91m                /                      *4$$b")
+jalan("\033[1;91m               d  3                      $$$$")
+jalan("\033[1;91m               $  *                   .$$$$$$")
+jalan("\033[1;91m              .$  ^c           $$$$$e$$$$$$$$.")
+jalan("\033[1;91m              d$L  4.         4$$$$$$$$$$$$$$b")
+jalan("\033[1;91m              $$$$b ^ceeeee.  4$$ECL.F*$$$$$$$")
+jalan("\033[1;91m  e$**=.      $$$$P d$$$$F $ $$$$$$$$$- $$$$$$")
+jalan("\033[1;91m z$$b. ^c     3$$$F *$$$$b   $*$$$$$$$  $$$$**      .=**$c")
+jalan("\033[1;91m4$$$$L        $$P*  *$$b   .$ $$$$$...e$$        .=  e$$$.")
+jalan("\033[1;91m^*$$$$$c  %..   *c    ..    $$ 3$$$$$$$$$$eF     zP  d$$$$$")
+jalan("\033[1;91m  ***$$$ec   *   %ce**    $$$  $$$$$$$$$$*    .r* =$$$$P**")
+jalan("\033[1;91m        **$b.  *c  *$e.    *** d$$$$$*L$$    .d*  e$$****")
+jalan("\033[1;91m          ^*$$c ^$c $$$      4J$$$$$% $$$ .e**.eeP*")
+jalan("\033[1;91m             *$$$$$$**$=e....$*$$**$cz$$" *..d$**")
+jalan("\033[1;91m               **$$$  *=%4.$ L L$ P3$$$F $$$P*")
+jalan("\033[1;91m                  *$   *%*ebJLzb$e$$$$$b $P*")
+jalan("\033[1;91m                    %..      4$$$$$$$$$$ *")
+jalan("\033[1;91m                     $$$e   z$$$$$$$$$$%")
+jalan("\033[1;91m                      **$c  *$$$$$$$P$")
+jalan("\033[1;91m                       .**$**$$$$$$$$bc")
+jalan("\033[1;91m                    .-*    .$***$$$**$**e.")
+jalan("\033[1;91m                 .-*    .e$*     **$c  ^*b.")
+jalan("\033[1;91m          .=*$*$*    .e$**          **bc  **$e..")
+jalan("\033[1;91m        .$*        .z**               ^*$e.   ******e.")
+jalan("\033[1;91m        $$ee$c   .d*                     **$.        3.")
+jalan("\033[1;91m        ^*$E*)$..$*                         *   .ee==d%")
+jalan("\033[1;91m           $.d$$$*        BlackMafia         *  J$$$e*")
+jalan("\033[1;91m            $$$$                              *$$$*")
+jalan("\033[1;91m┳┻┳┻▇▇▇▇▇▇     ╭━━━━╮╱▔▔▔╲      ▇▇▇▇▇▇┳┻┳┻┳┻")
 jalan("\033[1;93m┻┳┻┳▇▇▇▇▇▇     ┃╯╯╭━┫▏╰╰╰▕      ▇▇▇▇▇▇┻┳┻┳┻┳")
 jalan("\033[1;93m┳┻┳┻▇▇▇▇▇▇     ┃╯╯┃▔╰┓▔▂▔▕╮     ▇▇▇▇▇▇┳┻┳┻┳┻")
 jalan("\033[1;93m┻┳┻┳▇▇▇▇▇▇     ╰╮╯┃┈╰┫╰━╯┏╯     ▇▇▇▇▇▇┻┳┻┳┻┳")
@@ -989,7 +1020,7 @@ def menu():
 	os.system("clear") #Dev:love_hacker
         time.sleep(0.05)
 	print logo2
-	print "\033[1;93m    «-------\033[1;96mLogged in User Info\033[1;93m----------»"
+	print "\033[1;94m    «-------\033[1;96mLogged in User Info\033[1;93m----------»"
         time.sleep(0.05)
 	print "	   \033[1;93m «----Name\033[1;97m:\033[1;91m"+nama+"\033[1;93m               "
         time.sleep(0.05)
@@ -997,19 +1028,19 @@ def menu():
         time.sleep(0.05)
 	print "\033[1;95m«-----------------\033[1;91mDisclaimer\033[1;95m-----------------»"
         time.sleep(0.05)
-        print "\033[1;93m       This Tool is for Educational Purpose"
+        print "\033[1;47m       \033[1;33mThis Tool is for Educational Purpose\033[1;0m"
         time.sleep(0.05)
-        print "\033[1;95mThis presentation is for educational"
+        print "\033[1;47m\033[1;31mThis presentation is for educational\033[1;0m"
         time.sleep(0.05)
-        print "\033[1;95mpurposes ONLY.How you use this information "
+        print "\033[1;47m\033[1;31mpurposes ONLY.How you use this information\033[1;0m"
         time.sleep(0.05)
-        print "\033[1;95mis your responsibility.I will not be  "
+        print "\033[1;47m\033[1;31mis your responsibility.I will not be\033[1;0m  "
         time.sleep(0.05)
-        print "\033[1;95mheld accountable This Tool/Channel Doesn't "
+        print "\033[1;47m\033[1;31mheld accountable This Tool/Channel Doesn't\033[1;0m"
         time.sleep(0.05)
-        print "\033[1;95mSupport illegal activities.for any illegal "
+        print "\033[1;47m\033[1;31mSupport illegal activities.for any illegal\033[1;0m"
         time.sleep(0.05)
-        print "\033[1;95mActivitie This Tool is for Educational Purpose"
+        print "\033[1;47m\033[1;31mActivitie This Tool is for Educational Purpose \033[1;0m"
         time.sleep(0.05)
         print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"
         time.sleep(0.05)
