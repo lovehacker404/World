@@ -4368,6 +4368,8 @@ def blackmafiax():
         time.sleep(0.5)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[12] Indonasia'
         time.sleep(0.5)
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[13] Grecee'
+        time.sleep(0.5)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;91m[0]  Back            '
         time.sleep(0.5)
 	print 45*'-'
@@ -4540,6 +4542,20 @@ def action():
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
 			k="+880"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+        elif lovehackerx =="13":
+		os.system("clear")
+		print (logo17)
+		print("\033[1;93m1,2,3,4,5,6,7,8,9")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+003069"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
