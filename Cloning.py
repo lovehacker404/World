@@ -25,7 +25,7 @@ try:
 except ImportError:
     os.system('pip2 install mechanize')
     time.sleep(1)
-    os.system('python2 nmbr.py')
+    os.system('python2 Cloning.py')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -4381,7 +4381,7 @@ def action():
 		action()
 	elif lovehackerx =="1":
 		os.system("clear")
-		print (logo1)
+		print (logo14)
 		print("\033[1;93m191, 192, 193, 194, 195, 196, 197, 198, 199")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
