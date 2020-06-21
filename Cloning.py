@@ -4521,7 +4521,7 @@ def action():
 			blackmafiax()
         elif lovehackerx =="11":
 		os.system("clear")
-		print (logo10)
+		print (logo13)
 		print("\033[1;93m01, ~~~, 49")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4560,7 +4560,7 @@ def action():
 	time.sleep(0.5)
 	jalan ('[!] To Stop Process Press CTRL Then Press z')
 	time.sleep(0.5)
-	print 40*'♡'
+	print 44*'-'
 	print
 	
 			
@@ -4612,7 +4612,7 @@ def action():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print 40*'☆'
+	print 44*'-'
 	print '[✓] Process Has Been Completed ....'
 	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
 	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
