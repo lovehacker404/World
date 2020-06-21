@@ -4370,7 +4370,7 @@ def blackmafiax():
         time.sleep(0.5)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;91m[0]  Back            '
         time.sleep(0.5)
-	print 50*'☆'
+	print 45*'-'
 	action()
 
 
