@@ -4554,11 +4554,11 @@ def action():
 		action()
 
 	xxx = str(len(id))
-	psb ('[✓] Total Numbers: '+xxx)
+	jalan ('[✓] Total Numbers: '+xxx)
 	time.sleep(0.5)
-	psb ('[✓] Please wait, process is running ...')
+	jalan ('[✓] Please wait, process is running ...')
 	time.sleep(0.5)
-	psb ('[!] To Stop Process Press CTRL Then Press z')
+	jalan ('[!] To Stop Process Press CTRL Then Press z')
 	time.sleep(0.5)
 	print 40*'♡'
 	print
