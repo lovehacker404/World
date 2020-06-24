@@ -4580,7 +4580,7 @@ def action():
         elif lovehackerx =="13":
 		os.system("clear")
 		print (logo17)
-		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		print("\033[1;93m(leave the first four digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
 			k="+3069"
@@ -4608,7 +4608,7 @@ def action():
 	elif lovehackerx =="15":
 		os.system("clear")
 		print (logo2)
-		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		print("\033[1;93m(leave the first one digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
 			k="+1"
@@ -4720,7 +4720,7 @@ def action():
 	elif lovehackerx =="23":
 		os.system("clear")
 		print (logo10)
-		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		print("\033[1;93m(leave the first tree digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
 			k="+971"
@@ -4734,7 +4734,7 @@ def action():
         elif lovehackerx =="24":
 		os.system("clear")
 		print (logo13)
-		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		print("\033[1;93m(leave the first three digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
 			k="+966"
@@ -4748,7 +4748,7 @@ def action():
         elif lovehackerx =="25":
 		os.system("clear")
 		print (logo25)
-		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		print("\033[1;93m(leave the first three digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
 			k="+972"
