@@ -920,9 +920,27 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo11
-        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;92m New Update  "
+        print "\033[1;95m«-----------------\033[1;91mDisclaimer\033[1;95m---------------»"
         time.sleep(0.05)
-	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;96m Login  Facebook  "
+        print "\033[1;43m       \033[1;34mThis Tool is for Educational Purpose   \033[1;0m"
+        time.sleep(0.05)
+        print "\033[1;45m\033[1;34mThis presentation is for educational          \033[1;0m"
+        time.sleep(0.05)
+        print "\033[1;45m\033[1;34mpurposes ONLY.How you use this information    \033[1;0m"
+        time.sleep(0.05)
+        print "\033[1;45m\033[1;34mis your responsibility.I will not be          \033[1;0m"
+        time.sleep(0.05)
+        print "\033[1;45m\033[1;34mheld accountable This Tool/Channel Doesn't    \033[1;0m"
+        time.sleep(0.05)
+        print "\033[1;45m\033[1;34mSupport illegal activities.for any illegal    \033[1;0m"
+        time.sleep(0.05)
+        print "\033[1;45m\033[1;34mActivitie This Tool is for Educational Purpose\033[1;0m"
+        time.sleep(0.05)
+        print "\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m---------------»"
+        time.sleep(0.05)
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;96m Fast Cloning\033[1;92m[New Update]"
+        time.sleep(0.05)
+	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;93m Login  Facebook "
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m3.\x1b[1;95m Login  Using Token"
         time.sleep(0.05)
@@ -930,7 +948,7 @@ def login():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;91m> \033[1;93m5.\x1b[1;94m Black Mafia  WhatsApp Group   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;91m> \033[1;93m6.\x1b[1;93m Black Mafia  Youtube Chenal   "
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;93m6.\x1b[1;91m Black Mafia  Youtube Chenal   "
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
 	pilih_login()
@@ -4353,32 +4371,32 @@ def test4():
 
 def blackmafiax():
 	os.system('clear')
-	print logo
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[1]  Bangladesh          \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[14]  Australia'
+	print logo2
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[1]  Bangladesh\033[1;91m☆.\x1b[1;92m[14]  Australia'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[2]  USA                 \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[15]  Canda'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[2]  USA       \033[1;91m☆.\x1b[1;92m[15]  Canda'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[3]  UK                  \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[16]  China'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[3]  UK        \033[1;91m☆.\x1b[1;92m[16]  China'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[4]  India               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[17]  Denmark'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[4]  India     \033[1;91m☆.\x1b[1;92m[17]  Denmark'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[5]  Brazil              \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[18]  France'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[5]  Brazil    \033[1;91m☆.\x1b[1;92m[18]  France'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[6]  Japan               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[19]  Germany'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[6]  Japan     \033[1;91m☆.\x1b[1;92m[19]  Germany'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[7]  Korea               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[20]  Malaysia'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[7]  Korea     \033[1;91m☆.\x1b[1;92m[20]  Malaysia'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[8]  Italy               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[21]  Sri lanka'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[8]  Italy     \033[1;91m☆.\x1b[1;92m[21]  Sri lanka'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[9]  Spain               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[22]  Turkey'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[9]  Spain     \033[1;91m☆.\x1b[1;92m[22]  Turkey'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[10] Poland              \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[23]  U.A.E'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[10] Poland    \033[1;91m☆.\x1b[1;92m[23]  U.A.E'
         time.sleep(0.5)
-        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[11] Pakistan            \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[24]  Saudi Arabia'
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[11] Pakistan  \033[1;91m☆.\x1b[1;92m[24]  Saudi Arabia'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[12] Indonasia           \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[25]  Israil'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[12] Indonasia \033[1;91m☆.\x1b[1;92m[25]  Israil'
         time.sleep(0.5)
-        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[13] Grecee              \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[26]  Iran'
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[13] Grecee    \033[1;91m☆.\x1b[1;92m[26]  Iran'
         time.sleep(0.5)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;91m[0]  Back            '
         time.sleep(0.5)
