@@ -4354,31 +4354,31 @@ def test4():
 def blackmafiax():
 	os.system('clear')
 	print logo
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[1]  Bangladesh'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[1]  Bangladesh          \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[14]  Australia'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[2]  USA'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[2]  USA                 \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[15]  Canda'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[3]  UK'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[3]  UK                  \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[16]  China'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[4]  India'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[4]  India               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[17]  Denmark'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[5]  Brazil'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[5]  Brazil              \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[18]  France'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[6]  Japan'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[6]  Japan               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[19]  Germany'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[7]  Korea'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[7]  Korea               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[20]  Malaysia'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[8]  Italy'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[8]  Italy               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[21]  Sri lanka'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[9]  Spain'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[9]  Spain               \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[22]  Turkey'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[10] Poland'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[10] Poland              \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[23]  U.A.E'
         time.sleep(0.5)
-        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[11] Pakistan'
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[11] Pakistan            \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[24]  Saudi Arabia'
         time.sleep(0.5)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[12] Indonasia'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[12] Indonasia           \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[25]  Israil'
         time.sleep(0.5)
-        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[13] Grecee'
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[13] Grecee              \033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[26]  Iran'
         time.sleep(0.5)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;91m[0]  Back            '
         time.sleep(0.5)
@@ -4534,7 +4534,7 @@ def action():
         elif lovehackerx =="11":
 		os.system("clear")
 		print (logo13)
-		print("\033[1;93m01, ~~~, 49")
+		print("\033[1;93m01, ~to~~, 49")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
 			k="+923"
@@ -4548,7 +4548,7 @@ def action():
         elif lovehackerx =="12":
 		os.system("clear")
 		print (logo12)
-		print("\033[1;93m161, ~~~~, 197")
+		print("\033[1;93m161, ~~to~~, 197")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
 			k="+880"
@@ -4562,10 +4562,192 @@ def action():
         elif lovehackerx =="13":
 		os.system("clear")
 		print (logo17)
-		print("\033[1;93m1,2,3,4,5,6,7,8,9")
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
-			k="+003069"
+			k="+3069"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+        elif lovehackerx =="14":
+		os.system("clear")
+		print (logo14)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+61"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="15":
+		os.system("clear")
+		print (logo2)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+1"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="16":
+		os.system("clear")
+		print (logo3)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input(" \033[1;95mchoose code  : ")
+			k="+86"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="17":
+		os.system("clear")
+		print (logo4)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input(" \033[1;95mchoose code  : ")
+			k="+45"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="18":
+		os.system("clear")
+		print (logo5)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+33"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="19":
+		os.system("clear")
+		print (logo6)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+49"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="20":
+		os.system("clear")
+		print (logo7)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+60"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="21":
+		os.system("clear")
+		print (logo8)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+94"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="22":
+		os.system("clear")
+		print (logo9)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+90"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+	elif lovehackerx =="23":
+		os.system("clear")
+		print (logo10)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+971"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+        elif lovehackerx =="24":
+		os.system("clear")
+		print (logo13)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+966"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+        elif lovehackerx =="25":
+		os.system("clear")
+		print (logo25)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+972"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			blackmafiax()
+        elif lovehackerx =="26":
+		os.system("clear")
+		print (logo17)
+		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.")
+		try:
+			c = raw_input("\033[1;95m choose code  : ")
+			k="+98"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
