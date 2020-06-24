@@ -4373,33 +4373,33 @@ def blackmafiax():
 	os.system('clear')
 	print logo2
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[1]  Bangladesh\033[1;91m☆.\x1b[1;92m[14]  Australia'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[2]  USA       \033[1;91m☆.\x1b[1;92m[15]  Canda'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[3]  UK        \033[1;91m☆.\x1b[1;92m[16]  China'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[4]  India     \033[1;91m☆.\x1b[1;92m[17]  Denmark'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[5]  Brazil    \033[1;91m☆.\x1b[1;92m[18]  France'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[6]  Japan     \033[1;91m☆.\x1b[1;92m[19]  Germany'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[7]  Korea     \033[1;91m☆.\x1b[1;92m[20]  Malaysia'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[8]  Italy     \033[1;91m☆.\x1b[1;92m[21]  Sri lanka'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[9]  Spain     \033[1;91m☆.\x1b[1;92m[22]  Turkey'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[10] Poland    \033[1;91m☆.\x1b[1;92m[23]  U.A.E'
-        time.sleep(0.5)
+        time.sleep(0.05)
         print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[11] Pakistan  \033[1;91m☆.\x1b[1;92m[24]  Saudi Arabia'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[12] Indonasia \033[1;91m☆.\x1b[1;92m[25]  Israil'
-        time.sleep(0.5)
+        time.sleep(0.05)
         print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[13] Grecee    \033[1;91m☆.\x1b[1;92m[26]  Iran'
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;91m[0]  Back            '
-        time.sleep(0.5)
+        time.sleep(0.05)
 	print 45*'-'
 	action()
 
@@ -4412,7 +4412,7 @@ def action():
 	elif lovehackerx =="1":
 		os.system("clear")
 		print (logo14)
-		print("\033[1;93m115,175,165,191, 192, 193, 194, 195, 196, 197, 198, 199")
+		print("\033[1;93m175,165,191, 192, 193, 194, 195, 196, 197, 198, 199")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
 			k="+880"
