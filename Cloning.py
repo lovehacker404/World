@@ -804,7 +804,219 @@ logo26 = """
  *$s.   ..ssS$$$$$$$$$$$$$$$$$$$####*
   .$$$S$$$$$$$$$$$$$$$$$$$$$$$$#####*
 \033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
-
+logo27 = """
+\033[1;91m
+╔╗──────────╔══╗╔╗───────╔╗────────╔╗──
+║║──────────║╔╗║║║───────║║────────║║──
+║╚═╗╔══╗╔═╗─║╚╝║║║─╔══╗╔═╝║╔══╗╔══╗║╚═╗
+║╔╗║║╔╗║║╔╗╗╚═╗║║║─║╔╗║║╔╗║║║═╣║══╣║╔╗║
+║╚╝║║╔╗║║║║║╔═╝║║╚╗║╔╗║║╚╝║║║═╣─══║║║║║
+╚══╝╚╝╚╝╚╝╚╝╚══╝╚═╝╚╝╚╝╚══╝╚══╝╚══╝╚╝╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo28 = """
+\033[1;92m
+╔╗─╔╗╔═══╗╔═══╗
+║║─║║║╔═╗║║╔═╗║
+║║─║║║╚══╗║║─║║
+║║─║║╚══╗║║╚═╝║
+║╚═╝║║╚═╝║║╔═╗║
+╚═══╝╚═══╝╚╝─╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo29 = """
+\033[1;93m
+╔╗─╔╗╔╗╔═╗
+║║─║║║║║╔╝
+║║─║║║╚╝╝─
+║║─║║║╔╗║─
+║╚═╝║║║║╚╗
+╚═══╝╚╝╚═╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo30 = """
+\033[1;94m
+╔══╗╔═╗─╔╗╔═══╗╔══╗╔═══╗
+╚╣─╝║║╚╗║║╚╗╔╗║╚╣─╝║╔═╗║
+─║║─║╔╗╚╝║─║║║║─║║─║║─║║
+─║║─║║╚╗║║─║║║║─║║─║╚═╝║
+╔╣─╗║║─║║║╔╝╚╝║╔╣─╗║╔═╗║
+╚══╝╚╝─╚═╝╚═══╝╚══╝╚╝─╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo31 = """
+\033[1;95m
+╔══╗─╔═══╗╔═══╗╔════╗╔══╗╔╗───
+║╔╗║─║╔═╗║║╔═╗║╚══╗═║╚╣─╝║║───
+║╚╝╚╗║╚═╝║║║─║║──╔╝╔╝─║║─║║───
+║╔═╗║║╔╗╔╝║╚═╝║─╔╝╔╝──║║─║║─╔╗
+║╚═╝║║║║╚╗║╔═╗║╔╝═╚═╗╔╣─╗║╚═╝║
+╚═══╝╚╝╚═╝╚╝─╚╝╚════╝╚══╝╚═══╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo32 = """
+\033[1;96m
+─╚╝────╔══╗────────
+─╔╗────║╔╗║────────
+─║║╔══╗║╚╝║╔══╗╔═╗─
+─║║║╔╗║║╔═╝║╔╗║║╔╗╗
+╔╝║║╔╗║║║──║╔╗║║║║║
+╚═╝╚╝╚╝╚╝──╚╝╚╝╚╝╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo33 = """
+\033[1;91m
+╔╗╔═╗╔═══╗╔═══╗╔══╗╔═══╗
+║║║╔╝║╔═╗║║╔═╗║╚╣─╝║╔═╗║
+║╚╝╝─║║─║║║╚═╝║─║║─║║─║║
+║╔╗║─║║─║║║╔╗╔╝─║║─║╚═╝║
+║║║╚╗║╚═╝║║║║╚╗╔╣─╗║╔═╗║
+╚╝╚═╝╚═══╝╚╝╚═╝╚══╝╚╝─╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo34 = """
+\033[1;92m
+ ▀ ▀█▀ ▄▀▄ █░░ ▀▄░▄▀
+ █ ░█░ █▀█ █░▄ ░░█░░
+ ▀ ░▀░ ▀░▀ ▀▀▀ ░░▀░░
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo35 = """
+\033[1;95m
+▒▄█▀▀█▒▐█▀█░░▄█▀▄─▐██▒██▄░▒█▌
+▒▀▀█▄▄▒▐█▄█░▐█▄▄▐█░█▌▒▐█▒█▒█░
+▒█▄▄█▀▒▐█░░░▐█─░▐█▐██▒██░▒██▌
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo36 = """
+\033[1;93m
+╔═╗───────────────╔╗
+║╬║╔═╗╔╗─╔═╗─╔═╦╗╔╝║
+║╔╝║╬║║╚╗║╬╚╗║║║║║╬║
+╚╝─╚═╝╚═╝╚══╝╚╩═╝╚═╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo37 = """
+\033[1;94m
+╔═╗────╔╗─╔╗╔═╗╔╗─────────
+║╬║╔═╗─║╠╗╠╣║═╣║╚╗╔═╗─╔═╦╗
+║╔╝║╬╚╗║═╣║║╠═║║╔╣║╬╚╗║║║║
+╚╝─╚══╝╚╩╝╚╝╚═╝╚═╝╚══╝╚╩═╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo38 = """
+\033[1;95m
+ ▀ █▄░█ █▀▄ ▄▀▄ █▄░█ ▄▀▄ ▄▀▀ ▀ ▄▀▄
+ █ █░▀█ █░█ █░█ █░▀█ █▀█ ░▀▄ █ █▀█
+ ▀ ▀░░▀ ▀▀░ ░▀░ ▀░░▀ ▀░▀ ▀▀░ ▀ ▀░▀
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo39 = """
+\033[1;91m
+ ▄▀▀░ █▀▀▄ █▀▀ ▄▀ █▀▀ █▀▀
+ █░▀▌ █▐█▀ █▀▀ █░ █▀▀ █▀▀
+ ▀▀▀░ ▀░▀▀ ▀▀▀ ░▀ ▀▀▀ ▀▀▀
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo40 = """
+\033[1;92m
+╔══╗╔╦╗╔══╗╔══╗╔═╗╔══╗╔╗─╔══╗╔══╗
+║╔╗║║║║║══╣╚╗╔╝║╬║║╔╗║║║─╚║║╝║╔╗║
+║╠╣║║║║╠══║─║║─║╗╣║╠╣║║╚╗╔║║╗║╠╣║
+╚╝╚╝╚═╝╚══╝─╚╝─╚╩╝╚╝╚╝╚═╝╚══╝╚╝╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo41 = """
+\033[1;93m
+╔═══╗╔═══╗╔═╗─╔╗╔═══╗╔═══╗
+║╔═╗║║╔═╗║║║╚╗║║╚╗╔╗║║╔═╗║
+║║─╚╝║║─║║║╔╗╚╝║─║║║║║║─║║
+║║─╔╗║╚═╝║║║╚╗║║─║║║║║╚═╝║
+║╚═╝║║╔═╗║║║─║║║╔╝╚╝║║╔═╗║
+╚═══╝╚╝─╚╝╚╝─╚═╝╚═══╝╚╝─╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo42 = """
+\033[1;94m
+░▐█▀█░▐█░▐█░▐██▒██▄░▒█▌░░▄█▀▄─
+░▐█──░▐████─░█▌▒▐█▒█▒█░░▐█▄▄▐█
+░▐█▄█░▐█░▐█░▐██▒██░▒██▌░▐█─░▐█
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo43 = """
+\033[1;95m
+──╔╗───────────────────╔╗──
+──║║───────────────────║║──
+╔═╝║╔══╗╔═╗─╔╗╔╗╔══╗╔═╗║║╔╗
+║╔╗║║║═╣║╔╗╗║╚╝║║╔╗║║╔╝║╚╝╝
+║╚╝║║║═╣║║║║║║║║║╔╗║║║─║╔╗╗
+╚══╝╚══╝╚╝╚╝╚╩╩╝╚╝╚╝╚╝─╚╝╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo44 = """
+\033[1;96m
+─╔═╗───────────────────
+─║╔╝───────────────────
+╔╝╚╗╔═╗╔══╗╔═╗─╔══╗╔══╗
+╚╗╔╝║╔╝║╔╗║║╔╗╗║╔═╝║║═╣
+─║║─║║─║╔╗║║║║║║╚═╗║║═╣
+─╚╝─╚╝─╚╝╚╝╚╝╚╝╚══╝╚══╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo45 = """
+\033[1;94m
+╔══╗───────────────────╔╗─╔╗
+║╔╗║───────────────────║║─║║
+║╚╝║╔══╗╔═╗╔╗╔╗╔══╗╔═╗─║╚═╝║
+╚═╗║║║═╣║╔╝║╚╝║║╔╗║║╔╗╗╚═╗╔╝
+╔═╝║║║═╣║║─║║║║║╔╗║║║║║╔═╝║─
+╚══╝╚══╝╚╝─╚╩╩╝╚╝╚╝╚╝╚╝╚══╝─
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo46 = """
+\033[1;96m
+────────╔╗─────╔╗─╔╗──────────
+────────║║─────║║─║║──────────
+╔╗╔╗╔══╗║║─╔══╗║╚═╝║╔══╗╔╗╔══╗
+║╚╝║║╔╗║║║─║╔╗║╚═╗╔╝║══╣─╣║╔╗║
+║║║║║╔╗║║╚╗║╔╗║╔═╝║──══║║║║╔╗║
+╚╩╩╝╚╝╚╝╚═╝╚╝╚╝╚══╝─╚══╝╚╝╚╝╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo47 = """
+\033[1;95m
+─────────╔╗─────────╔╗──────
+─────────║║─────────║║──────
+╔══╗╔═╗╔╗║║─╔══╗╔═╗─║║╔╗╔══╗
+║══╣║╔╝─╣║║─║╔╗║║╔╗╗║╚╝╝║╔╗║
+─══║║║─║║║╚╗║╔╗║║║║║║╔╗╗║╔╗║
+╚══╝╚╝─╚╝╚═╝╚╝╚╝╚╝╚╝╚╝╚╝╚╝╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo48 = """
+\033[1;93m
+╔════╗╔╗─╔╗╔═══╗╔╗╔═╗╔═══╗╔╗──╔╗
+║╔╗╔╗║║║─║║║╔═╗║║║║╔╝║╔══╝║╚╗╔╝║
+╚╝║║╚╝║║─║║║╚═╝║║╚╝╝─║╚══╗╚╗╚╝╔╝
+──║║──║║─║║║╔╗╔╝║╔╗║─║╔══╝─╚╗╔╝─
+──║║──║╚═╝║║║║╚╗║║║╚╗║╚══╗──║║──
+──╚╝──╚═══╝╚╝╚═╝╚╝╚═╝╚═══╝──╚╝──
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo49 = """
+\033[1;92m
+╔╗─╔╗╔═══╗╔═══╗
+║║─║║║╔═╗║║╔══╝
+║║─║║║║─║║║╚══╗
+║║─║║║╚═╝║║╔══╝
+║╚═╝║║╔═╗║║╚══╗
+╚═══╝╚╝─╚╝╚═══╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo50 = """
+\033[1;91m
+──────────╔╗─────────────╔╗────────
+──────────║║─────────────║║────────
+╔══╗╔╗╔╗╔═╝║╔╗╔══╗╔═╗╔══╗║╚═╗╔╗╔══╗
+║══╣║║║║║╔╗║─╣║╔╗║║╔╝║╔╗║║╔╗║─╣║╔╗║
+─══║║╚╝║║╚╝║║║║╔╗║║║─║╔╗║║╚╝║║║║╔╗║
+╚══╝╚══╝╚══╝╚╝╚╝╚╝╚╝─╚╝╚╝╚══╝╚╝╚╝╚╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo51 = """
+\033[1;95m
+╔══╗╔═══╗╔═══╗╔═══╗╔══╗╔╗───
+╚╣─╝║╔═╗║║╔═╗║║╔═╗║╚╣─╝║║───
+─║║─║╚══╗║╚═╝║║║─║║─║║─║║───
+─║║─╚══╗║║╔╗╔╝║╚═╝║─║║─║║─╔╗
+╔╣─╗║╚═╝║║║║╚╗║╔═╗║╔╣─╗║╚═╝║
+╚══╝╚═══╝╚╝╚═╝╚╝─╚╝╚══╝╚═══╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
+logo52 = """
+\033[1;96m
+╔══╗╔═══╗╔═══╗╔═╗─╔╗
+╚╣─╝║╔═╗║║╔═╗║║║╚╗║║
+─║║─║╚═╝║║║─║║║╔╗╚╝║
+─║║─║╔╗╔╝║╚═╝║║║╚╗║║
+╔╣─╗║║║╚╗║╔═╗║║║─║║║
+╚══╝╚╝╚═╝╚╝─╚╝╚╝─╚═╝
+\033[1;95m«-----------------\033[1;91mBlackMafia\033[1;95m-----------------»"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -4411,7 +4623,7 @@ def action():
 		action()
 	elif lovehackerx =="1":
 		os.system("clear")
-		print (logo14)
+		print (logo27)
 		print("\033[1;93m175,165,191, 192, 193, 194, 195, 196, 197, 198, 199")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4425,7 +4637,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="2":
 		os.system("clear")
-		print (logo2)
+		print (logo28)
 		print("\033[1;93m555,786, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4439,7 +4651,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="3":
 		os.system("clear")
-		print (logo3)
+		print (logo29)
 		print("\033[1;93m715,785,765,725,745,735,737, 706, 748, 783, 739, 759, 790")
 		try:
 			c = raw_input(" \033[1;95mchoose code  : ")
@@ -4453,7 +4665,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="4":
 		os.system("clear")
-		print (logo4)
+		print (logo30)
 		print("\033[1;93m905,975,755,855,954, 897, 967, 937, 700, 727, 965, 786, 874, 856, 566, 590, 527, 568, 578")
 		try:
 			c = raw_input(" \033[1;95mchoose code  : ")
@@ -4467,7 +4679,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="5":
 		os.system("clear")
-		print (logo5)
+		print (logo31)
 		print("\033[1;93m127, 179, 117, 853, 318, 219, 834, 186, 479, 113")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4481,7 +4693,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="6":
 		os.system("clear")
-		print (logo6)
+		print (logo32)
 		print("\033[1;93m11, 12, 19, 16, 15, 13, 14, 18, 17")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4495,7 +4707,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="7":
 		os.system("clear")
-		print (logo7)
+		print (logo33)
 		print("\033[1;93m1, 2, 3, 4, 5, 6, 7, 8, 9")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4509,7 +4721,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="8":
 		os.system("clear")
-		print (logo8)
+		print (logo34)
 		print("\033[1;93m311,323,385,388, 390, 391, 371, 380, 368, 386, 384, 332, 344, 351, 328")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4523,7 +4735,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="9":
 		os.system("clear")
-		print (logo9)
+		print (logo35)
 		print("\033[1;93m655,755,60, 76, 73, 64, 69, 77, 65, 61, 75, 68")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4537,7 +4749,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="10":
 		os.system("clear")
-		print (logo10)
+		print (logo36)
 		print("\033[1;93m66, 69, 78, 79, 60, 72, 67, 53, 51")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4551,7 +4763,7 @@ def action():
 			blackmafiax()
         elif lovehackerx =="11":
 		os.system("clear")
-		print (logo13)
+		print (logo37)
 		print("\033[1;93m01, ~to~~, 49")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4565,7 +4777,7 @@ def action():
 			blackmafiax()
         elif lovehackerx =="12":
 		os.system("clear")
-		print (logo12)
+		print (logo38)
 		print("\033[1;93m81,83,85,84,89,")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4579,7 +4791,7 @@ def action():
 			blackmafiax()
         elif lovehackerx =="13":
 		os.system("clear")
-		print (logo17)
+		print (logo39)
 		print("\033[1;93m(leave the first four digits and the last seven digits of any phone number in this country.Write the remaining digits here.69,693,698,694,695")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4593,7 +4805,7 @@ def action():
 			blackmafiax()
         elif lovehackerx =="14":
 		os.system("clear")
-		print (logo14)
+		print (logo40)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.455")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4607,7 +4819,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="15":
 		os.system("clear")
-		print (logo2)
+		print (logo41)
 		print("\033[1;93m(leave the first one digits and the last seven digits of any phone number in this country.Write the remaining digits here.555,")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4621,7 +4833,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="16":
 		os.system("clear")
-		print (logo3)
+		print (logo42)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.1355,1555,1855,")
 		try:
 			c = raw_input(" \033[1;95mchoose code  : ")
@@ -4635,7 +4847,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="17":
 		os.system("clear")
-		print (logo4)
+		print (logo43)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.2,3,4,5,6,7,8")
 		try:
 			c = raw_input(" \033[1;95mchoose code  : ")
@@ -4649,7 +4861,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="18":
 		os.system("clear")
-		print (logo5)
+		print (logo44)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.65,70,73,74,76,77")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4663,7 +4875,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="19":
 		os.system("clear")
-		print (logo6)
+		print (logo45)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.151,152,153,155,157,159,160,162,179,163,174,163")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4677,7 +4889,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="20":
 		os.system("clear")
-		print (logo7)
+		print (logo46)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.11,12,13,14,15,16,17,18,19")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4691,7 +4903,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="21":
 		os.system("clear")
-		print (logo8)
+		print (logo47)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.71,72,73,74,75,76,77,78")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4705,7 +4917,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="22":
 		os.system("clear")
-		print (logo9)
+		print (logo48)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.55,54,53,52,50")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4719,7 +4931,7 @@ def action():
 			blackmafiax()
 	elif lovehackerx =="23":
 		os.system("clear")
-		print (logo10)
+		print (logo49)
 		print("\033[1;93m(leave the first tree digits and the last seven digits of any phone number in this country.Write the remaining digits here.50,55,58,54,56")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4733,7 +4945,7 @@ def action():
 			blackmafiax()
         elif lovehackerx =="24":
 		os.system("clear")
-		print (logo13)
+		print (logo50)
 		print("\033[1;93m(leave the first three digits and the last seven digits of any phone number in this country.Write the remaining digits here.50,51,52,53,54,55,56,57,58,")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4747,7 +4959,7 @@ def action():
 			blackmafiax()
         elif lovehackerx =="25":
 		os.system("clear")
-		print (logo25)
+		print (logo51)
 		print("\033[1;93m(leave the first three digits and the last seven digits of any phone number in this country.Write the remaining digits here. 52,55")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
@@ -4761,7 +4973,7 @@ def action():
 			blackmafiax()
         elif lovehackerx =="26":
 		os.system("clear")
-		print (logo17)
+		print (logo52)
 		print("\033[1;93m(leave the first two digits and the last seven digits of any phone number in this country.Write the remaining digits here.990,915,901,933,938,902")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
