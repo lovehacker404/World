@@ -4993,13 +4993,13 @@ def action():
 
 	xxx = str(len(id))
 	jalan ('[✓] Total Numbers: '+xxx)
-	time.sleep(0.5)
-	jalan ('[✓] Please wait, process is running ...')
-	time.sleep(0.5)
+	time.sleep(0.05)
+	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
+	time.sleep(0.05)
 	jalan ('[!] To Stop Process Press CTRL Then Press z')
-	time.sleep(0.5)
+	time.sleep(0.05)
 	print 44*'-'
-	print
+	print (logo13)
 	
 			
 	def main(arg):
