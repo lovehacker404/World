@@ -67,7 +67,7 @@ def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(0.001)
+		time.sleep(0.05)
 
 #### colours ####
 B='\033[1;94m'
