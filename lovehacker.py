@@ -104,12 +104,12 @@ def facebook_password():
 def facebook_motah():
  import sys, mechanize, cookielib, random
  def sem():
-    print ''
-    print ''
-    print cyan + '  alger {05 / 06 / 07}   '
-    print cyan + '  United States {98 / 62 }'
-    print cyan + '  Available {}'
-    print g
+    print ('')
+    print ('')
+    print (cyan + '  alger {05 / 06 / 07}   ')
+    print (cyan + '  United States {98 / 62 }')
+    print (cyan + '  Available {}')
+    print ( g)
 
 
  sem()
