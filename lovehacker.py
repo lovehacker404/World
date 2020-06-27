@@ -146,7 +146,3 @@ def facebook_motah():
          print (g, 'good ---------> ', g, go)
      sem()
  
-
- if __name__ == '__main__':
-	motah()
- 
