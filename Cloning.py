@@ -20,7 +20,6 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
 ##### LOGO #####
 logo = """
-\033[1;96m--------------------------------------------------
 \033[1;93m██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
 \033[1;93m██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
 \033[1;93m██████╦╝██║░░░░░███████║██║░░╚═╝█████═╝░
@@ -115,43 +114,43 @@ def mafia():
         elif black =="4":
 		clear()
 		print(logo)
-		os.system("rm -rf $HOME/World")
-		os.system("cd $HOME && git clone https://github.com/lovehacker404/World")
+		os.system("rm -rf $HOME/KaliIndia")
+		os.system("cd $HOME && git clone https://github.com/lovehacker404/KaliIndia")
                 print (logo)
 		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
 		time.sleep(5)
-                os.system("cd $HOME/World && python2 Cloning.py")
+                os.system("cd $HOME/World && python2 Kalilinux.India.py")
 	elif black =="5":
 	        clear()
 	        print(logo)
-	        os.system("rm -rf $HOME/Testing")
-	        os.system("cd $HOME && git clone https://github.com/lovehacker404/Testing")
+	        os.system("rm -rf $HOME/CoviD-19")
+	        os.system("cd $HOME && git clone https://github.com/lovehacker404/CoviD-19")
                 print (logo)
 	        love("\033[1;93mCongratulations CoviD-19 Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
                 time.sleep(5)
-                os.system("cd $HOME/CoviD-19 && python2 Project.py")
+                os.system("cd $HOME/CoviD-19 && python2 Virus.py")
 	elif black =="6":
 	        clear()
 	        print(logo)
-	        os.system("rm -rf $HOME/Cobra")
-	        os.system("cd $HOME && git clone https://github.com/lovehacker404/Cobra")
+	        os.system("rm -rf $HOME/BlakMafia2020")
+	        os.system("cd $HOME && git clone https://github.com/lovehacker404/BlakMafia2020")
                 print (logo)
-	        love("\033[1;91mCongratulations Cobra Tool Has Been Installed Successfully")
+	        love("\033[1;91mCongratulations BlakMafia2020 Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
                 time.sleep(5)
-                os.system("cd $HOME/Cobra && python2 Scorpion.py")
+                os.system("cd $HOME/BlakMafia2020 && python2 lovehacker.py")
         elif black =="7":
 		clear()
 		print(logo)
-		os.system("rm -rf $HOME/World")
-		os.system("cd $HOME && git clone https://github.com/lovehacker404/World")
+		os.system("rm -rf $HOME/lov3Hak3r")
+		os.system("cd $HOME && git clone https://github.com/lovehacker404/lov3Hak3r")
                 print (logo)
 		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
 		time.sleep(5)
-                os.system("cd $HOME/World && python2 Cloning.py")
+                os.system("cd $HOME/lov3Hak3r && python2 lovehacker.py")
 	elif black =="8":
 	        clear()
 	        print(logo)
