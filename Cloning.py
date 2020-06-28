@@ -120,7 +120,7 @@ def mafia():
 		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
 		time.sleep(5)
-                os.system("cd $HOME/World && python2 Kalilinux.India.py")
+                os.system("cd $HOME/KaliIndia && python2 kalilinux.India.py")
 	elif black =="5":
 	        clear()
 	        print(logo)
