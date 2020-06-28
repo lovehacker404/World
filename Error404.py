@@ -20,26 +20,6 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
 ##### LOGO #####
 logo = """
-\033[1;96m############################################################# 
-###################################################   ####### 
-###############################################   /~\   #####
-############################################   _- `~~~', ####
-##########################################  _-~       )  ####
-#######################################  _-~          |  ####
-####################################  _-~            ;  #####
-##########################  __---___-~              |   #####
-#######################   _~   ,,                  ;  `,,  ##
-#####################  _-~    ;'                  |  ,'  ; ##
-###################  _~      '                    `~'   ; ###
-############   __---;                                 ,' ####
-########   __~~  ___                                ,' ######
-#####  _-~~   -~~ _                               ,' ########
-##### `-_         _                              ; ##########
-#######  ~~----~~~   ;                          ; ###########
-#########  /          ;                        ; ############
-#######  /             ;                      ; #############
-#####  /                `                    ; ##############
-###  /                                      ; ###############
 \033[1;96m--------------------------------------------------
 \033[1;93m██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
 \033[1;93m██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
@@ -82,8 +62,8 @@ def menu():
     clear()
     print(logo)
     print
-    print("\033[1;92m[1]   INSTALL BlackMafia Tool")
-    print("\033[1;92m[2]   INSTALL Dragon Tool")
+    print("\033[1;92m[1]   INSTALL BlackMafia New Update")
+    print("\033[1;92m[2]   INSTALL Testing Tool")
     print("\033[1;92m[3]   INSTALL SpiderMan Tool")
     print("\033[1;91m[0]   EXIT")
     print
@@ -106,13 +86,13 @@ def mafia():
 	elif black =="2":
 	        clear()
 	        print(logo)
-	        os.system("rm -rf $HOME/CoviD-19")
-	        os.system("cd $HOME && git clone https://github.com/lovehacker404/CoviD-19")
+	        os.system("rm -rf $HOME/Testing")
+	        os.system("cd $HOME && git clone https://github.com/lovehacker404/Testing")
                 print (logo)
 	        love("\033[1;93mCongratulations CoviD-19 Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
                 time.sleep(5)
-                os.system("cd $HOME/CoviD-19 && python2 Virus.py")
+                os.system("cd $HOME/CoviD-19 && python2 Project.py")
 	elif black =="3":
 	        clear()
 	        print(logo)
