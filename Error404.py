@@ -102,7 +102,7 @@ def mafia():
 		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
 		time.sleep(5)
-                os.system("rm -rf $HOME/cd World && python2 Cloning.py")
+                os.system("cd $HOME/World && python2 Cloning.py")
 	elif black =="2":
 	        clear()
 	        print(logo)
@@ -112,7 +112,7 @@ def mafia():
 	        love("\033[1;93mCongratulations CoviD-19 Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
                 time.sleep(5)
-                os.system("rm -rf $HOME/cd CoviD-19 && python2 Virus.py")
+                os.system("cd $HOME/CoviD-19 && python2 Virus.py")
 	elif black =="3":
 	        clear()
 	        print(logo)
@@ -122,7 +122,7 @@ def mafia():
 	        love("\033[1;91mCongratulations Cobra Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
                 time.sleep(5)
-                os.system("rm -rf $HOME/cd Cobra && python2 Scorpion.py")
+                os.system("cd $HOME/Cobra && python2 Scorpion.py")
 	elif black =="0":
 	    os.system("exit")
 if __name__ == "__main__":
