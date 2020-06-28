@@ -100,10 +100,10 @@ def mafia():
 		os.system("cd $HOME && git clone https://github.com/lovehacker404/World")
 		clear ()
                 print (logo)
-		love("Congratulations BlackMafia Tool Has Been Installed Successfully")
+		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
 		time.sleep(5)
-                os.system("rm -rf $HOME/World && python2 Cloning.py")
+                os.system("rm -rf $HOME/cd World && python2 Cloning.py")
 	elif black =="2":
 	        clear()
 	        print(logo)
@@ -111,10 +111,10 @@ def mafia():
 	        os.system("cd $HOME && git clone https://github.com/lovehacker404/CoviD-19")
 	        clear ()
                 print (logo)
-	        love("Congratulations CoviD-19 Tool Has Been Installed Successfully")
+	        love("\033[1;93mCongratulations CoviD-19 Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
                 time.sleep(5)
-                os.system("rm -rf $HOME/CoviD-19 && python2 Virus.py")
+                os.system("rm -rf $HOME/cd CoviD-19 && python2 Virus.py")
 	elif black =="3":
 	        clear()
 	        print(logo)
@@ -122,10 +122,10 @@ def mafia():
 	        os.system("cd $HOME && git clone https://github.com/lovehacker404/Cobra")
 	        clear ()
                 print (logo)
-	        love("Congratulations Cobra Tool Has Been Installed Successfully")
+	        love("\033[1;91mCongratulations Cobra Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
                 time.sleep(5)
-                os.system("rm -rf $HOME/Cobra && python2 Scorpion.py")
+                os.system("rm -rf $HOME/cd Cobra && python2 Scorpion.py")
 	elif black =="0":
 	    os.system("exit")
 if __name__ == "__main__":
