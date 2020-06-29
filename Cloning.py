@@ -126,7 +126,8 @@ def mafia():
                 print (logo)
 	        love("\033[1;93mCongratulations BlackMafiaError Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
-                time.sleep(5)
+                love("\033[1;93mTool User Name\033[1;92m Error\033[1;93m Password \033[1;92mlovehacker")
+                time.sleep(6)
                 os.system("cd $HOME/BlackMafiaError && python2 Error.py")
 	elif black =="6":
 	        clear()
@@ -136,7 +137,8 @@ def mafia():
                 print (logo)
 	        love("\033[1;91mCongratulations RedMoonNew Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
-                time.sleep(5)
+                love("\033[1;93mTool User Name\033[1;92m RedMoonNew\033[1;93m Password \033[1;92mlovehacker")
+                time.sleep(6)
                 os.system("cd $HOME/RedMoonNew && python2 lovehacker")
         elif black =="7":
 		clear()
