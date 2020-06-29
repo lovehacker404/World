@@ -91,13 +91,10 @@ def mafia():
 	elif black =="2":
 	        clear()
 	        print(logo)
-	        os.system("rm -rf $HOME/World")
-	        os.system("cd $HOME && git clone https://github.com/lovehacker404/World")
-                print (logo)
-	        love("\033[1;93mCongratulations  Tool Has Been Installed Successfully")
-	        love("Now you can open this tool as usual")
-                time.sleep(5)
-                os.system("cd $HOME/World && python2 AsifJaved.py")
+	        os.system("ls")
+                os.system("cd World")
+		os.system("cd AsifJaved")
+                os.system("python2 AsifJaved.py")
 	elif black =="3":
 	        clear()
 	        print(logo)
