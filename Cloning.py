@@ -84,13 +84,13 @@ def mafia():
 	elif black =="1":
 		clear()
 		print(logo)
-		os.system("rm -rf $HOME/World")
-		os.system("cd $HOME && git clone https://github.com/lovehacker404/World")
+		os.system("ls $HOME")
+		os.system("cd $HOME/World")
                 print (logo)
 		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
 		time.sleep(5)
-                os.system("cd $HOME/World && python2 Cloningx.py")
+                os.system("$HOME/python2 Cloningx.py")
 	elif black =="2":
 	        clear()
 	        print(logo)
