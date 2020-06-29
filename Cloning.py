@@ -85,6 +85,8 @@ def mafia():
 		clear()
 		print(logo)
 		os.system("ls $HOME")
+                os.system("cd $HOME/World")
+                os.system("ls $HOME")
 		os.system("cd $HOME/Cloningx")
                 os.system("$HOME/python2 Cloningx.py")
 	elif black =="2":
