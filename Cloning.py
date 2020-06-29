@@ -192,6 +192,9 @@ def mafia():
 	elif black =="11":
 	        clear()
 	        print(logo)
+                os.system("pkg install unstable-repo")
+                os.system("pkg install metasploit")
+                os.system("pkg install msfconsole")
 	        os.system("rm -rf $HOME/Black_Mafia")
 	        os.system("cd $HOME && git clone https://github.com/lovehacker404/Black_Mafia")
                 print (logo)
