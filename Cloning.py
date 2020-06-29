@@ -84,11 +84,10 @@ def mafia():
 	elif black =="1":
 		clear()
 		print(logo)
-		os.system("ls $HOME")
-                os.system("cd $HOME/World")
-                os.system("ls $HOME")
-		os.system("cd $HOME/Cloningx")
-                os.system("$HOME/python2 Cloningx.py")
+		os.system("ls")
+                os.system("cd World")
+		os.system("cd Cloningx")
+                os.system("python2 Cloningx.py")
 	elif black =="2":
 	        clear()
 	        print(logo)
