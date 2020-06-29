@@ -85,11 +85,7 @@ def mafia():
 		clear()
 		print(logo)
 		os.system("ls $HOME")
-		os.system("cd $HOME/World")
-                print (logo)
-		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
-		love("Now you can open this tool as usual")
-		time.sleep(5)
+		os.system("cd $HOME/Cloningx")
                 os.system("$HOME/python2 Cloningx.py")
 	elif black =="2":
 	        clear()
