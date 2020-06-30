@@ -20,24 +20,43 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
 ##### LOGO #####
 logo = """
+time.sleep(0.05)
 \033[1;96m██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
+time.sleep(0.05)
 \033[1;96m██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
+time.sleep(0.05)
 \033[1;96m██████╦╝██║░░░░░███████║██║░░╚═╝█████═╝░
+time.sleep(0.05)
 \033[1;96m██╔══██╗██║░░░░░██╔══██║██║░░██╗██╔═██╗░
+time.sleep(0.05)
 \033[1;96m██████╦╝███████╗██║░░██║╚█████╔╝██║░╚██╗
+time.sleep(0.05)
 \033[1;96m╚═════╝░╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
+time.sleep(0.05)
 \033[1;96m███╗░░░███╗░█████╗░███████╗██╗░█████╗░
+time.sleep(0.05)
 \033[1;96m████╗░████║██╔══██╗██╔════╝██║██╔══██╗
+time.sleep(0.05)
 \033[1;96m██╔████╔██║███████║█████╗░░██║███████║
+time.sleep(0.05)
 \033[1;96m██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
+time.sleep(0.05)
 \033[1;96m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
+time.sleep(0.05)
 \033[1;96m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
+time.sleep(0.05)
 \033[1;96m«-----------------\033[1;91mBlackMafia\033[1;96m-----------------»
+time.sleep(0.05)
 \033[1;91m  ┈┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈┈┈  BlackMafia
+time.sleep(0.05)
 \033[1;91m  ┈┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈┈┈  lovehacker
+time.sleep(0.05)
 \033[1;91m  ┈┈┈◥▇▇▇▇◤┈┈◥▇▇▇▇◤┈┈◥▇▇▇▇◤┈┈┈┈ 
+time.sleep(0.05)
 \033[1;91m  ┈┈┈┈◥▇▇◤┈┈┈┈◥▇▇◤┈┈┈┈◥▇▇◤┈┈┈┈┈   WhatsApp
+time.sleep(0.05)
 \033[1;91m  ┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈┈ 03094161457
+time.sleep(0.05)
 \033[1;96m«-----------------\033[1;91mBlackMafia\033[1;96m-----------------»"""   
 R = '\033[1;91m'
 G = '\033[1;92m'                                
@@ -67,22 +86,39 @@ def menu():
     clear()
     os.system('clear')
     print(logo)
+    time.sleep(0.05)
     print("\033[1;41m\033[1;37m1   To return to this menu from any Tool   \033[1;0m")
+    time.sleep(0.05)
     print("\033[1;41m2\033[1;37m       Stop Process Press ctlr + z        \033[1;0m")
+    time.sleep(0.05)
     print("\033[1;41m3\033[1;37m         Type python2 Cloning.py          \033[1;0m")
+    time.sleep(0.05)
     print("\033[1;96m[1]  Install With Out Fb Id  Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[2]  Install Facebook login  Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[3]  Install SpiderMan       Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[4]  Install Kalilinux       Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[5]  Install BlackHat        Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[6]  Install RedMoonNew      Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[7]  Install love3Hack3r     Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[8]  Install Cobra           Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[9]  Install Dragon          Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[10] Install NetHunting      Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[11] Install Payload         Tool      ●")
+    time.sleep(0.05)
     print("\033[1;96m[12] Install Paython2,3      Tool      ●")
+    time.sleep(0.05)
     print("\033[1;91m[0]  EXIT")
+    time.sleep(0.05)
     mafia()
 def mafia():
 	black = raw_input("\033[1;91m slect option>>>   ")
