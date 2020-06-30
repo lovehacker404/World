@@ -14602,7 +14602,7 @@ def blackmafiax():
         time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[12] Indonasia \033[1;91m☆.\x1b[1;96m[25]  Israil'
         time.sleep(0.05)
-        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[13] Peru    \033[1;91m☆.\x1b[1;96m[26]  Iran'
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[13] Peru      \033[1;91m☆.\x1b[1;96m[26]  Iran'
         time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;91m[0]  Back            '
         time.sleep(0.05)
