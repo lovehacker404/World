@@ -70,7 +70,7 @@ def menu():
     time.sleep(0.05)
     print("\033[1;41m\033[1;37m1   To return to this menu from any Tool   \033[1;0m")
     time.sleep(0.05)
-    print("\033[1;41m2\033[1;37m       Stop Process Press ctlr + z        \033[1;0m")
+    print("\033[1;41m2\033[1;37m       Stop Process Press CTRL + z        \033[1;0m")
     time.sleep(0.05)
     print("\033[1;41m3\033[1;37m         Type python2 Cloning.py          \033[1;0m")
     time.sleep(0.05)
@@ -132,7 +132,7 @@ def mafia():
                 print (logo)
 	        love("\033[1;91mCongratulations Cobra Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
-                love("Tool User Name SpiderMan Password lovehacker")
+                love("\033[1;93mTool User Name SpiderMan Password lovehacker")
                 time.sleep(5)
                 os.system("cd $HOME/Spider && python2 SpiderMan.py")
         elif black =="4":
@@ -143,7 +143,7 @@ def mafia():
                 print (logo)
 		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
-		love("Tool User Name India Password lovehacker")
+		love("\033[1;93mTool User Name India Password lovehacker")
                 time.sleep(5)
                 os.system("cd $HOME/KaliIndia && python2 kalilinux.India.py")
 	elif black =="5":
@@ -154,7 +154,7 @@ def mafia():
                 print (logo)
 		love("\033[1;96mCongratulations BlackHat Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
-		love("Tool User Name BlackHat Password lovehacker")
+		love("\033[1;93mTool User Name BlackHat Password lovehacker")
                 time.sleep(5)
                 os.system("cd $HOME/BlackHat && python2 BlackHat.py")
 	elif black =="6":
@@ -186,7 +186,7 @@ def mafia():
                 print (logo)
 	        love("\033[1;93mCongratulations Cobra Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
-                love("Tool User Name Cobra  Password lovehacker")
+                love("\033[1;95mTool User Name Cobra  Password lovehacker")
                 time.sleep(5)
                 os.system("cd $HOME/Cobra && python2 Scorpion.py")
 	elif black =="9":
@@ -197,7 +197,7 @@ def mafia():
                 print (logo)
 	        love("\033[1;91mCongratulations Dragon Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
-                love("Tool User Name Dragon  Password lovehacker")
+                love("\033[1;96mTool User Name Dragon  Password lovehacker")
                 time.sleep(5)
                 os.system("cd $HOME/Dragon && python2 lovehacker.py")
         elif black =="10":
@@ -208,7 +208,7 @@ def mafia():
                 print (logo)
 		love("\033[1;96mCongratulations NetHunting Tool Has Been Installed Successfully")
 		love("Now you can open this tool as usual")
-                love("Tool User Name linux Password lovehacker")
+                love("\033[1;92mTool User Name linux Password lovehacker")
 		time.sleep(5)
                 os.system("cd $HOME/NetHunting && python2 NetHunting.py")
 	elif black =="11":
@@ -227,7 +227,7 @@ def mafia():
 	elif black =="12":
 	        clear()
                 print (logo)
-	        love("\033[1;91mCongratulations Cobra Tool Has Been Installed Successfully")
+	        love("\033[1;91mCongratulations Compiler Tool Has Been Installed Successfully")
 	        love("Now you can open this tool as usual")
                 time.sleep(5)
                 os.system("ls")
