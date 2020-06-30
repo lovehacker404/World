@@ -65,7 +65,6 @@ def love(z):
 
 def menu():
     clear()
-    print(logo1)
     os.system('clear')
     print(logo)
     print("\033[1;96m[1]  Install With Out Fb Id  Tool  ●")
