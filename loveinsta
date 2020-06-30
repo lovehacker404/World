@@ -4,8 +4,13 @@
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
+import os,sys,time
+os.system("clear")
+
 limit=50
-logo="""\e[1;35m
+
+##### LOGO #####
+logo='''\e[1;35m
 ██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
 ██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
 ██████╦╝██║░░░░░███████║██║░░╚═╝█████═╝░
@@ -17,8 +22,28 @@ logo="""\e[1;35m
 ██╔████╔██║███████║█████╗░░██║███████║
 ██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
 ██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
-╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝ 
-"""
+╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝ '''
+
+CorrectUsername = "BlackMafia"
+CorrectPassword = "lovehacker"
+
+loop = 'true'
+while (loop == 'true'):
+    print logo
+    username = raw_input(" TOOL USERNAME: ")
+    if (username == CorrectUsername):
+    	password = raw_input(" TOOL PASSWORD: ")
+        if (password == CorrectPassword):
+            print " Logged in successfully as " + username
+            time.sleep(1)
+            loop = 'false'
+        else:
+            print " Wrong Password !"
+            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+            os.system("clear")
+    
+os.system("bash .README.md")
+
 dependencies=( "jq" "curl" )
 for i in "${dependencies[@]}"
 do
