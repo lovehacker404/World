@@ -14602,7 +14602,7 @@ def blackmafiax():
         time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[12] Indonasia \033[1;91m☆.\x1b[1;96m[25]  Israil'
         time.sleep(0.05)
-        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[13] Grecee    \033[1;91m☆.\x1b[1;96m[26]  Iran'
+        print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96m[13] Peru    \033[1;91m☆.\x1b[1;96m[26]  Iran'
         time.sleep(0.05)
 	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;91m[0]  Back            '
         time.sleep(0.05)
@@ -14799,10 +14799,10 @@ def action():
                 print (logo53)
 		os.system("clear")
 		print (logo39)
-		print("\033[1;93m(leave the first four digits and the last seven digits of any phone number in this country.Write the remaining digits here.69,693,698,694,695")
+		print("\033[1;93m(leave the first four digits and the last seven digits of any phone number in this country.Write the remaining digits here.91,92,93,94,95,96,97,98,99")
 		try:
 			c = raw_input("\033[1;95m choose code  : ")
-			k="+3069"
+			k="+51"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
