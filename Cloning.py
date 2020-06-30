@@ -81,7 +81,9 @@ def menu():
     print("\033[1;96m[11] Install Payload         Tool  ●")
     print("\033[1;96m[12] Install Paython2,3      Tool  ●")
     print("\033[1;91m[0]  EXIT")
-    print
+    print("\033[1;41m1\033[1;37m  To return to this menu from any Tool\033[1;0m")
+    print("\033[1;41m2\033[1;37m      Stop Process Press ctlr + z     \033[1;0m")
+    print("\033[1;41m3\033[1;37m        Type python2 Cloning.py       \033[1;0m")
     mafia()
 def mafia():
 	black = raw_input("\033[1;91m slect option>>>   ")
