@@ -39,7 +39,6 @@ i=100048845592611
 while i < 120048845592711:
 	time.sleep(3)
 	print(colored('['+str(i)+']'+'+++Successful Reported+++To'+str(victim),'green'))
-        print(colored('FbReport BlackMafia','green'))
         i=i+1
 
 
