@@ -38,8 +38,8 @@ print(colored('https://m.facebook.com/help/contact/144059062408922?_rdc=1&_rdr',
 i=100048845592611
 while i < 120048845592711:
 	time.sleep(3)
-	print(colored('['+str(i)+']'+'+++Successful Reported+++To'+str(victim),'green'))
-        i=i+1
+	print(colored('['+str(i)+']'+'+++successful reported+++To'+str(victim),'green'))
+	i=i+1
 
 
 
