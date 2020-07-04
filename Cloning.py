@@ -236,7 +236,7 @@ def mafia():
 	        os.system("cd World")
                 os.system("cd Compiler")
                 os.system("python2 Compiler.py")
-        elif black =="13":
+        elif black =="14":
 		clear()
                 print(logo)
 		os.system("pkg install python3")
@@ -247,7 +247,7 @@ def mafia():
 	        os.system("cd World")
                 os.system("cd Report")
                 os.system("python3 Report")
-	elif black =="14":
+	elif black =="13":
 	        clear()
 	        print(logo)
 	        os.system("rm -rf $HOME/World")
