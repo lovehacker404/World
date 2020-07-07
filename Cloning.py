@@ -254,8 +254,8 @@ def mafia():
 	elif black =="14":
 	        clear()
 	        print(logo)
-	        os.system("rm -rf $HOME/Insta")
-                os.system("pip2 install bs4")
+	        os.system("pip2 install bs4")
+                os.system("rm -rf $HOME/Insta")
 	        os.system("cd $HOME && git clone https://github.com/lovehacker404/Insta")
                 print (logo)
 	        love("\033[1;93mCongratulations  Tool Has Been Update Successfully")
