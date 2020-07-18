@@ -112,7 +112,7 @@ def menu():
     time.sleep(0.05)
     mafia()
 def mafia():
-	black = raw_input("\033[1;91m slect option>>>   ")
+	black = raw_input("\033[1;91m●     Slect option>>>")
 	if black =="":
 		print ("Select a valid option !")
 		mafia()
@@ -132,8 +132,8 @@ def mafia():
 	        os.system("rm -rf $HOME/blackhole")
 	        os.system("cd $HOME && git clone https://github.com/lovehacker404/blackhole")
                 print (logo)
-	        love("\033[1;93mTool User Name :\033[1;95m   Black ")
-                love("\033[1;93mTool Password  :\033[1;95m   Mafia ")
+	        love("\033[1;93mTool User Name :\033[1;95m     Black ")
+                love("\033[1;93mTool Password  :\033[1;95m     Mafia ")
                 love("\033[1;93m        :Target Attack  :     ")
                 love("\033[1;93mPassword list  :\033[1;95mlovehacker-2.txt ")
                 time.sleep(5)
