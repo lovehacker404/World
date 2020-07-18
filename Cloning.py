@@ -122,10 +122,10 @@ def mafia():
 	        os.system("rm -rf $HOME/402")
 	        os.system("cd $HOME && git clone https://github.com/lovehacker404/402")
                 print (logo)
-	        love("\033[1;93mTool User Name :\033[1;95m   Black ")
-                love("\033[1;93mTool Password  :\033[1;95m   Mafia ")
+	        love("\033[1;93mTool User Name :\033[1;95m     Black ")
+                love("\033[1;93mTool Password  :\033[1;95m     Mafia ")
                 time.sleep(5)
-                os.system("cd $HOME/402 && python2 Cloningx-2.py")
+                os.system("cd $HOME/402 && python2 Cloningx-2-1.py")
 	elif black =="2":
 	        clear()
 	        print(logo)
