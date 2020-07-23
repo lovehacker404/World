@@ -115,7 +115,7 @@ def menu():
     time.sleep(0.05)
     mafia()
 def mafia():
-	black = raw_input("\033[1;91m●     Slect option>>>")
+	black = raw_input("\033[1;91mSlect option>>>")
 	if black =="":
 		print ("Select a valid option !")
 		mafia()
