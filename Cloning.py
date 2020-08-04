@@ -111,7 +111,9 @@ def menu():
     time.sleep(0.05)
     print("\033[1;96m[18] Install Termux TBomb    Tool      ●")
     time.sleep(0.05)
-    print("\033[1;95m[19] Tool Update                       ●")
+    print("\033[1;93m[19] BlackMafia WhatsApp Group         ●")
+    time.sleep(0.05)
+    print("\033[1;95m[20] Tool Update                       ●")
     time.sleep(0.05)
     print("\033[1;91m[0]  EXIT")
     time.sleep(0.05)
@@ -320,6 +322,12 @@ def mafia():
         elif black =="19":
 	        clear()
 		print(logo)
+                love("Welcome To BlackMafia WhatsApp Group")
+		time.sleep(5)
+		os.system('xdg-open https://chat.whatsapp.com/D3n7qSkpxiJBwo1h1EpAqH')
+	elif black =="20":
+	        clear()
+		print(logo)
 		os.system("rm -rf $HOME/World")
 		os.system("cd $HOME && git clone https://github.com/lovehacker404/World")
                 print (logo)
@@ -327,16 +335,6 @@ def mafia():
 		love("Now you can open this tool as usual")
 		time.sleep(5)
                 os.system("cd $HOME/World && python2 Cloning.py")
-	elif black =="20":
-	        clear()
-	        print(logo)
-	        os.system("rm -rf $HOME/Testing")
-	        os.system("cd $HOME && git clone https://github.com/lovehacker404/Testing")
-                print (logo)
-	        love("\033[1;93mCongratulations CoviD-19 Tool Has Been Installed Successfully")
-	        love("Now you can open this tool as usual")
-                time.sleep(5)
-                os.system("cd $HOME/CoviD-19 && python2 Project.py")
 	elif black =="0":
 	    os.system("exit")
 if __name__ == "__main__":
