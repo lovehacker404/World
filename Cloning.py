@@ -331,8 +331,7 @@ def mafia():
 		os.system("rm -rf $HOME/World")
 		os.system("cd $HOME && git clone https://github.com/lovehacker404/World")
                 print (logo)
-		love("\033[1;96mCongratulations BlackMafia Tool Has Been Installed Successfully")
-		love("Now you can open this tool as usual")
+		love("\033[1;96mCongratulations BlackMafia Tool Has Been Update Successfully")
 		time.sleep(5)
                 os.system("cd $HOME/World && python2 Cloning.py")
 	elif black =="0":
