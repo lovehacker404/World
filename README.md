@@ -19,7 +19,7 @@
 <a href="https://github.com/lovehacker404/World/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/lovehacker404/World?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
-## Installation :
+# Installation :
 
 😈 `apt update`
 
@@ -41,7 +41,7 @@
 
 👾 `python2 Cloning.py`
 
-🤖 USERNAME : Black
+🤖 USERNAME : `Black`
 
-👽 PASSWORD : Mafia
+👽 PASSWORD : `Mafia`
 
