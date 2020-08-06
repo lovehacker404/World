@@ -2,7 +2,7 @@
 <a href="#"><img title="Made in Pakistan" src="https://img.shields.io/badge/MADE%20IN-Pakistan-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="#"><img title="BlackMafia" src="https://raw.githubusercontent.com/lovehacker404/release-download/master/images/banner/World.png"></a>
+<a href="#"><img title="BlackMafia" src="https://raw.githubusercontent.com/lovehacker404/release-download/master/images/banner/blackmafia.gif"></a>
 <p align="center">
 <a href="https://github.com/lovehacker404"><img title="Author" src="https://img.shields.io/badge/Author-lovehacker404-red.svg?style=for-the-badge&logo=github"></a>
 </p>
