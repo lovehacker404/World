@@ -1,4 +1,4 @@
-<p align="left">
+<p align="center">
 <a href="#"><img title="Made in Pakistan" src="https://img.shields.io/badge/MADE%20IN-Pakistan-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 ## BlackMafia
@@ -16,17 +16,16 @@
 
 ## Installation :
 
-* `apt update`
-* `apt install git python python2 -y`
-* `git clone https://github.com/lovehacker404/World.git`
-* `cd Worldd`
+😈 `apt update`
+😈 `apt upgrade`
+😈 `apt install git`
+😈 `pkg install python`
+😈 `pkg install python2 -y`
+😈 `pip2 install requests`
+😈 `pip2 install mechanize`
+😈 `git clone https://github.com/lovehacker404/World`
+😈 `cd World`
+👾 `python2 Cloning.py`
 
-#### > Run : `python2 Cloning.py`
-
-#### USERNAME : Black
-#### PASSWORD : Mafia
-
-## Single Command :
-```
-apt update ; apt install git python python2 -y ; git clone https://github.com/lovehacker404/World.git ; cd World ; python2 Cloning.py
-```
+🤖 USERNAME : Black
+👽 PASSWORD : Mafia
