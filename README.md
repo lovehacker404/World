@@ -2,10 +2,10 @@
 <a href="#"><img title="Made in Pakistan" src="https://img.shields.io/badge/MADE%20IN-Pakistan-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="#"><img title="WhatsApp Num" src="https://img.shields.io/badge/WhatsApp%20Num-03094161457-pink?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="WhatsApp Num" src="https://img.shields.io/badge/WhatsApp%20Num-03094161457-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="#"><img title="[lovehacker Security]" src="(https://img.shields.io/badge/BlackMafia%20WhatsApp Group-ocean.svg)](https://chat.whatsapp.com/D3n7qSkpxiJBwo1h1EpAqH)
+<a href="#"><img title="[lovehacker]" src="(https://img.shields.io/badge/BlackMafia%20WhatsApp Group-ocean.svg)](https://chat.whatsapp.com/D3n7qSkpxiJBwo1h1EpAqH)"></a>
 ## BlackMafia
 <img src="blackmafia.gif">
 <p align="center">
