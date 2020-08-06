@@ -1,6 +1,8 @@
 <p align="left">
 <a href="#"><img title="Made in Pakistan" src="https://img.shields.io/badge/MADE%20IN-Pakistan-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
+## Screenshot
+<img src="blackmafia.gif">
 <p align="center">
 <a href="#"><img title="BlackMafia" src="https://raw.githubusercontent.com/lovehacker404/release-download/master/images/banner/blackmafia.gif"></a>
 <p align="center">
