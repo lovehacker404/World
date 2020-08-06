@@ -48,5 +48,5 @@
 
 🤖 USERNAME : `Black`
 
-👽 PASSWORD : `Mafia`
+👽 PASSWORD : `Mafia` 
 
