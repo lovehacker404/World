@@ -23,10 +23,8 @@
 <a href="https://github.com/lovehacker404/World/network/members"><img title="Forks" src="https://img.shields.io/github/forks/lovehacker404/World?color=red&style=flat-square"></a>
 <a href="https://github.com/lovehacker404/World/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/lovehacker404/World?label=Watchers&color=blue&style=flat-square"></a>
 </p>
-## Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](.github/CONTRIBUTING.md)].
-<a href="https://github.com/lovehacker404/World/graphs/contributors"><img src="https://opencollective.com/lovehacker404/contributors.svg?width=890&button=false" /></a>
+<details> 
+ <summary>ЁЯдЦ <b>My programming stats</b>: </summary>
 
 # Installation :
 
