@@ -43,14 +43,14 @@ if [ $ch -eq 1 ];then
 clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
-python3 Cloning.py
+python2 Cloning.py
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
 clear
 echo -e "\e[1;32m"
 echo " BlackMafia"
-python3 Cloning.py 
+python2 Cloning.py 
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
@@ -58,17 +58,17 @@ clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
 git clone https://github.com/lovehacker404/World
-if [[ -s World/Cloning.sh ]];then
+if [[ -s World/Cloning.py ]];then
 cd World
 cp -r -f * .. > temp
 cd ..
 rm -rf  World >> temp
 rm update.BlackMafia >> temp
 rm temp
-chmod +x World.sh
+chmod +x Cloning.py
 fi
 read a6
-./World.sh
+./Cloning.sh
 exit
 elif [ $ch -eq 4 ];then
 clear
