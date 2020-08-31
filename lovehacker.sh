@@ -43,14 +43,14 @@ if [ $ch -eq 1 ];then
 clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
-python2 Cloning.py
+python3 Cloning.py
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
 clear
 echo -e "\e[1;32m"
 echo " BlackMafia"
-python2 Cloning.py 
+python3 Cloning.py 
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
