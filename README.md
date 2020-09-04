@@ -29,7 +29,7 @@
 
 😈 `gem install lolcat`
 
-# 👆Tow Command Install then Run This Tool👇
+# 👆Two Command Install then Run This Tool👇
 
 😈 `apt update`
 
