@@ -25,6 +25,12 @@
 </p>
 # Installation :
 
+😈 `pkg install ruby -y`
+
+😈 `gem install lolcat`
+
+# 👆Tow Command Install then Run This Tool👇
+
 😈 `apt update`
 
 😈 `apt upgrade`
