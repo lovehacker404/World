@@ -25,17 +25,11 @@
 </p>
 # Installation :
 
-😈 `pkg install ruby -y`
-
-😈 `gem install lolcat`
-
-# 👆Two Command Install then Run This Tool👇
-
 😈 `apt update`
 
 😈 `apt upgrade`
 
-😈 `apt install git`
+😈 `apt install git -y`
 
 😈 `pkg install python`
 
@@ -44,6 +38,8 @@
 😈 `pip2 install requests`
 
 😈 `pip2 install mechanize`
+
+😈 `pip install lolcat`
 
 😈 `git clone https://github.com/lovehacker404/World`
 
