@@ -29,7 +29,7 @@
 
 😈 `apt update`
 
-😈 `apt upgrade`
+😈 `apt upgrade -y`
 
 😈 `apt install git -y`
 
