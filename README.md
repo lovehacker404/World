@@ -49,4 +49,8 @@
 
 👾 `python2 Cloning.py`
 
+# Single Command :
+
+😱 `apt update upgrade -y ; pkg install git python python2 -y ; pip2 install mechanize ; pip2 install requests ; pip install lolcat ; git clone https://github.com/lovehacker404/World ; cd World ; python2 Cloning.py`
+
 
