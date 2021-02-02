@@ -41,7 +41,7 @@
 
 😈 `pip2 install mechanize`
 
-😈 `pip install lolcat`
+😈 `apt install ruby -y && gem install lolcat`
 
 😈 `git clone https://github.com/lovehacker404/World`
 
